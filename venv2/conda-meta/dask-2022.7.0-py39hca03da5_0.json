@@ -1,0 +1,45 @@
+{
+  "build": "py39hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [
+    "openssl !=1.1.1e"
+  ],
+  "depends": [
+    "bokeh >=2.4.2,<3.0",
+    "cytoolz >=0.8.2",
+    "dask-core 2022.7.0.*",
+    "distributed 2022.7.0.*",
+    "jinja2",
+    "lz4",
+    "numpy >=1.18",
+    "pandas >=1.0",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/dask-2022.7.0-py39hca03da5_0",
+  "features": "",
+  "files": [],
+  "fn": "dask-2022.7.0-py39hca03da5_0.conda",
+  "legacy_bz2_md5": "55297450b56e57d60cece9f0f1d5da8d",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/dask-2022.7.0-py39hca03da5_0",
+    "type": 1
+  },
+  "md5": "ee3867263e40b9fae9df64e7e3553a59",
+  "name": "dask",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/dask-2022.7.0-py39hca03da5_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "58d32b62c78ffb269d88a39c94fc2f87d5ab4b031c013aff1ccd584be6ec66db",
+  "size": 5975,
+  "subdir": "osx-arm64",
+  "timestamp": 1658527054365,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/dask-2022.7.0-py39hca03da5_0.conda",
+  "version": "2022.7.0"
+}

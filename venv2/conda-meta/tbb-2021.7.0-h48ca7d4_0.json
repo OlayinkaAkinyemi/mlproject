@@ -1,0 +1,82 @@
+{
+  "build": "h48ca7d4_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=14.0.6"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/tbb-2021.7.0-h48ca7d4_0",
+  "features": "",
+  "files": [
+    "lib/libtbb.12.7.dylib",
+    "lib/libtbb.12.dylib",
+    "lib/libtbbmalloc.2.7.dylib",
+    "lib/libtbbmalloc.2.dylib",
+    "lib/libtbbmalloc_proxy.2.7.dylib",
+    "lib/libtbbmalloc_proxy.2.dylib"
+  ],
+  "fn": "tbb-2021.7.0-h48ca7d4_0.conda",
+  "legacy_bz2_md5": "312296f4d8ecff8c7dcd7b105b8f81d6",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/tbb-2021.7.0-h48ca7d4_0",
+    "type": 1
+  },
+  "md5": "9f17c2019f6a7757aea36de44455dca4",
+  "name": "tbb",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/tbb-2021.7.0-h48ca7d4_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libtbb.12.7.dylib",
+        "path_type": "hardlink",
+        "sha256": "c8b6e115b1c3a763615cfec0fc024ffb75b238885e33201e73a065baac6c1915",
+        "sha256_in_prefix": "c8b6e115b1c3a763615cfec0fc024ffb75b238885e33201e73a065baac6c1915",
+        "size_in_bytes": 342848
+      },
+      {
+        "_path": "lib/libtbb.12.dylib",
+        "path_type": "softlink",
+        "sha256": "c8b6e115b1c3a763615cfec0fc024ffb75b238885e33201e73a065baac6c1915",
+        "size_in_bytes": 342848
+      },
+      {
+        "_path": "lib/libtbbmalloc.2.7.dylib",
+        "path_type": "hardlink",
+        "sha256": "4406bde14461a0bdfe5241f6a62b0681b556f9487e9d27bc314b4189ff64b846",
+        "sha256_in_prefix": "4406bde14461a0bdfe5241f6a62b0681b556f9487e9d27bc314b4189ff64b846",
+        "size_in_bytes": 127472
+      },
+      {
+        "_path": "lib/libtbbmalloc.2.dylib",
+        "path_type": "softlink",
+        "sha256": "4406bde14461a0bdfe5241f6a62b0681b556f9487e9d27bc314b4189ff64b846",
+        "size_in_bytes": 127472
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.2.7.dylib",
+        "path_type": "hardlink",
+        "sha256": "6d9c4531c3ea72fe2f2d38754da942c3c4286d6c2fbb079da0cd68c36ddacaf0",
+        "sha256_in_prefix": "6d9c4531c3ea72fe2f2d38754da942c3c4286d6c2fbb079da0cd68c36ddacaf0",
+        "size_in_bytes": 70720
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.2.dylib",
+        "path_type": "softlink",
+        "sha256": "6d9c4531c3ea72fe2f2d38754da942c3c4286d6c2fbb079da0cd68c36ddacaf0",
+        "size_in_bytes": 70720
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "85ba657f67d7fff0939899e5936969a60b665d4d03c758b13edc203127671fec",
+  "size": 138377,
+  "subdir": "osx-arm64",
+  "timestamp": 1676908636086,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/tbb-2021.7.0-h48ca7d4_0.conda",
+  "version": "2021.7.0"
+}

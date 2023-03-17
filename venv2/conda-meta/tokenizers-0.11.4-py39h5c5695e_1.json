@@ -1,0 +1,422 @@
+{
+  "build": "py39h5c5695e_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=12.0.0",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/tokenizers-0.11.4-py39h5c5695e_1",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/METADATA",
+    "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/RECORD",
+    "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/WHEEL",
+    "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/tokenizers/__init__.py",
+    "lib/python3.9/site-packages/tokenizers/__init__.pyi",
+    "lib/python3.9/site-packages/tokenizers/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/decoders/__init__.py",
+    "lib/python3.9/site-packages/tokenizers/decoders/__init__.pyi",
+    "lib/python3.9/site-packages/tokenizers/decoders/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/implementations/__init__.py",
+    "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/base_tokenizer.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/bert_wordpiece.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/byte_level_bpe.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/char_level_bpe.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/sentencepiece_bpe.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/sentencepiece_unigram.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/implementations/base_tokenizer.py",
+    "lib/python3.9/site-packages/tokenizers/implementations/bert_wordpiece.py",
+    "lib/python3.9/site-packages/tokenizers/implementations/byte_level_bpe.py",
+    "lib/python3.9/site-packages/tokenizers/implementations/char_level_bpe.py",
+    "lib/python3.9/site-packages/tokenizers/implementations/sentencepiece_bpe.py",
+    "lib/python3.9/site-packages/tokenizers/implementations/sentencepiece_unigram.py",
+    "lib/python3.9/site-packages/tokenizers/models/__init__.py",
+    "lib/python3.9/site-packages/tokenizers/models/__init__.pyi",
+    "lib/python3.9/site-packages/tokenizers/models/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/normalizers/__init__.py",
+    "lib/python3.9/site-packages/tokenizers/normalizers/__init__.pyi",
+    "lib/python3.9/site-packages/tokenizers/normalizers/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/pre_tokenizers/__init__.py",
+    "lib/python3.9/site-packages/tokenizers/pre_tokenizers/__init__.pyi",
+    "lib/python3.9/site-packages/tokenizers/pre_tokenizers/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/processors/__init__.py",
+    "lib/python3.9/site-packages/tokenizers/processors/__init__.pyi",
+    "lib/python3.9/site-packages/tokenizers/processors/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/tokenizers.cpython-39-darwin.so",
+    "lib/python3.9/site-packages/tokenizers/tools/__init__.py",
+    "lib/python3.9/site-packages/tokenizers/tools/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/tools/__pycache__/visualizer.cpython-39.pyc",
+    "lib/python3.9/site-packages/tokenizers/tools/visualizer-styles.css",
+    "lib/python3.9/site-packages/tokenizers/tools/visualizer.py",
+    "lib/python3.9/site-packages/tokenizers/trainers/__init__.py",
+    "lib/python3.9/site-packages/tokenizers/trainers/__init__.pyi",
+    "lib/python3.9/site-packages/tokenizers/trainers/__pycache__/__init__.cpython-39.pyc"
+  ],
+  "fn": "tokenizers-0.11.4-py39h5c5695e_1.conda",
+  "legacy_bz2_md5": "d697bb29c79be7c8a2396472242785d2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/tokenizers-0.11.4-py39h5c5695e_1",
+    "type": 1
+  },
+  "md5": "d2eb52300922e3d89baf3d05b37bdb83",
+  "name": "tokenizers",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/tokenizers-0.11.4-py39h5c5695e_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d371d6081f89f0d9ddd372c9f51bc0a128e5e3a782ceb06d78444c05b28eaf41",
+        "sha256_in_prefix": "d371d6081f89f0d9ddd372c9f51bc0a128e5e3a782ceb06d78444c05b28eaf41",
+        "size_in_bytes": 6472
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "65964044b20e666b189a04f168645be55cce4cb1ba638db3f64d4e56e827f983",
+        "sha256_in_prefix": "65964044b20e666b189a04f168645be55cce4cb1ba638db3f64d4e56e827f983",
+        "size_in_bytes": 3981
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a084e72fcaf82bd9618fec16487944d97500d09f162d775e82b2adbe2ff7e330",
+        "sha256_in_prefix": "a084e72fcaf82bd9618fec16487944d97500d09f162d775e82b2adbe2ff7e330",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f12f20ca3902df8936bf54cbde2bb18c8346abb8418a0ef7a6bcb45a857cd0a8",
+        "sha256_in_prefix": "f12f20ca3902df8936bf54cbde2bb18c8346abb8418a0ef7a6bcb45a857cd0a8",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers-0.11.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "25c3881cf6d2aab42fa9c0f214e9cd35c79eeb0265a4366fca4f81482797e100",
+        "sha256_in_prefix": "25c3881cf6d2aab42fa9c0f214e9cd35c79eeb0265a4366fca4f81482797e100",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6797b5c4fe84cd5d7e9f7d57b32ca18b6e5eb31cd9ef7b6d5f120ad79eb52c5c",
+        "sha256_in_prefix": "6797b5c4fe84cd5d7e9f7d57b32ca18b6e5eb31cd9ef7b6d5f120ad79eb52c5c",
+        "size_in_bytes": 2743
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "a6e600a0f62a2ffa3376b3307c0d7fa333579245d4a0b453292b88a8201523e2",
+        "sha256_in_prefix": "a6e600a0f62a2ffa3376b3307c0d7fa333579245d4a0b453292b88a8201523e2",
+        "size_in_bytes": 37604
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "076d0d45a5ac458a957c31f2233f5e93365ef8b99a4325b40a4a08cde7e1c139",
+        "sha256_in_prefix": "076d0d45a5ac458a957c31f2233f5e93365ef8b99a4325b40a4a08cde7e1c139",
+        "size_in_bytes": 1839
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/decoders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "99b12c16157720c92cd83ed93940db3d3ba734c6c875a14a583de30365b10b83",
+        "sha256_in_prefix": "99b12c16157720c92cd83ed93940db3d3ba734c6c875a14a583de30365b10b83",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/decoders/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "f290741c5c5d9bfe05c9b3b32cd6daa0818efef2302809c6f0eae9bf61229056",
+        "sha256_in_prefix": "f290741c5c5d9bfe05c9b3b32cd6daa0818efef2302809c6f0eae9bf61229056",
+        "size_in_bytes": 4316
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/decoders/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "93dc9e8a6657a3e21c94d62e8e89a30d2af3908bd7d71eb78846a5d2e2e4a25e",
+        "sha256_in_prefix": "93dc9e8a6657a3e21c94d62e8e89a30d2af3908bd7d71eb78846a5d2e2e4a25e",
+        "size_in_bytes": 290
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "268013b2c5c5b606855ae3615b2f430fb067f8904c1a12d9a788abb41f14e8ff",
+        "sha256_in_prefix": "268013b2c5c5b606855ae3615b2f430fb067f8904c1a12d9a788abb41f14e8ff",
+        "size_in_bytes": 310
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "082960778829256fdede8ed74d4bc86351ff78a529c2d8a3b77d091e791ab992",
+        "sha256_in_prefix": "082960778829256fdede8ed74d4bc86351ff78a529c2d8a3b77d091e791ab992",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/base_tokenizer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c52adc6b0b41cd1fd0c76132681e0780b0aea91ec75a052512f0109d45523aba",
+        "sha256_in_prefix": "c52adc6b0b41cd1fd0c76132681e0780b0aea91ec75a052512f0109d45523aba",
+        "size_in_bytes": 15406
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/bert_wordpiece.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "829093a0dca6b6cd9dc23feddc0a55f50b9feb884aca6e853ed6ecbd7717c974",
+        "sha256_in_prefix": "829093a0dca6b6cd9dc23feddc0a55f50b9feb884aca6e853ed6ecbd7717c974",
+        "size_in_bytes": 3738
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/byte_level_bpe.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fade47d574d99d35200c77d136acfdb1ce095ae733fe46b2e326c9e99f6ed3e9",
+        "sha256_in_prefix": "fade47d574d99d35200c77d136acfdb1ce095ae733fe46b2e326c9e99f6ed3e9",
+        "size_in_bytes": 3263
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/char_level_bpe.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4521809b91f032dd1017b7d987248124ad37c7dc92fee32924f3e70df61d0b2e",
+        "sha256_in_prefix": "4521809b91f032dd1017b7d987248124ad37c7dc92fee32924f3e70df61d0b2e",
+        "size_in_bytes": 4092
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/sentencepiece_bpe.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "35f68aff3dbc3b7ec8fcb941c8ace973ffe2c16bdc0b84ba3c1fbfc485825700",
+        "sha256_in_prefix": "35f68aff3dbc3b7ec8fcb941c8ace973ffe2c16bdc0b84ba3c1fbfc485825700",
+        "size_in_bytes": 3096
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/__pycache__/sentencepiece_unigram.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3fd8acb151eb8066ffbffdcae591c15f00eb299890b5b43043e3342ec00069e3",
+        "sha256_in_prefix": "3fd8acb151eb8066ffbffdcae591c15f00eb299890b5b43043e3342ec00069e3",
+        "size_in_bytes": 5246
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/base_tokenizer.py",
+        "path_type": "hardlink",
+        "sha256": "0f9ae7d1d71e799bc436b0dc8ee698698312e3b27c16cd04bcf5e03fc4a84261",
+        "sha256_in_prefix": "0f9ae7d1d71e799bc436b0dc8ee698698312e3b27c16cd04bcf5e03fc4a84261",
+        "size_in_bytes": 13974
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/bert_wordpiece.py",
+        "path_type": "hardlink",
+        "sha256": "ff23d6dff05c94cfe0d4e3c8c3c5170ec9bc218f870cf7a8e00d88c379ff9e1d",
+        "sha256_in_prefix": "ff23d6dff05c94cfe0d4e3c8c3c5170ec9bc218f870cf7a8e00d88c379ff9e1d",
+        "size_in_bytes": 5456
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/byte_level_bpe.py",
+        "path_type": "hardlink",
+        "sha256": "35ade98c998d2db30f2789ed5765a72cf64d6fc09d14b8f1501da7ef0fce29ce",
+        "sha256_in_prefix": "35ade98c998d2db30f2789ed5765a72cf64d6fc09d14b8f1501da7ef0fce29ce",
+        "size_in_bytes": 4221
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/char_level_bpe.py",
+        "path_type": "hardlink",
+        "sha256": "be3b677c2335f60a3debe1d7b9650b2b7bf23984a192e3e59294c1189b20f714",
+        "sha256_in_prefix": "be3b677c2335f60a3debe1d7b9650b2b7bf23984a192e3e59294c1189b20f714",
+        "size_in_bytes": 5323
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/sentencepiece_bpe.py",
+        "path_type": "hardlink",
+        "sha256": "ee1fa9e9d96e03fdf0b45d72aa28bb077314efc1ca3f7f4c0102d385ec06a58a",
+        "sha256_in_prefix": "ee1fa9e9d96e03fdf0b45d72aa28bb077314efc1ca3f7f4c0102d385ec06a58a",
+        "size_in_bytes": 3601
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/implementations/sentencepiece_unigram.py",
+        "path_type": "hardlink",
+        "sha256": "1aad24f9a727d2cd3fcbe55b78afba3328c670e6a30eee6ac04c77f98d50a5d7",
+        "sha256_in_prefix": "1aad24f9a727d2cd3fcbe55b78afba3328c670e6a30eee6ac04c77f98d50a5d7",
+        "size_in_bytes": 5876
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/models/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7896781d3010669c672882cdca559a4c5ab15f2f816ba38ab3058de3b7de795f",
+        "sha256_in_prefix": "7896781d3010669c672882cdca559a4c5ab15f2f816ba38ab3058de3b7de795f",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/models/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "a5a1fb1d3b4829532d5b993facc4fd157cd7747458f2e97910fc635a14c8baa4",
+        "sha256_in_prefix": "a5a1fb1d3b4829532d5b993facc4fd157cd7747458f2e97910fc635a14c8baa4",
+        "size_in_bytes": 14779
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/models/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "51b1183e19e1ccfeb594b82ec4fd3843fa24f182985eb4d99ed691b959a97426",
+        "sha256_in_prefix": "51b1183e19e1ccfeb594b82ec4fd3843fa24f182985eb4d99ed691b959a97426",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/normalizers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bed6a902c6e3a0a331ecf63b526967f48fa3ba741cb86cd150f5f0060c7f6fda",
+        "sha256_in_prefix": "bed6a902c6e3a0a331ecf63b526967f48fa3ba741cb86cd150f5f0060c7f6fda",
+        "size_in_bytes": 807
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/normalizers/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "5f32fba832a472ee0e44016f5ed6992ccbc5a1ddd93988cc3bfd1015748e7946",
+        "sha256_in_prefix": "5f32fba832a472ee0e44016f5ed6992ccbc5a1ddd93988cc3bfd1015748e7946",
+        "size_in_bytes": 18295
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/normalizers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "04576e1079566a073d1285c3bb43b395c0656973f32acf8812edcc95765d396d",
+        "sha256_in_prefix": "04576e1079566a073d1285c3bb43b395c0656973f32acf8812edcc95765d396d",
+        "size_in_bytes": 754
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/pre_tokenizers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c1de8a61003f46c19240af87786f68a53461bf8b6d4919329e8d9d93a6b3f8f3",
+        "sha256_in_prefix": "c1de8a61003f46c19240af87786f68a53461bf8b6d4919329e8d9d93a6b3f8f3",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/pre_tokenizers/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "20536d106c35081afe9ce9413992a2a1ef55931814b88bb290c1193065d0e537",
+        "sha256_in_prefix": "20536d106c35081afe9ce9413992a2a1ef55931814b88bb290c1193065d0e537",
+        "size_in_bytes": 22779
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/pre_tokenizers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "96fb80cff69d78898049333d7a820640c8d19f564d409f22ebd83197be03cf6c",
+        "sha256_in_prefix": "96fb80cff69d78898049333d7a820640c8d19f564d409f22ebd83197be03cf6c",
+        "size_in_bytes": 448
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/processors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "494e03fb65d6f8772db08f878bc86a493d1d1d71a90f58b77ad4019ac3e39ff5",
+        "sha256_in_prefix": "494e03fb65d6f8772db08f878bc86a493d1d1d71a90f58b77ad4019ac3e39ff5",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/processors/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "3b9d216d00d8a7f9560eb0b10578d37348077017a71b0ef175458bdab28eed87",
+        "sha256_in_prefix": "3b9d216d00d8a7f9560eb0b10578d37348077017a71b0ef175458bdab28eed87",
+        "size_in_bytes": 10176
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/processors/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "18aebd190f54377f0f1e267bc6a67c6eb31776e9178f739313a7d4a2bbce62e8",
+        "sha256_in_prefix": "18aebd190f54377f0f1e267bc6a67c6eb31776e9178f739313a7d4a2bbce62e8",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/tokenizers.cpython-39-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "0c1e629818e13c91476c2c4075994ba09b4f6138e33917cdcaaa9788fc70f05a",
+        "sha256_in_prefix": "0c1e629818e13c91476c2c4075994ba09b4f6138e33917cdcaaa9788fc70f05a",
+        "size_in_bytes": 10822064
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fdb989f89d80c6718520b89bb329af6d492752ad464bc4277189b71eb8bcdf98",
+        "sha256_in_prefix": "fdb989f89d80c6718520b89bb329af6d492752ad464bc4277189b71eb8bcdf98",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/tools/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e9399319ec229abe31f5587c3d1eb10d202c5ea30e94eeb101c8b86dabbc7a1",
+        "sha256_in_prefix": "4e9399319ec229abe31f5587c3d1eb10d202c5ea30e94eeb101c8b86dabbc7a1",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/tools/__pycache__/visualizer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "573535ae31b66f9eff407fb27d91674983babcb408b53dccaf00f8d45fdef694",
+        "sha256_in_prefix": "573535ae31b66f9eff407fb27d91674983babcb408b53dccaf00f8d45fdef694",
+        "size_in_bytes": 11661
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/tools/visualizer-styles.css",
+        "path_type": "hardlink",
+        "sha256": "cc0c9dab5a06583f10125978f9ec8bf0b970d01d6cb72fe1a48137b58c4bd369",
+        "sha256_in_prefix": "cc0c9dab5a06583f10125978f9ec8bf0b970d01d6cb72fe1a48137b58c4bd369",
+        "size_in_bytes": 4850
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/tools/visualizer.py",
+        "path_type": "hardlink",
+        "sha256": "906118483880629706271872abbd80b03b89682ee896f5299fd6549faacb2c0a",
+        "sha256_in_prefix": "906118483880629706271872abbd80b03b89682ee896f5299fd6549faacb2c0a",
+        "size_in_bytes": 14774
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/trainers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "513bb6d8019ca7be88be95b8e712d16c95844f4e0dc4f5ba35f09bd98633d043",
+        "sha256_in_prefix": "513bb6d8019ca7be88be95b8e712d16c95844f4e0dc4f5ba35f09bd98633d043",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/trainers/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "2574d3f3141072dbb1b9533e5b732cda1133c24bf956dc4c51a79cc9f8a97032",
+        "sha256_in_prefix": "2574d3f3141072dbb1b9533e5b732cda1133c24bf956dc4c51a79cc9f8a97032",
+        "size_in_bytes": 5416
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tokenizers/trainers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ee31072642fa32dffa2c2d8da82a5ca509daca320d0035a2286cfbe8a846bc1",
+        "sha256_in_prefix": "5ee31072642fa32dffa2c2d8da82a5ca509daca320d0035a2286cfbe8a846bc1",
+        "size_in_bytes": 296
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c0cdc7ab95806bf943175a99391c01011d156a164363288e0918d0afab9d81d4",
+  "size": 2660534,
+  "subdir": "osx-arm64",
+  "timestamp": 1651823096130,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/tokenizers-0.11.4-py39h5c5695e_1.conda",
+  "version": "0.11.4"
+}

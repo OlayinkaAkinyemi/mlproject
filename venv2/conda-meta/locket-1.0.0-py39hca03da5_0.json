@@ -1,0 +1,117 @@
+{
+  "build": "py39hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/locket-1.0.0-py39hca03da5_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/locket-1.0.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/locket-1.0.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/locket-1.0.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/locket-1.0.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/locket-1.0.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/locket-1.0.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/locket-1.0.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/locket-1.0.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/locket/__init__.py",
+    "lib/python3.9/site-packages/locket/__pycache__/__init__.cpython-39.pyc"
+  ],
+  "fn": "locket-1.0.0-py39hca03da5_0.conda",
+  "legacy_bz2_md5": "64adbf70a0d4ab82aca039e972821537",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/locket-1.0.0-py39hca03da5_0",
+    "type": 1
+  },
+  "md5": "5383ac27ed119390843955aaf2e0a507",
+  "name": "locket",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/locket-1.0.0-py39hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/locket-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/locket-1.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "da61ac9e694fecc54d0c900ed942f0f4b290b290e3a6547ac56852e4955159fa",
+        "sha256_in_prefix": "da61ac9e694fecc54d0c900ed942f0f4b290b290e3a6547ac56852e4955159fa",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "lib/python3.9/site-packages/locket-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "450973de352184030a9fd419e181f00fea3368aa63d718041802f7858b715a65",
+        "sha256_in_prefix": "450973de352184030a9fd419e181f00fea3368aa63d718041802f7858b715a65",
+        "size_in_bytes": 2769
+      },
+      {
+        "_path": "lib/python3.9/site-packages/locket-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a5d73727d3b9a9516810220854339ce932dc7b40504cc6b64338fbf173ad702e",
+        "sha256_in_prefix": "a5d73727d3b9a9516810220854339ce932dc7b40504cc6b64338fbf173ad702e",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "lib/python3.9/site-packages/locket-1.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/locket-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "sha256_in_prefix": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.9/site-packages/locket-1.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "90c45f57e286f3f36eafa8ab3792a53eda585928a09eb55b1a71a123083eb925",
+        "sha256_in_prefix": "90c45f57e286f3f36eafa8ab3792a53eda585928a09eb55b1a71a123083eb925",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "lib/python3.9/site-packages/locket-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b058cfe4454182c4120bb5c90a77dca9f0729f9326e521c926be510eec3ed408",
+        "sha256_in_prefix": "b058cfe4454182c4120bb5c90a77dca9f0729f9326e521c926be510eec3ed408",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.9/site-packages/locket/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e421665e59bcb956253551053fee25fb2cd4b2f52b0cefa6e9a8559961cb36fc",
+        "sha256_in_prefix": "e421665e59bcb956253551053fee25fb2cd4b2f52b0cefa6e9a8559961cb36fc",
+        "size_in_bytes": 5580
+      },
+      {
+        "_path": "lib/python3.9/site-packages/locket/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5890c544f76532ca2c883204d8e6219adc4890b4316254c8e6b3704e749273e4",
+        "sha256_in_prefix": "5890c544f76532ca2c883204d8e6219adc4890b4316254c8e6b3704e749273e4",
+        "size_in_bytes": 6209
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "83178aed9f29f2943ad05a97dfac3a37c96ca668c38b26fd7d1d0ff1c17e9548",
+  "size": 12099,
+  "subdir": "osx-arm64",
+  "timestamp": 1652903192510,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/locket-1.0.0-py39hca03da5_0.conda",
+  "version": "1.0.0"
+}

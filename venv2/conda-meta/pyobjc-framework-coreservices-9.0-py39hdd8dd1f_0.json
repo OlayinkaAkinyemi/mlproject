@@ -1,0 +1,279 @@
+{
+  "build": "py39hdd8dd1f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "pyobjc-core >=9.0",
+    "pyobjc-framework-fsevents >=9.0",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/pyobjc-framework-coreservices-9.0-py39hdd8dd1f_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/CoreServices/CarbonCore/__init__.py",
+    "lib/python3.9/site-packages/CoreServices/CarbonCore/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/CoreServices/CarbonCore/__pycache__/_metadata.cpython-39.pyc",
+    "lib/python3.9/site-packages/CoreServices/CarbonCore/_metadata.py",
+    "lib/python3.9/site-packages/CoreServices/DictionaryServices/__init__.py",
+    "lib/python3.9/site-packages/CoreServices/DictionaryServices/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/CoreServices/DictionaryServices/__pycache__/_metadata.cpython-39.pyc",
+    "lib/python3.9/site-packages/CoreServices/DictionaryServices/_metadata.py",
+    "lib/python3.9/site-packages/CoreServices/LaunchServices/__init__.py",
+    "lib/python3.9/site-packages/CoreServices/LaunchServices/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/CoreServices/LaunchServices/__pycache__/_metadata.cpython-39.pyc",
+    "lib/python3.9/site-packages/CoreServices/LaunchServices/_metadata.py",
+    "lib/python3.9/site-packages/CoreServices/Metadata/__init__.py",
+    "lib/python3.9/site-packages/CoreServices/Metadata/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/CoreServices/Metadata/__pycache__/_metadata.cpython-39.pyc",
+    "lib/python3.9/site-packages/CoreServices/Metadata/_metadata.py",
+    "lib/python3.9/site-packages/CoreServices/SearchKit/__init__.py",
+    "lib/python3.9/site-packages/CoreServices/SearchKit/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/CoreServices/SearchKit/__pycache__/_metadata.cpython-39.pyc",
+    "lib/python3.9/site-packages/CoreServices/SearchKit/_metadata.py",
+    "lib/python3.9/site-packages/CoreServices/__init__.py",
+    "lib/python3.9/site-packages/CoreServices/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/CoreServices/_inlines.abi3.so",
+    "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/top_level.txt"
+  ],
+  "fn": "pyobjc-framework-coreservices-9.0-py39hdd8dd1f_0.conda",
+  "legacy_bz2_md5": "8107434fa6c3fec3e8da45853960b109",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/pyobjc-framework-coreservices-9.0-py39hdd8dd1f_0",
+    "type": 1
+  },
+  "md5": "1ee5b4d1f897af24aa1bc45717a9ce93",
+  "name": "pyobjc-framework-coreservices",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/pyobjc-framework-coreservices-9.0-py39hdd8dd1f_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/CarbonCore/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "85704bfeb89d23eb7daf2bcbca2094b9a6c541311881a1a9070981a72643288c",
+        "sha256_in_prefix": "85704bfeb89d23eb7daf2bcbca2094b9a6c541311881a1a9070981a72643288c",
+        "size_in_bytes": 884
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/CarbonCore/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e0fad5bf81e5c81209d740c6a95f6ef24262ffc6b9d1d0dba1a2f86acacfb839",
+        "sha256_in_prefix": "e0fad5bf81e5c81209d740c6a95f6ef24262ffc6b9d1d0dba1a2f86acacfb839",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/CarbonCore/__pycache__/_metadata.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4fdef8632869ab2360b298e5f1cb6fa8d72d1da7301e9d78ec33d117d9a39985",
+        "sha256_in_prefix": "4fdef8632869ab2360b298e5f1cb6fa8d72d1da7301e9d78ec33d117d9a39985",
+        "size_in_bytes": 18943
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/CarbonCore/_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "e6e66b67be78f2f624408b83dc39fedc7b6e2873cb47854fd9689ddf62f99c4d",
+        "sha256_in_prefix": "e6e66b67be78f2f624408b83dc39fedc7b6e2873cb47854fd9689ddf62f99c4d",
+        "size_in_bytes": 25754
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/DictionaryServices/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f8fa81946de07decabec38d1027ebe87db59fe12fd4cd9c56dbc5073439d621a",
+        "sha256_in_prefix": "f8fa81946de07decabec38d1027ebe87db59fe12fd4cd9c56dbc5073439d621a",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/DictionaryServices/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0df4e54bb7c3550f79939987fee57fdd876d08633c1358750902add1510f089f",
+        "sha256_in_prefix": "0df4e54bb7c3550f79939987fee57fdd876d08633c1358750902add1510f089f",
+        "size_in_bytes": 882
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/DictionaryServices/__pycache__/_metadata.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "633fc4dfa17243f091d242d70aa9e96ee23defb77e6472be3f708c1d2390c233",
+        "sha256_in_prefix": "633fc4dfa17243f091d242d70aa9e96ee23defb77e6472be3f708c1d2390c233",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/DictionaryServices/_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "37c61abbb0f121d747f38a357b054a73d5ae70a7cab7ee7587c34f626291012f",
+        "sha256_in_prefix": "37c61abbb0f121d747f38a357b054a73d5ae70a7cab7ee7587c34f626291012f",
+        "size_in_bytes": 1015
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/LaunchServices/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "281e1ca1819089f24857a758569208c8502ee2d7e72f09e7733324313bf2dc0d",
+        "sha256_in_prefix": "281e1ca1819089f24857a758569208c8502ee2d7e72f09e7733324313bf2dc0d",
+        "size_in_bytes": 791
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/LaunchServices/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cbc760549fe9d5013bce9692cda068ece7d8058ab86bf63b3b4df7f4f26707cd",
+        "sha256_in_prefix": "cbc760549fe9d5013bce9692cda068ece7d8058ab86bf63b3b4df7f4f26707cd",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/LaunchServices/__pycache__/_metadata.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc6b65903e7ab8cba0c4d470eabb5e7aac5ff93d540b52f35c4fb56af43eab29",
+        "sha256_in_prefix": "bc6b65903e7ab8cba0c4d470eabb5e7aac5ff93d540b52f35c4fb56af43eab29",
+        "size_in_bytes": 29098
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/LaunchServices/_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "41ce0065f88b9975a7d4cc6edd780051cbc1ab224125ba3bfd624ce78e6134cb",
+        "sha256_in_prefix": "41ce0065f88b9975a7d4cc6edd780051cbc1ab224125ba3bfd624ce78e6134cb",
+        "size_in_bytes": 38369
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/Metadata/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1cc694393558321738b8f0e3b20960ec122c06492030640db22d8ea58a35f857",
+        "sha256_in_prefix": "1cc694393558321738b8f0e3b20960ec122c06492030640db22d8ea58a35f857",
+        "size_in_bytes": 815
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/Metadata/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e114a395ab15717b6a9d4213cbeee83ebda3599ce3553cae549bd8b6ea73141f",
+        "sha256_in_prefix": "e114a395ab15717b6a9d4213cbeee83ebda3599ce3553cae549bd8b6ea73141f",
+        "size_in_bytes": 893
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/Metadata/__pycache__/_metadata.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "69d4a3e5820f397c039c9c8cb6fbd88c8775e55878ce75cccaa2b2ff6e70c04a",
+        "sha256_in_prefix": "69d4a3e5820f397c039c9c8cb6fbd88c8775e55878ce75cccaa2b2ff6e70c04a",
+        "size_in_bytes": 10379
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/Metadata/_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "66af804070f70e6c295057733c4ef35af3b08ef740036c2cc3a23d3d4643f3e9",
+        "sha256_in_prefix": "66af804070f70e6c295057733c4ef35af3b08ef740036c2cc3a23d3d4643f3e9",
+        "size_in_bytes": 14687
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/SearchKit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8176ddac1e43dc579d3877bc624ccb66a397e95d5e4d2d3beb7260dd1e44c576",
+        "sha256_in_prefix": "8176ddac1e43dc579d3877bc624ccb66a397e95d5e4d2d3beb7260dd1e44c576",
+        "size_in_bytes": 4162
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/SearchKit/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2545d9751d0042cb066a0b679b3758ddb3b869445666d182fa688c87ae9adcd",
+        "sha256_in_prefix": "a2545d9751d0042cb066a0b679b3758ddb3b869445666d182fa688c87ae9adcd",
+        "size_in_bytes": 3202
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/SearchKit/__pycache__/_metadata.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f9edaa0bc74bd58e5dd92325e04e520f4f0168fce6da6b460eab0ba9cf2beef4",
+        "sha256_in_prefix": "f9edaa0bc74bd58e5dd92325e04e520f4f0168fce6da6b460eab0ba9cf2beef4",
+        "size_in_bytes": 6852
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/SearchKit/_metadata.py",
+        "path_type": "hardlink",
+        "sha256": "052b0d4c8bc3f221d46374fa864e5ef4f72e5a2517045e90f7b85445d061d49d",
+        "sha256_in_prefix": "052b0d4c8bc3f221d46374fa864e5ef4f72e5a2517045e90f7b85445d061d49d",
+        "size_in_bytes": 11322
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "51f2fcc3e3b0f0c07d1e2dcffefd1cd7db871caad47efb38edb94cff1e9f49e1",
+        "sha256_in_prefix": "51f2fcc3e3b0f0c07d1e2dcffefd1cd7db871caad47efb38edb94cff1e9f49e1",
+        "size_in_bytes": 890
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b72685c5689e71eb87b950b6806371b91dd536a2284619b05fdeb8cdcb2fbea5",
+        "sha256_in_prefix": "b72685c5689e71eb87b950b6806371b91dd536a2284619b05fdeb8cdcb2fbea5",
+        "size_in_bytes": 918
+      },
+      {
+        "_path": "lib/python3.9/site-packages/CoreServices/_inlines.abi3.so",
+        "path_type": "hardlink",
+        "sha256": "f3305f7ad38f51627ac11dcc5b11227dc46c2127b5d110b2d8c240ddc69e66be",
+        "sha256_in_prefix": "f3305f7ad38f51627ac11dcc5b11227dc46c2127b5d110b2d8c240ddc69e66be",
+        "size_in_bytes": 67472
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "cdd3ee913186b1491ee4bf5632ce77edcc668ea9419db6233890d3fb3bf503a8",
+        "sha256_in_prefix": "cdd3ee913186b1491ee4bf5632ce77edcc668ea9419db6233890d3fb3bf503a8",
+        "size_in_bytes": 2321
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7e54b57c31b7a5c577bc048834e0c79191e98b3ff568852d1175fa9b1643ce75",
+        "sha256_in_prefix": "7e54b57c31b7a5c577bc048834e0c79191e98b3ff568852d1175fa9b1643ce75",
+        "size_in_bytes": 2542
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4af0f902cc704def3662a2f5e9122e8ee90282f09c3dc739f396dd5b18ec2b61",
+        "sha256_in_prefix": "4af0f902cc704def3662a2f5e9122e8ee90282f09c3dc739f396dd5b18ec2b61",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c351bd4688a5142418c2c370f072bca27a7ad9962dd183f0439b477dc849ac3c",
+        "sha256_in_prefix": "c351bd4688a5142418c2c370f072bca27a7ad9962dd183f0439b477dc849ac3c",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyobjc_framework_CoreServices-9.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "132e98969bab82292db7e102ba17157c35da020cd6ba13667b3d1abd6b737151",
+        "sha256_in_prefix": "132e98969bab82292db7e102ba17157c35da020cd6ba13667b3d1abd6b737151",
+        "size_in_bytes": 13
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "80a67d1a476423a9f28ab94bb14e0a93d642aa45ecae38222ebb47387beb099f",
+  "size": 42441,
+  "subdir": "osx-arm64",
+  "timestamp": 1678110172271,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/pyobjc-framework-coreservices-9.0-py39hdd8dd1f_0.conda",
+  "version": "9.0"
+}

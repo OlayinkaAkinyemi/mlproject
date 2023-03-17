@@ -1,0 +1,2456 @@
+{
+  "build": "py39hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.20",
+    "packaging >=21.0",
+    "pandas >=1.3",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/xarray-2022.11.0-py39hca03da5_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/xarray/__init__.py",
+    "lib/python3.9/site-packages/xarray/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/__pycache__/conventions.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/__pycache__/convert.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/__pycache__/testing.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/__pycache__/tutorial.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__init__.py",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/api.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/cfgrib_.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/common.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/file_manager.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/h5netcdf_.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/locks.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/lru_cache.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/memory.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/netCDF4_.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/netcdf3.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/plugins.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/pseudonetcdf_.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/pydap_.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/pynio_.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/rasterio_.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/scipy_.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/store.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/__pycache__/zarr.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/backends/api.py",
+    "lib/python3.9/site-packages/xarray/backends/cfgrib_.py",
+    "lib/python3.9/site-packages/xarray/backends/common.py",
+    "lib/python3.9/site-packages/xarray/backends/file_manager.py",
+    "lib/python3.9/site-packages/xarray/backends/h5netcdf_.py",
+    "lib/python3.9/site-packages/xarray/backends/locks.py",
+    "lib/python3.9/site-packages/xarray/backends/lru_cache.py",
+    "lib/python3.9/site-packages/xarray/backends/memory.py",
+    "lib/python3.9/site-packages/xarray/backends/netCDF4_.py",
+    "lib/python3.9/site-packages/xarray/backends/netcdf3.py",
+    "lib/python3.9/site-packages/xarray/backends/plugins.py",
+    "lib/python3.9/site-packages/xarray/backends/pseudonetcdf_.py",
+    "lib/python3.9/site-packages/xarray/backends/pydap_.py",
+    "lib/python3.9/site-packages/xarray/backends/pynio_.py",
+    "lib/python3.9/site-packages/xarray/backends/rasterio_.py",
+    "lib/python3.9/site-packages/xarray/backends/scipy_.py",
+    "lib/python3.9/site-packages/xarray/backends/store.py",
+    "lib/python3.9/site-packages/xarray/backends/zarr.py",
+    "lib/python3.9/site-packages/xarray/coding/__init__.py",
+    "lib/python3.9/site-packages/xarray/coding/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/coding/__pycache__/calendar_ops.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/coding/__pycache__/cftime_offsets.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/coding/__pycache__/cftimeindex.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/coding/__pycache__/frequencies.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/coding/__pycache__/strings.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/coding/__pycache__/times.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/coding/__pycache__/variables.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/coding/calendar_ops.py",
+    "lib/python3.9/site-packages/xarray/coding/cftime_offsets.py",
+    "lib/python3.9/site-packages/xarray/coding/cftimeindex.py",
+    "lib/python3.9/site-packages/xarray/coding/frequencies.py",
+    "lib/python3.9/site-packages/xarray/coding/strings.py",
+    "lib/python3.9/site-packages/xarray/coding/times.py",
+    "lib/python3.9/site-packages/xarray/coding/variables.py",
+    "lib/python3.9/site-packages/xarray/conventions.py",
+    "lib/python3.9/site-packages/xarray/convert.py",
+    "lib/python3.9/site-packages/xarray/core/__init__.py",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/_aggregations.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/_typed_ops.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/accessor_dt.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/accessor_str.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/alignment.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/arithmetic.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/combine.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/common.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/computation.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/concat.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/coordinates.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/dask_array_ops.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/dataarray.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/dataset.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/dtypes.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/duck_array_ops.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/extensions.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/formatting.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/formatting_html.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/groupby.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/indexes.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/indexing.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/merge.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/missing.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/nanops.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/npcompat.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/nputils.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/ops.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/options.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/parallel.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/pdcompat.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/pycompat.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/resample.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/resample_cftime.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/rolling.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/rolling_exp.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/types.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/variable.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/__pycache__/weighted.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/core/_aggregations.py",
+    "lib/python3.9/site-packages/xarray/core/_typed_ops.py",
+    "lib/python3.9/site-packages/xarray/core/_typed_ops.pyi",
+    "lib/python3.9/site-packages/xarray/core/accessor_dt.py",
+    "lib/python3.9/site-packages/xarray/core/accessor_str.py",
+    "lib/python3.9/site-packages/xarray/core/alignment.py",
+    "lib/python3.9/site-packages/xarray/core/arithmetic.py",
+    "lib/python3.9/site-packages/xarray/core/combine.py",
+    "lib/python3.9/site-packages/xarray/core/common.py",
+    "lib/python3.9/site-packages/xarray/core/computation.py",
+    "lib/python3.9/site-packages/xarray/core/concat.py",
+    "lib/python3.9/site-packages/xarray/core/coordinates.py",
+    "lib/python3.9/site-packages/xarray/core/dask_array_ops.py",
+    "lib/python3.9/site-packages/xarray/core/dataarray.py",
+    "lib/python3.9/site-packages/xarray/core/dataset.py",
+    "lib/python3.9/site-packages/xarray/core/dtypes.py",
+    "lib/python3.9/site-packages/xarray/core/duck_array_ops.py",
+    "lib/python3.9/site-packages/xarray/core/extensions.py",
+    "lib/python3.9/site-packages/xarray/core/formatting.py",
+    "lib/python3.9/site-packages/xarray/core/formatting_html.py",
+    "lib/python3.9/site-packages/xarray/core/groupby.py",
+    "lib/python3.9/site-packages/xarray/core/indexes.py",
+    "lib/python3.9/site-packages/xarray/core/indexing.py",
+    "lib/python3.9/site-packages/xarray/core/merge.py",
+    "lib/python3.9/site-packages/xarray/core/missing.py",
+    "lib/python3.9/site-packages/xarray/core/nanops.py",
+    "lib/python3.9/site-packages/xarray/core/npcompat.py",
+    "lib/python3.9/site-packages/xarray/core/nputils.py",
+    "lib/python3.9/site-packages/xarray/core/ops.py",
+    "lib/python3.9/site-packages/xarray/core/options.py",
+    "lib/python3.9/site-packages/xarray/core/parallel.py",
+    "lib/python3.9/site-packages/xarray/core/pdcompat.py",
+    "lib/python3.9/site-packages/xarray/core/pycompat.py",
+    "lib/python3.9/site-packages/xarray/core/resample.py",
+    "lib/python3.9/site-packages/xarray/core/resample_cftime.py",
+    "lib/python3.9/site-packages/xarray/core/rolling.py",
+    "lib/python3.9/site-packages/xarray/core/rolling_exp.py",
+    "lib/python3.9/site-packages/xarray/core/types.py",
+    "lib/python3.9/site-packages/xarray/core/utils.py",
+    "lib/python3.9/site-packages/xarray/core/variable.py",
+    "lib/python3.9/site-packages/xarray/core/weighted.py",
+    "lib/python3.9/site-packages/xarray/indexes/__init__.py",
+    "lib/python3.9/site-packages/xarray/indexes/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/plot/__init__.py",
+    "lib/python3.9/site-packages/xarray/plot/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/plot/__pycache__/accessor.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/plot/__pycache__/dataarray_plot.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/plot/__pycache__/dataset_plot.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/plot/__pycache__/facetgrid.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/plot/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/plot/accessor.py",
+    "lib/python3.9/site-packages/xarray/plot/dataarray_plot.py",
+    "lib/python3.9/site-packages/xarray/plot/dataset_plot.py",
+    "lib/python3.9/site-packages/xarray/plot/facetgrid.py",
+    "lib/python3.9/site-packages/xarray/plot/utils.py",
+    "lib/python3.9/site-packages/xarray/py.typed",
+    "lib/python3.9/site-packages/xarray/static/__init__.py",
+    "lib/python3.9/site-packages/xarray/static/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/static/css/__init__.py",
+    "lib/python3.9/site-packages/xarray/static/css/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/static/css/style.css",
+    "lib/python3.9/site-packages/xarray/static/html/__init__.py",
+    "lib/python3.9/site-packages/xarray/static/html/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/static/html/icons-svg-inline.html",
+    "lib/python3.9/site-packages/xarray/testing.py",
+    "lib/python3.9/site-packages/xarray/tests/__init__.py",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/conftest.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_accessor_dt.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_accessor_str.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_array_api.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_backends.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_backends_api.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_backends_common.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_backends_file_manager.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_backends_locks.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_backends_lru_cache.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_calendar_ops.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_cftime_offsets.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_cftimeindex.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_cftimeindex_resample.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_coarsen.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_coding.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_coding_strings.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_coding_times.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_combine.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_computation.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_concat.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_conventions.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_cupy.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_dask.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_dataarray.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_dataset.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_deprecation_helpers.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_distributed.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_dtypes.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_duck_array_ops.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_extensions.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_formatting.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_formatting_html.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_groupby.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_indexes.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_indexing.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_interp.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_merge.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_missing.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_nputils.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_options.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_plot.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_plugins.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_print_versions.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_rolling.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_sparse.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_testing.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_tutorial.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_ufuncs.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_units.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_variable.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/__pycache__/test_weighted.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/tests/conftest.py",
+    "lib/python3.9/site-packages/xarray/tests/data/bears.nc",
+    "lib/python3.9/site-packages/xarray/tests/data/example.grib",
+    "lib/python3.9/site-packages/xarray/tests/data/example.ict",
+    "lib/python3.9/site-packages/xarray/tests/data/example.uamiv",
+    "lib/python3.9/site-packages/xarray/tests/data/example_1.nc",
+    "lib/python3.9/site-packages/xarray/tests/data/example_1.nc.gz",
+    "lib/python3.9/site-packages/xarray/tests/test_accessor_dt.py",
+    "lib/python3.9/site-packages/xarray/tests/test_accessor_str.py",
+    "lib/python3.9/site-packages/xarray/tests/test_array_api.py",
+    "lib/python3.9/site-packages/xarray/tests/test_backends.py",
+    "lib/python3.9/site-packages/xarray/tests/test_backends_api.py",
+    "lib/python3.9/site-packages/xarray/tests/test_backends_common.py",
+    "lib/python3.9/site-packages/xarray/tests/test_backends_file_manager.py",
+    "lib/python3.9/site-packages/xarray/tests/test_backends_locks.py",
+    "lib/python3.9/site-packages/xarray/tests/test_backends_lru_cache.py",
+    "lib/python3.9/site-packages/xarray/tests/test_calendar_ops.py",
+    "lib/python3.9/site-packages/xarray/tests/test_cftime_offsets.py",
+    "lib/python3.9/site-packages/xarray/tests/test_cftimeindex.py",
+    "lib/python3.9/site-packages/xarray/tests/test_cftimeindex_resample.py",
+    "lib/python3.9/site-packages/xarray/tests/test_coarsen.py",
+    "lib/python3.9/site-packages/xarray/tests/test_coding.py",
+    "lib/python3.9/site-packages/xarray/tests/test_coding_strings.py",
+    "lib/python3.9/site-packages/xarray/tests/test_coding_times.py",
+    "lib/python3.9/site-packages/xarray/tests/test_combine.py",
+    "lib/python3.9/site-packages/xarray/tests/test_computation.py",
+    "lib/python3.9/site-packages/xarray/tests/test_concat.py",
+    "lib/python3.9/site-packages/xarray/tests/test_conventions.py",
+    "lib/python3.9/site-packages/xarray/tests/test_cupy.py",
+    "lib/python3.9/site-packages/xarray/tests/test_dask.py",
+    "lib/python3.9/site-packages/xarray/tests/test_dataarray.py",
+    "lib/python3.9/site-packages/xarray/tests/test_dataset.py",
+    "lib/python3.9/site-packages/xarray/tests/test_deprecation_helpers.py",
+    "lib/python3.9/site-packages/xarray/tests/test_distributed.py",
+    "lib/python3.9/site-packages/xarray/tests/test_dtypes.py",
+    "lib/python3.9/site-packages/xarray/tests/test_duck_array_ops.py",
+    "lib/python3.9/site-packages/xarray/tests/test_extensions.py",
+    "lib/python3.9/site-packages/xarray/tests/test_formatting.py",
+    "lib/python3.9/site-packages/xarray/tests/test_formatting_html.py",
+    "lib/python3.9/site-packages/xarray/tests/test_groupby.py",
+    "lib/python3.9/site-packages/xarray/tests/test_indexes.py",
+    "lib/python3.9/site-packages/xarray/tests/test_indexing.py",
+    "lib/python3.9/site-packages/xarray/tests/test_interp.py",
+    "lib/python3.9/site-packages/xarray/tests/test_merge.py",
+    "lib/python3.9/site-packages/xarray/tests/test_missing.py",
+    "lib/python3.9/site-packages/xarray/tests/test_nputils.py",
+    "lib/python3.9/site-packages/xarray/tests/test_options.py",
+    "lib/python3.9/site-packages/xarray/tests/test_plot.py",
+    "lib/python3.9/site-packages/xarray/tests/test_plugins.py",
+    "lib/python3.9/site-packages/xarray/tests/test_print_versions.py",
+    "lib/python3.9/site-packages/xarray/tests/test_rolling.py",
+    "lib/python3.9/site-packages/xarray/tests/test_sparse.py",
+    "lib/python3.9/site-packages/xarray/tests/test_testing.py",
+    "lib/python3.9/site-packages/xarray/tests/test_tutorial.py",
+    "lib/python3.9/site-packages/xarray/tests/test_ufuncs.py",
+    "lib/python3.9/site-packages/xarray/tests/test_units.py",
+    "lib/python3.9/site-packages/xarray/tests/test_utils.py",
+    "lib/python3.9/site-packages/xarray/tests/test_variable.py",
+    "lib/python3.9/site-packages/xarray/tests/test_weighted.py",
+    "lib/python3.9/site-packages/xarray/tutorial.py",
+    "lib/python3.9/site-packages/xarray/util/__init__.py",
+    "lib/python3.9/site-packages/xarray/util/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/util/__pycache__/deprecation_helpers.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/util/__pycache__/generate_aggregations.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/util/__pycache__/generate_ops.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/util/__pycache__/print_versions.cpython-39.pyc",
+    "lib/python3.9/site-packages/xarray/util/deprecation_helpers.py",
+    "lib/python3.9/site-packages/xarray/util/generate_aggregations.py",
+    "lib/python3.9/site-packages/xarray/util/generate_ops.py",
+    "lib/python3.9/site-packages/xarray/util/print_versions.py"
+  ],
+  "fn": "xarray-2022.11.0-py39hca03da5_0.conda",
+  "legacy_bz2_md5": "9cc739efddddaf776e9a41bc016304c9",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/xarray-2022.11.0-py39hca03da5_0",
+    "type": 1
+  },
+  "md5": "7e32a0a7a3b678de22259c1640fa100f",
+  "name": "xarray",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/xarray-2022.11.0-py39hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+        "sha256_in_prefix": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+        "size_in_bytes": 10273
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "20f52ec1756e7ecd21fb46fc44a5e7904c209406f1bc0c4e9f5864aa0b549363",
+        "sha256_in_prefix": "20f52ec1756e7ecd21fb46fc44a5e7904c209406f1bc0c4e9f5864aa0b549363",
+        "size_in_bytes": 6206
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "76069c6890508be302d3bd9e1bd3852c3adb9356a0ce77ebd8fb117ad9b6617e",
+        "sha256_in_prefix": "76069c6890508be302d3bd9e1bd3852c3adb9356a0ce77ebd8fb117ad9b6617e",
+        "size_in_bytes": 21454
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "15c9688a07e520622b7a73e19903cf60fe3fc2b647959beaa492e1ea41e7fe3d",
+        "sha256_in_prefix": "15c9688a07e520622b7a73e19903cf60fe3fc2b647959beaa492e1ea41e7fe3d",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray-2022.11.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "38657c02a4e062db9ac3a615ead7af59711d0c8e6f1c9880450089811c93edca",
+        "sha256_in_prefix": "38657c02a4e062db9ac3a615ead7af59711d0c8e6f1c9880450089811c93edca",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b69885960d6782998682aafc58719f0fca2b7ab1afffc11b2e373a9869bcb700",
+        "sha256_in_prefix": "b69885960d6782998682aafc58719f0fca2b7ab1afffc11b2e373a9869bcb700",
+        "size_in_bytes": 2804
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f64b5144fa2793abf721e9665aa060d533abdc6620c35a27ab7de61566c44f1",
+        "sha256_in_prefix": "9f64b5144fa2793abf721e9665aa060d533abdc6620c35a27ab7de61566c44f1",
+        "size_in_bytes": 2263
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/__pycache__/conventions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a56cd4f4e0370e3f5d26bd7b6aad8692faaffd37e6db90d0c090b5a280dcd9ed",
+        "sha256_in_prefix": "a56cd4f4e0370e3f5d26bd7b6aad8692faaffd37e6db90d0c090b5a280dcd9ed",
+        "size_in_bytes": 23467
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/__pycache__/convert.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b60036b4d50e90d7fd94a9c3bb90599ba679bacc6a7560d3a5d4f41e693a3939",
+        "sha256_in_prefix": "b60036b4d50e90d7fd94a9c3bb90599ba679bacc6a7560d3a5d4f41e693a3939",
+        "size_in_bytes": 8350
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/__pycache__/testing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "afe1b0ace8a0d3799e2babd81976a1597ad203c597de44f83f2961c1363f9a15",
+        "sha256_in_prefix": "afe1b0ace8a0d3799e2babd81976a1597ad203c597de44f83f2961c1363f9a15",
+        "size_in_bytes": 13717
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/__pycache__/tutorial.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "530ea1f4ff108a6f390ab963bc61d7c49745edd0e1a30db22c5dabd444b849ce",
+        "sha256_in_prefix": "530ea1f4ff108a6f390ab963bc61d7c49745edd0e1a30db22c5dabd444b849ce",
+        "size_in_bytes": 8882
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "150a891290f057b2e21b2107aac4f9ab2e4ed64dc424c6469d7cfc276d173b98",
+        "sha256_in_prefix": "150a891290f057b2e21b2107aac4f9ab2e4ed64dc424c6469d7cfc276d173b98",
+        "size_in_bytes": 1518
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8676e709b34ca13ba4cab9a3773c83ea1a96b87d5d9cb44ad25a64c44d4bb2fc",
+        "sha256_in_prefix": "8676e709b34ca13ba4cab9a3773c83ea1a96b87d5d9cb44ad25a64c44d4bb2fc",
+        "size_in_bytes": 1432
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/api.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d68559a428901777b6774f1a9e067be5c3f1fbe32c00e8b8897323363a00e562",
+        "sha256_in_prefix": "d68559a428901777b6774f1a9e067be5c3f1fbe32c00e8b8897323363a00e562",
+        "size_in_bytes": 51032
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/cfgrib_.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bd2266c9c413fbcaa54c4ffa9a55b6f116aa9e543bc1409c81b088f9a8d03ee",
+        "sha256_in_prefix": "8bd2266c9c413fbcaa54c4ffa9a55b6f116aa9e543bc1409c81b088f9a8d03ee",
+        "size_in_bytes": 5021
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/common.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d4e5374d3929aefa333e168fb532a2faefebca35aae3fff9f22c5b18ac20eb0",
+        "sha256_in_prefix": "9d4e5374d3929aefa333e168fb532a2faefebca35aae3fff9f22c5b18ac20eb0",
+        "size_in_bytes": 14896
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/file_manager.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff8830c3fde7f408df2c1b2f6ad98c4eeb11ff2f25dec25fc92fe1d8b70ccd72",
+        "sha256_in_prefix": "ff8830c3fde7f408df2c1b2f6ad98c4eeb11ff2f25dec25fc92fe1d8b70ccd72",
+        "size_in_bytes": 11941
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/h5netcdf_.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6bf9bbc2370d3bb7d0d4ce8e1d39bc706550037cf4201696a9e6f9fce406b238",
+        "sha256_in_prefix": "6bf9bbc2370d3bb7d0d4ce8e1d39bc706550037cf4201696a9e6f9fce406b238",
+        "size_in_bytes": 11520
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/locks.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "38275457eb432d6c36ea68ca9725b788705e198f97fe3934d5c85a26885cb9b0",
+        "sha256_in_prefix": "38275457eb432d6c36ea68ca9725b788705e198f97fe3934d5c85a26885cb9b0",
+        "size_in_bytes": 5922
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/lru_cache.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ad4df554dc0b64d4678e7bf6aefc9c33f3ad1f7990e2740017349e4eba30a6b",
+        "sha256_in_prefix": "8ad4df554dc0b64d4678e7bf6aefc9c33f3ad1f7990e2740017349e4eba30a6b",
+        "size_in_bytes": 3950
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/memory.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3acb1eb14fec739bdc0a8deebf998e265cfca5a960b9e658147d2ea4f9b2708",
+        "sha256_in_prefix": "e3acb1eb14fec739bdc0a8deebf998e265cfca5a960b9e658147d2ea4f9b2708",
+        "size_in_bytes": 2074
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/netCDF4_.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bfe09ea304f5fa2361ca30a0ea558c4a57fca66dcf482adc18727193cac09ac2",
+        "sha256_in_prefix": "bfe09ea304f5fa2361ca30a0ea558c4a57fca66dcf482adc18727193cac09ac2",
+        "size_in_bytes": 16085
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/netcdf3.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac8d67824b5ddd0635de6489d71789fa18a8e8155581da1341213b2c190ebb74",
+        "sha256_in_prefix": "ac8d67824b5ddd0635de6489d71789fa18a8e8155581da1341213b2c190ebb74",
+        "size_in_bytes": 4003
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/plugins.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4a897638b4bddabd831475a2887d8c02e4901d48779d5904220268ed5a01c80",
+        "sha256_in_prefix": "e4a897638b4bddabd831475a2887d8c02e4901d48779d5904220268ed5a01c80",
+        "size_in_bytes": 6472
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/pseudonetcdf_.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cc0c918f23957405711ce8cf385bdfaa4dbb8b292e52bfbfb0f67ba133a696cb",
+        "sha256_in_prefix": "cc0c918f23957405711ce8cf385bdfaa4dbb8b292e52bfbfb0f67ba133a696cb",
+        "size_in_bytes": 6336
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/pydap_.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c581351619d4c164e14bd77de902b8ed5b260f2772ae8ba458b5f457f3ed4061",
+        "sha256_in_prefix": "c581351619d4c164e14bd77de902b8ed5b260f2772ae8ba458b5f457f3ed4061",
+        "size_in_bytes": 6200
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/pynio_.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e03f24302181a0706461a4bf3ce1e909260888c0481bec3603222359aaab98e5",
+        "sha256_in_prefix": "e03f24302181a0706461a4bf3ce1e909260888c0481bec3603222359aaab98e5",
+        "size_in_bytes": 4825
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/rasterio_.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d32cd5a758e164043e24041aa1cd9fee5c08f908abd30bbf4713509d6674d31",
+        "sha256_in_prefix": "7d32cd5a758e164043e24041aa1cd9fee5c08f908abd30bbf4713509d6674d31",
+        "size_in_bytes": 10515
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/scipy_.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e11a25ea827addc5547306d2322ca414bc68733712d0f908e4a6608bbb2296fb",
+        "sha256_in_prefix": "e11a25ea827addc5547306d2322ca414bc68733712d0f908e4a6608bbb2296fb",
+        "size_in_bytes": 9781
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/store.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d3b66f5875d72e9711eeb13eb24ac622ec18fe1ded95d0b78423550cd36e5dd",
+        "sha256_in_prefix": "8d3b66f5875d72e9711eeb13eb24ac622ec18fe1ded95d0b78423550cd36e5dd",
+        "size_in_bytes": 1543
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/__pycache__/zarr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c822944176d0f05d8d5d5ce5f6db68ac99077f8cafd1b18de6cdc3b158f111ff",
+        "sha256_in_prefix": "c822944176d0f05d8d5d5ce5f6db68ac99077f8cafd1b18de6cdc3b158f111ff",
+        "size_in_bytes": 23831
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/api.py",
+        "path_type": "hardlink",
+        "sha256": "b7ce5aa91ed4aa43f4df2853eedb4ae1aa3128310f9084f3f9c2509d366d5217",
+        "sha256_in_prefix": "b7ce5aa91ed4aa43f4df2853eedb4ae1aa3128310f9084f3f9c2509d366d5217",
+        "size_in_bytes": 63695
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/cfgrib_.py",
+        "path_type": "hardlink",
+        "sha256": "b582ecc9f2c215789a284fc68fa7db05363295760ce619d7f20e04ac9bcbe9a9",
+        "sha256_in_prefix": "b582ecc9f2c215789a284fc68fa7db05363295760ce619d7f20e04ac9bcbe9a9",
+        "size_in_bytes": 4541
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/common.py",
+        "path_type": "hardlink",
+        "sha256": "9d4e3bb6df83ca4bb04ce72ae04cc2d48973e32812889087b69dc0ede7f9d525",
+        "sha256_in_prefix": "9d4e3bb6df83ca4bb04ce72ae04cc2d48973e32812889087b69dc0ede7f9d525",
+        "size_in_bytes": 13536
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/file_manager.py",
+        "path_type": "hardlink",
+        "sha256": "b0126ad177d5bba9ef16b9032071434bb1bf50678a00beca99e7b1321fd97676",
+        "sha256_in_prefix": "b0126ad177d5bba9ef16b9032071434bb1bf50678a00beca99e7b1321fd97676",
+        "size_in_bytes": 12197
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/h5netcdf_.py",
+        "path_type": "hardlink",
+        "sha256": "ea1163cb1b9e736b241a3af7329fc967fd71395721e47008231b38ce6044120d",
+        "sha256_in_prefix": "ea1163cb1b9e736b241a3af7329fc967fd71395721e47008231b38ce6044120d",
+        "size_in_bytes": 13729
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/locks.py",
+        "path_type": "hardlink",
+        "sha256": "fce89db4f6e63899c1320ca1c87b109d0665ae9a87891cb181939998ed26e2be",
+        "sha256_in_prefix": "fce89db4f6e63899c1320ca1c87b109d0665ae9a87891cb181939998ed26e2be",
+        "size_in_bytes": 5584
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/lru_cache.py",
+        "path_type": "hardlink",
+        "sha256": "c7c574aec4c2ddd2e45e251f2a33a51924881dfce001c29edbcbb80af4aebbf3",
+        "sha256_in_prefix": "c7c574aec4c2ddd2e45e251f2a33a51924881dfce001c29edbcbb80af4aebbf3",
+        "size_in_bytes": 3627
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/memory.py",
+        "path_type": "hardlink",
+        "sha256": "c68a99bf5dda47d446e5b1a9b42ac82543a188b93d6c2c470165f71fe4197998",
+        "sha256_in_prefix": "c68a99bf5dda47d446e5b1a9b42ac82543a188b93d6c2c470165f71fe4197998",
+        "size_in_bytes": 1372
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/netCDF4_.py",
+        "path_type": "hardlink",
+        "sha256": "025a778dcf91b4efae7728bddd6337ee08906e2a5ef50e4dfa5c30ee19e8fa93",
+        "sha256_in_prefix": "025a778dcf91b4efae7728bddd6337ee08906e2a5ef50e4dfa5c30ee19e8fa93",
+        "size_in_bytes": 19725
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/netcdf3.py",
+        "path_type": "hardlink",
+        "sha256": "4befaaeaac00619bcd74061b7d60b55569e32b2b1dc116639067ebdf43014787",
+        "sha256_in_prefix": "4befaaeaac00619bcd74061b7d60b55569e32b2b1dc116639067ebdf43014787",
+        "size_in_bytes": 4154
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/plugins.py",
+        "path_type": "hardlink",
+        "sha256": "639e480339c92f598c7b18bb1b386bee7c9ee03767dba77671f4b5a58ad06973",
+        "sha256_in_prefix": "639e480339c92f598c7b18bb1b386bee7c9ee03767dba77671f4b5a58ad06973",
+        "size_in_bytes": 7300
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/pseudonetcdf_.py",
+        "path_type": "hardlink",
+        "sha256": "968b1ebd46dc3a586d015a536a450db677624eaa41f61630526357cfad3ba0a5",
+        "sha256_in_prefix": "968b1ebd46dc3a586d015a536a450db677624eaa41f61630526357cfad3ba0a5",
+        "size_in_bytes": 5381
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/pydap_.py",
+        "path_type": "hardlink",
+        "sha256": "7be7f11e26f49009459daab260a3959c62da8120016d3ae80cb2248afa63caad",
+        "sha256_in_prefix": "7be7f11e26f49009459daab260a3959c62da8120016d3ae80cb2248afa63caad",
+        "size_in_bytes": 5973
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/pynio_.py",
+        "path_type": "hardlink",
+        "sha256": "80bfa9f295cf09a14b8413860f7ece7cc8756bb9f927a429847425a95c89895d",
+        "sha256_in_prefix": "80bfa9f295cf09a14b8413860f7ece7cc8756bb9f927a429847425a95c89895d",
+        "size_in_bytes": 4003
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/rasterio_.py",
+        "path_type": "hardlink",
+        "sha256": "adcfe0b614131f405e4ddde7a483d381bcce86c6104e856148ff283e8c911e0d",
+        "sha256_in_prefix": "adcfe0b614131f405e4ddde7a483d381bcce86c6104e856148ff283e8c911e0d",
+        "size_in_bytes": 13365
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/scipy_.py",
+        "path_type": "hardlink",
+        "sha256": "8e36aa59146c5b18d88e645abe84bdd4d7a6dbe518723094fe5e968c374b4a83",
+        "sha256_in_prefix": "8e36aa59146c5b18d88e645abe84bdd4d7a6dbe518723094fe5e968c374b4a83",
+        "size_in_bytes": 10293
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/store.py",
+        "path_type": "hardlink",
+        "sha256": "50f035b22f9b0589aec45788c9a5e1cdf6eaca26857516e001ba061a4cf8d9be",
+        "sha256_in_prefix": "50f035b22f9b0589aec45788c9a5e1cdf6eaca26857516e001ba061a4cf8d9be",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/backends/zarr.py",
+        "path_type": "hardlink",
+        "sha256": "43beb5ca48ce5bb9d6059d14cb16a606322d1610698beb7f863f6f8604677345",
+        "sha256_in_prefix": "43beb5ca48ce5bb9d6059d14cb16a606322d1610698beb7f863f6f8604677345",
+        "size_in_bytes": 31883
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "21c92d4b89c663f1d5d82f9bed75268d5b9842b9bfc67235b9323a075b56be2c",
+        "sha256_in_prefix": "21c92d4b89c663f1d5d82f9bed75268d5b9842b9bfc67235b9323a075b56be2c",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/__pycache__/calendar_ops.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf0b80de74f2b7601e564d35b56a46c009d0635a26d7060c3b9d91a935886644",
+        "sha256_in_prefix": "bf0b80de74f2b7601e564d35b56a46c009d0635a26d7060c3b9d91a935886644",
+        "size_in_bytes": 11988
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/__pycache__/cftime_offsets.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "552a952681c0c925b7c2e66764603af836dadc194b88357582f2a2246a634682",
+        "sha256_in_prefix": "552a952681c0c925b7c2e66764603af836dadc194b88357582f2a2246a634682",
+        "size_in_bytes": 37917
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/__pycache__/cftimeindex.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "be0353a604905378f880644d6f54dd5bebfb0f304d5347ebaa9642940ce00b36",
+        "sha256_in_prefix": "be0353a604905378f880644d6f54dd5bebfb0f304d5347ebaa9642940ce00b36",
+        "size_in_bytes": 25799
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/__pycache__/frequencies.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2577117fd3988a79c8a72854068b844279f1f6d5ea7645d0912f0cf1974e2d38",
+        "sha256_in_prefix": "2577117fd3988a79c8a72854068b844279f1f6d5ea7645d0912f0cf1974e2d38",
+        "size_in_bytes": 6353
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/__pycache__/strings.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "dfc177938624bdb959a1222b855a77a1a17ad4f7ed5def37a3e60cbebb8123d3",
+        "sha256_in_prefix": "dfc177938624bdb959a1222b855a77a1a17ad4f7ed5def37a3e60cbebb8123d3",
+        "size_in_bytes": 8100
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/__pycache__/times.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "adc04d567c5b4b480f0eeed78784ff982bc21373a39f3d716e0fa9234992af7f",
+        "sha256_in_prefix": "adc04d567c5b4b480f0eeed78784ff982bc21373a39f3d716e0fa9234992af7f",
+        "size_in_bytes": 18182
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/__pycache__/variables.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6fcb4a2798ff0612991e85330d3b4b2addb43ad9939d085288400cc896c9057a",
+        "sha256_in_prefix": "6fcb4a2798ff0612991e85330d3b4b2addb43ad9939d085288400cc896c9057a",
+        "size_in_bytes": 10509
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/calendar_ops.py",
+        "path_type": "hardlink",
+        "sha256": "f9e9d033e0d48b8e10810438a709e67199e95c95ba67afb3c417ac2422b5cf3b",
+        "sha256_in_prefix": "f9e9d033e0d48b8e10810438a709e67199e95c95ba67afb3c417ac2422b5cf3b",
+        "size_in_bytes": 13738
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/cftime_offsets.py",
+        "path_type": "hardlink",
+        "sha256": "6fe19c2fe32cc2771cfaa78cdb83b98a12d6f0132bb33ac42e4e6359ea03e2a2",
+        "sha256_in_prefix": "6fe19c2fe32cc2771cfaa78cdb83b98a12d6f0132bb33ac42e4e6359ea03e2a2",
+        "size_in_bytes": 44265
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/cftimeindex.py",
+        "path_type": "hardlink",
+        "sha256": "299092db9ece1f09dea73b02cd3f52d1c519adfa1583d0cd187170f57f2ef1af",
+        "sha256_in_prefix": "299092db9ece1f09dea73b02cd3f52d1c519adfa1583d0cd187170f57f2ef1af",
+        "size_in_bytes": 29842
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/frequencies.py",
+        "path_type": "hardlink",
+        "sha256": "83a77e1b5f9265fa28a0bc786611d77493a9ca7182254a8999e0ba795c32e1d7",
+        "sha256_in_prefix": "83a77e1b5f9265fa28a0bc786611d77493a9ca7182254a8999e0ba795c32e1d7",
+        "size_in_bytes": 9173
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/strings.py",
+        "path_type": "hardlink",
+        "sha256": "02fc381608459a1e798dbd493c099fbd1f2dc68701980a65ae8fe3a45d2fe3bc",
+        "sha256_in_prefix": "02fc381608459a1e798dbd493c099fbd1f2dc68701980a65ae8fe3a45d2fe3bc",
+        "size_in_bytes": 7931
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/times.py",
+        "path_type": "hardlink",
+        "sha256": "259e2b0fad47e37814f7675008fe4f689c344ae0093f8fb2829426eb8a85e509",
+        "sha256_in_prefix": "259e2b0fad47e37814f7675008fe4f689c344ae0093f8fb2829426eb8a85e509",
+        "size_in_bytes": 26260
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/coding/variables.py",
+        "path_type": "hardlink",
+        "sha256": "4e1a7d02bf9647e8a382a3a8a28b9dcac231941a539560f366fc85e8db653626",
+        "sha256_in_prefix": "4e1a7d02bf9647e8a382a3a8a28b9dcac231941a539560f366fc85e8db653626",
+        "size_in_bytes": 12546
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/conventions.py",
+        "path_type": "hardlink",
+        "sha256": "219aba6689f3b82629c08583c50194ed054dd218770b6fbd4204d2be0c107b1d",
+        "sha256_in_prefix": "219aba6689f3b82629c08583c50194ed054dd218770b6fbd4204d2be0c107b1d",
+        "size_in_bytes": 31130
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/convert.py",
+        "path_type": "hardlink",
+        "sha256": "29a43959ae24e91c0dd2a05abe2debe3977f86acf5629def31c14b86ba65fafd",
+        "sha256_in_prefix": "29a43959ae24e91c0dd2a05abe2debe3977f86acf5629def31c14b86ba65fafd",
+        "size_in_bytes": 9678
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "803726b38e10d87c0e9f593ed6de807a3709a5bb3c18d3c09ed666ba04feb656",
+        "sha256_in_prefix": "803726b38e10d87c0e9f593ed6de807a3709a5bb3c18d3c09ed666ba04feb656",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/_aggregations.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a4a5c5cd6399830f043d209894a8029cb39fea10c096bf69003fdf8f6c61970",
+        "sha256_in_prefix": "2a4a5c5cd6399830f043d209894a8029cb39fea10c096bf69003fdf8f6c61970",
+        "size_in_bytes": 242791
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/_typed_ops.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "87d62713ba5089023be53d3dda0881525621793a6486c5d17e8be21cb425d324",
+        "sha256_in_prefix": "87d62713ba5089023be53d3dda0881525621793a6486c5d17e8be21cb425d324",
+        "size_in_bytes": 30126
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/accessor_dt.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "55ca99a7acaf9a0cb10c00ae58e2f768d2933ab37febbd7ac089d9dcd0509b8b",
+        "sha256_in_prefix": "55ca99a7acaf9a0cb10c00ae58e2f768d2933ab37febbd7ac089d9dcd0509b8b",
+        "size_in_bytes": 19914
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/accessor_str.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3a8b83538aeb2ecbfcd9921a798853fa81f25b6f7004a2182a95d2b9a97567e",
+        "sha256_in_prefix": "a3a8b83538aeb2ecbfcd9921a798853fa81f25b6f7004a2182a95d2b9a97567e",
+        "size_in_bytes": 85616
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/alignment.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "eced3f821167f54a4a8ec4f2ff4b8f88f192523f15aa7dbc7faa2dcd74cdfd91",
+        "sha256_in_prefix": "eced3f821167f54a4a8ec4f2ff4b8f88f192523f15aa7dbc7faa2dcd74cdfd91",
+        "size_in_bytes": 28673
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/arithmetic.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "52572253559629e28f40a6ba1cc3a847ed9f88442c62cd04e0fd92ea1b29d2be",
+        "sha256_in_prefix": "52572253559629e28f40a6ba1cc3a847ed9f88442c62cd04e0fd92ea1b29d2be",
+        "size_in_bytes": 3765
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/combine.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e5c483a1e307b966ffc91d8ae95a4101898ab1d696798e556dfadfedda3252f",
+        "sha256_in_prefix": "0e5c483a1e307b966ffc91d8ae95a4101898ab1d696798e556dfadfedda3252f",
+        "size_in_bytes": 31769
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/common.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "39a9a83bf071548ab9b373f463a1a5a3b3e846f906149e21126e62c962f576ba",
+        "sha256_in_prefix": "39a9a83bf071548ab9b373f463a1a5a3b3e846f906149e21126e62c962f576ba",
+        "size_in_bytes": 58467
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/computation.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3311b018adf658e3bcdb7032a45404eb6cd3fb97326c634a0f7fc8e0f0f2751b",
+        "sha256_in_prefix": "3311b018adf658e3bcdb7032a45404eb6cd3fb97326c634a0f7fc8e0f0f2751b",
+        "size_in_bytes": 65720
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/concat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d0664db35c5f14f30facf7f0067e6aeb0b13516334660d11cc92f6629aa4623",
+        "sha256_in_prefix": "3d0664db35c5f14f30facf7f0067e6aeb0b13516334660d11cc92f6629aa4623",
+        "size_in_bytes": 18733
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/coordinates.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2dd9611d3363629f4f9f88837bb1f4298d2b6f9a5a3b627e93120e3c6b0db18",
+        "sha256_in_prefix": "c2dd9611d3363629f4f9f88837bb1f4298d2b6f9a5a3b627e93120e3c6b0db18",
+        "size_in_bytes": 16589
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/dask_array_ops.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd352910ac3f583ebf4715fe758f6ee3d8fa817a2a214cc775a028259527d352",
+        "sha256_in_prefix": "fd352910ac3f583ebf4715fe758f6ee3d8fa817a2a214cc775a028259527d352",
+        "size_in_bytes": 2718
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/dataarray.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "703e2ba93f39b9fe630ed394d99289fa6872260cc2ce14dffff191dd0dad2b8e",
+        "sha256_in_prefix": "703e2ba93f39b9fe630ed394d99289fa6872260cc2ce14dffff191dd0dad2b8e",
+        "size_in_bytes": 229083
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/dataset.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "57a6bca6224774471380b142ea8a7f3883990d3abce7fc8c47dc4e7448abb788",
+        "sha256_in_prefix": "57a6bca6224774471380b142ea8a7f3883990d3abce7fc8c47dc4e7448abb788",
+        "size_in_bytes": 294779
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/dtypes.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "087fb7b152b598215e47e613dbf3c2d92471dc7a03bf5f95184de70f88f56a28",
+        "sha256_in_prefix": "087fb7b152b598215e47e613dbf3c2d92471dc7a03bf5f95184de70f88f56a28",
+        "size_in_bytes": 4836
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/duck_array_ops.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "76918dd515cc60791dad73afe6435df72722eae2f7fb49608ee812d56fb62ed7",
+        "sha256_in_prefix": "76918dd515cc60791dad73afe6435df72722eae2f7fb49608ee812d56fb62ed7",
+        "size_in_bytes": 18526
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/extensions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "eaba7427e7878a74dbc22b67331b048ca3442363057d9db86502b69e36597f09",
+        "sha256_in_prefix": "eaba7427e7878a74dbc22b67331b048ca3442363057d9db86502b69e36597f09",
+        "size_in_bytes": 3610
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/formatting.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "209e84cee09d152b4e80a4894478bd8dc1267ff281584f8aa6d8b00ef6e8b012",
+        "sha256_in_prefix": "209e84cee09d152b4e80a4894478bd8dc1267ff281584f8aa6d8b00ef6e8b012",
+        "size_in_bytes": 22510
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/formatting_html.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d64247705b541c0379be9f14439e42558e93f7673493dbe956d74cbf3d4501d3",
+        "sha256_in_prefix": "d64247705b541c0379be9f14439e42558e93f7673493dbe956d74cbf3d4501d3",
+        "size_in_bytes": 10498
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/groupby.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "03bb6cf5a29ea8121c5869cd949f904d550b9ffe8c53acb1e39d6dbfad156cfc",
+        "sha256_in_prefix": "03bb6cf5a29ea8121c5869cd949f904d550b9ffe8c53acb1e39d6dbfad156cfc",
+        "size_in_bytes": 41005
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/indexes.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "88281c6d10ec7e3c60b5857afdf16b0ee230229ac4089b903a1bc0d1ce10579f",
+        "sha256_in_prefix": "88281c6d10ec7e3c60b5857afdf16b0ee230229ac4089b903a1bc0d1ce10579f",
+        "size_in_bytes": 45321
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/indexing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e713e8b73d26816fc7ff59299d7c1af51c9c7c49419d2f745bb2787d68d22ef5",
+        "sha256_in_prefix": "e713e8b73d26816fc7ff59299d7c1af51c9c7c49419d2f745bb2787d68d22ef5",
+        "size_in_bytes": 48993
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/merge.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "55a6e04cac5937d566d402387326437c771747d90e8e1da8f79884146ec1d1ad",
+        "sha256_in_prefix": "55a6e04cac5937d566d402387326437c771747d90e8e1da8f79884146ec1d1ad",
+        "size_in_bytes": 32310
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/missing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "caf2c554e7431f742b0b4d4b367f14e6e223c17f74c7b7ced6ed90fc794e378a",
+        "sha256_in_prefix": "caf2c554e7431f742b0b4d4b367f14e6e223c17f74c7b7ced6ed90fc794e378a",
+        "size_in_bytes": 22047
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/nanops.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c141ab733d0f3686ce7073860e03be640239e19ff6886ce1d69297f9e3084bfa",
+        "sha256_in_prefix": "c141ab733d0f3686ce7073860e03be640239e19ff6886ce1d69297f9e3084bfa",
+        "size_in_bytes": 5029
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/npcompat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d6b22c7ae3ca96e6ec6bb896346db18bc46d47a709daf12e45a25491c8ac9ec7",
+        "sha256_in_prefix": "d6b22c7ae3ca96e6ec6bb896346db18bc46d47a709daf12e45a25491c8ac9ec7",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/nputils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "66b284aad07d7c65a79b41f544dabae9537bd10f90b8ac56a5f91e25da59d255",
+        "sha256_in_prefix": "66b284aad07d7c65a79b41f544dabae9537bd10f90b8ac56a5f91e25da59d255",
+        "size_in_bytes": 6849
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/ops.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "43b27763537aba8769a31b757ea20196f50d5703f1e5fc0ae215f3c44dbb651b",
+        "sha256_in_prefix": "43b27763537aba8769a31b757ea20196f50d5703f1e5fc0ae215f3c44dbb651b",
+        "size_in_bytes": 9899
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/options.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8a2d6bdd9972f7f848c583888b4f522fe0e13767927d69e84601fd04c2f70700",
+        "sha256_in_prefix": "8a2d6bdd9972f7f848c583888b4f522fe0e13767927d69e84601fd04c2f70700",
+        "size_in_bytes": 10498
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/parallel.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "db8fd1e196d00e95b0332723d56e069232d50f84b20c1288cabb7557f467c675",
+        "sha256_in_prefix": "db8fd1e196d00e95b0332723d56e069232d50f84b20c1288cabb7557f467c675",
+        "size_in_bytes": 17424
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/pdcompat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "980b1bb1f90198a730eff5119c50920f3839657d394930d46473e2bedbac2721",
+        "sha256_in_prefix": "980b1bb1f90198a730eff5119c50920f3839657d394930d46473e2bedbac2721",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/pycompat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "09b44ad915a108ff571d73fea95385cd42a0085199bbff04302b2a8ede11a686",
+        "sha256_in_prefix": "09b44ad915a108ff571d73fea95385cd42a0085199bbff04302b2a8ede11a686",
+        "size_in_bytes": 2338
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/resample.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "09d2060dd8013987e9e7d9d92451c25e2c215ad88877aa4a8c9294feaf4dbdac",
+        "sha256_in_prefix": "09d2060dd8013987e9e7d9d92451c25e2c215ad88877aa4a8c9294feaf4dbdac",
+        "size_in_bytes": 13858
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/resample_cftime.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "53a20dcaa045ece96a56e86446bba00967816fe5cf257b672b5958fae0ed46ef",
+        "sha256_in_prefix": "53a20dcaa045ece96a56e86446bba00967816fe5cf257b672b5958fae0ed46ef",
+        "size_in_bytes": 10622
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/rolling.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0933db3e87c742ffc2ed7ebb0d7db6a118844757105fae2756c945def072a0c2",
+        "sha256_in_prefix": "0933db3e87c742ffc2ed7ebb0d7db6a118844757105fae2756c945def072a0c2",
+        "size_in_bytes": 34868
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/rolling_exp.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "43e2c6774d183c445c786449f56bf268a6972e6d866544a2ade9567e0054d110",
+        "sha256_in_prefix": "43e2c6774d183c445c786449f56bf268a6972e6d866544a2ade9567e0054d110",
+        "size_in_bytes": 5340
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/types.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c90be8d85248712d9047ea70acf602508fe3e83b9bfa1a60ac136868bf5dc516",
+        "sha256_in_prefix": "c90be8d85248712d9047ea70acf602508fe3e83b9bfa1a60ac136868bf5dc516",
+        "size_in_bytes": 4039
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4d20c42004b18d6ed7664ecd7c81bf2ef5db0b3ac3bca7b733c09c67dc77f8f",
+        "sha256_in_prefix": "c4d20c42004b18d6ed7664ecd7c81bf2ef5db0b3ac3bca7b733c09c67dc77f8f",
+        "size_in_bytes": 31556
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/variable.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "27e60dcb29daccad0e2365e8c2a508d8ba4ea7107f4092666ae46da6af919f93",
+        "sha256_in_prefix": "27e60dcb29daccad0e2365e8c2a508d8ba4ea7107f4092666ae46da6af919f93",
+        "size_in_bytes": 100985
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/__pycache__/weighted.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b1687ffb8d0c2e09311924b00e29eb9105611a72dcd5d55f251d57b39b8b41b",
+        "sha256_in_prefix": "5b1687ffb8d0c2e09311924b00e29eb9105611a72dcd5d55f251d57b39b8b41b",
+        "size_in_bytes": 15024
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/_aggregations.py",
+        "path_type": "hardlink",
+        "sha256": "29b6331b3a40f1a54b7dde42ff813d2b493254c369ca7be853995087d118c27f",
+        "sha256_in_prefix": "29b6331b3a40f1a54b7dde42ff813d2b493254c369ca7be853995087d118c27f",
+        "size_in_bytes": 269877
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/_typed_ops.py",
+        "path_type": "hardlink",
+        "sha256": "f52c3bbdcddc2e8b7020d41748c642e4eafd47574f1317ac940431c5338364a5",
+        "sha256_in_prefix": "f52c3bbdcddc2e8b7020d41748c642e4eafd47574f1317ac940431c5338364a5",
+        "size_in_bytes": 26243
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/_typed_ops.pyi",
+        "path_type": "hardlink",
+        "sha256": "e8a600d4f62f05e02969c201fabc5fdad13be99bf8e167a6ec7781f8486a6cc9",
+        "sha256_in_prefix": "e8a600d4f62f05e02969c201fabc5fdad13be99bf8e167a6ec7781f8486a6cc9",
+        "size_in_bytes": 31196
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/accessor_dt.py",
+        "path_type": "hardlink",
+        "sha256": "88e13d358ec600d2129e803e193df5ed9963e5d09d719e6aa25e0a3839c6d335",
+        "sha256_in_prefix": "88e13d358ec600d2129e803e193df5ed9963e5d09d719e6aa25e0a3839c6d335",
+        "size_in_bytes": 19849
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/accessor_str.py",
+        "path_type": "hardlink",
+        "sha256": "3737f35eb67de585f55e63ff641356ab438f9ad0c4746540550a3120ff10ee67",
+        "sha256_in_prefix": "3737f35eb67de585f55e63ff641356ab438f9ad0c4746540550a3120ff10ee67",
+        "size_in_bytes": 86602
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/alignment.py",
+        "path_type": "hardlink",
+        "sha256": "b424930f563ac7ec3b638b0f0fcee7b1c3bd6b3ba20b7a5badb30b9e63b53146",
+        "sha256_in_prefix": "b424930f563ac7ec3b638b0f0fcee7b1c3bd6b3ba20b7a5badb30b9e63b53146",
+        "size_in_bytes": 36463
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/arithmetic.py",
+        "path_type": "hardlink",
+        "sha256": "76cc0ebc3cffd5432cf483973371182745622b3da4849e2e3885c82462bf7ec7",
+        "sha256_in_prefix": "76cc0ebc3cffd5432cf483973371182745622b3da4849e2e3885c82462bf7ec7",
+        "size_in_bytes": 4323
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/combine.py",
+        "path_type": "hardlink",
+        "sha256": "bb23fcd4b13bca1610500ec8602c6dc26a873d05fed77fc4c1a920545d0a73f0",
+        "sha256_in_prefix": "bb23fcd4b13bca1610500ec8602c6dc26a873d05fed77fc4c1a920545d0a73f0",
+        "size_in_bytes": 37545
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/common.py",
+        "path_type": "hardlink",
+        "sha256": "2f3fe4ea8a22b1e04b08de6ea3d819ceecb45633642f6196afe888ac662b2729",
+        "sha256_in_prefix": "2f3fe4ea8a22b1e04b08de6ea3d819ceecb45633642f6196afe888ac662b2729",
+        "size_in_bytes": 59730
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/computation.py",
+        "path_type": "hardlink",
+        "sha256": "46c420de744b6c0de5c820c2f6fba7f676537d1a148b33dbf2e9fa5172888afb",
+        "sha256_in_prefix": "46c420de744b6c0de5c820c2f6fba7f676537d1a148b33dbf2e9fa5172888afb",
+        "size_in_bytes": 73054
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/concat.py",
+        "path_type": "hardlink",
+        "sha256": "4f254fa569c543ee8aa37fbcd15539d65f714c228421f4dc2a09f4532b0c6e3d",
+        "sha256_in_prefix": "4f254fa569c543ee8aa37fbcd15539d65f714c228421f4dc2a09f4532b0c6e3d",
+        "size_in_bytes": 26235
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/coordinates.py",
+        "path_type": "hardlink",
+        "sha256": "e3a5d4697a4cacfb1a1aa290154f4d90e95881e9e60228ce9f48d8c8150b356a",
+        "sha256_in_prefix": "e3a5d4697a4cacfb1a1aa290154f4d90e95881e9e60228ce9f48d8c8150b356a",
+        "size_in_bytes": 16248
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/dask_array_ops.py",
+        "path_type": "hardlink",
+        "sha256": "18fd2dc97cc7e1a0d80ed3ed3917ad45bab206f75c4782425c2139e89bc59ab9",
+        "sha256_in_prefix": "18fd2dc97cc7e1a0d80ed3ed3917ad45bab206f75c4782425c2139e89bc59ab9",
+        "size_in_bytes": 3068
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/dataarray.py",
+        "path_type": "hardlink",
+        "sha256": "a555130b3c48c43dda3b9d01efdc8a15fde9171bdffa64e1919c06183c1c6489",
+        "sha256_in_prefix": "a555130b3c48c43dda3b9d01efdc8a15fde9171bdffa64e1919c06183c1c6489",
+        "size_in_bytes": 242438
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/dataset.py",
+        "path_type": "hardlink",
+        "sha256": "bcd149c529d70d3e0c0e93ff6ca455b955eaad03bb083965b3ac82c39ebd1456",
+        "sha256_in_prefix": "bcd149c529d70d3e0c0e93ff6ca455b955eaad03bb083965b3ac82c39ebd1456",
+        "size_in_bytes": 350098
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/dtypes.py",
+        "path_type": "hardlink",
+        "sha256": "6449ac68d93dc227534467e08ae3b703f984a1d5fc04d36f9287b2bde77bf301",
+        "sha256_in_prefix": "6449ac68d93dc227534467e08ae3b703f984a1d5fc04d36f9287b2bde77bf301",
+        "size_in_bytes": 4859
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/duck_array_ops.py",
+        "path_type": "hardlink",
+        "sha256": "fcbd1695859c250e9c771f13cc9a6592bbe0dc6d0174ba7c6db97fe673aae547",
+        "sha256_in_prefix": "fcbd1695859c250e9c771f13cc9a6592bbe0dc6d0174ba7c6db97fe673aae547",
+        "size_in_bytes": 22380
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/extensions.py",
+        "path_type": "hardlink",
+        "sha256": "a3cbe4aaeed660ecab7aa9a8c69697c2162021780d7501f428b14222efe51342",
+        "sha256_in_prefix": "a3cbe4aaeed660ecab7aa9a8c69697c2162021780d7501f428b14222efe51342",
+        "size_in_bytes": 3486
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/formatting.py",
+        "path_type": "hardlink",
+        "sha256": "0f89418165f8cafff4944509d4c2172dd1470b7bb59e214472b2e3c4cac7a287",
+        "sha256_in_prefix": "0f89418165f8cafff4944509d4c2172dd1470b7bb59e214472b2e3c4cac7a287",
+        "size_in_bytes": 27528
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/formatting_html.py",
+        "path_type": "hardlink",
+        "sha256": "3106bd4b79f28d553013c49e9ebe18c629736086fefc074568e26233a1cc151d",
+        "sha256_in_prefix": "3106bd4b79f28d553013c49e9ebe18c629736086fefc074568e26233a1cc151d",
+        "size_in_bytes": 10166
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/groupby.py",
+        "path_type": "hardlink",
+        "sha256": "2ce07c2c9a760237610c5a4fe7ccd06f6229fed3633ca715142ee445b65d3fae",
+        "sha256_in_prefix": "2ce07c2c9a760237610c5a4fe7ccd06f6229fed3633ca715142ee445b65d3fae",
+        "size_in_bytes": 48860
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/indexes.py",
+        "path_type": "hardlink",
+        "sha256": "9e18504441c411c4ab51d0ea16c279e36aad0933a426360e87248b7185b388cd",
+        "sha256_in_prefix": "9e18504441c411c4ab51d0ea16c279e36aad0933a426360e87248b7185b388cd",
+        "size_in_bytes": 52514
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/indexing.py",
+        "path_type": "hardlink",
+        "sha256": "24f86f23d579bb9302812e592c042b8af8c99e33057e74689f9d72840edb9695",
+        "sha256_in_prefix": "24f86f23d579bb9302812e592c042b8af8c99e33057e74689f9d72840edb9695",
+        "size_in_bytes": 55355
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/merge.py",
+        "path_type": "hardlink",
+        "sha256": "f65cd068cfdc6da24fb74313b5f1e74642ad0a207c020e422e6ec15b383cfefa",
+        "sha256_in_prefix": "f65cd068cfdc6da24fb74313b5f1e74642ad0a207c020e422e6ec15b383cfefa",
+        "size_in_bytes": 39259
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/missing.py",
+        "path_type": "hardlink",
+        "sha256": "fe6b65a18cfb678d74ef22ae113c4736660e692b064d19d910b601f58b832928",
+        "sha256_in_prefix": "fe6b65a18cfb678d74ef22ae113c4736660e692b064d19d910b601f58b832928",
+        "size_in_bytes": 26436
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/nanops.py",
+        "path_type": "hardlink",
+        "sha256": "60b91da5cc9262ca0b795e62d639856603d2f1692f3c29a53d0abb2164f50df2",
+        "sha256_in_prefix": "60b91da5cc9262ca0b795e62d639856603d2f1692f3c29a53d0abb2164f50df2",
+        "size_in_bytes": 5569
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/npcompat.py",
+        "path_type": "hardlink",
+        "sha256": "b62d7bdb07b4ca97404772b86d8a14a59effc23f9ee6717a598de60d9f149ee6",
+        "sha256_in_prefix": "b62d7bdb07b4ca97404772b86d8a14a59effc23f9ee6717a598de60d9f149ee6",
+        "size_in_bytes": 1593
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/nputils.py",
+        "path_type": "hardlink",
+        "sha256": "7210bfa187bc3535fa0422bdf76b503d3a769ae6a4e2d3e868e8566b01c6e897",
+        "sha256_in_prefix": "7210bfa187bc3535fa0422bdf76b503d3a769ae6a4e2d3e868e8566b01c6e897",
+        "size_in_bytes": 7563
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/ops.py",
+        "path_type": "hardlink",
+        "sha256": "85fa0cd2f84776ff57faba97dd2bc1e55c274623dd130df2e46c3b772cc6d2c0",
+        "sha256_in_prefix": "85fa0cd2f84776ff57faba97dd2bc1e55c274623dd130df2e46c3b772cc6d2c0",
+        "size_in_bytes": 9913
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/options.py",
+        "path_type": "hardlink",
+        "sha256": "dcf9835fe8f8c8ad78dbb1a478394a454d0d8498e331c5c8e5b73314ded8a5a5",
+        "sha256_in_prefix": "dcf9835fe8f8c8ad78dbb1a478394a454d0d8498e331c5c8e5b73314ded8a5a5",
+        "size_in_bytes": 11034
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/parallel.py",
+        "path_type": "hardlink",
+        "sha256": "078f054f3892b81f4c7e9ab35b544379199f07b42ce3ef44aaeead4ff45d70af",
+        "sha256_in_prefix": "078f054f3892b81f4c7e9ab35b544379199f07b42ce3ef44aaeead4ff45d70af",
+        "size_in_bytes": 22253
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/pdcompat.py",
+        "path_type": "hardlink",
+        "sha256": "24cf6db859c744982ff188bea7f7c4d16feae4695fae8070f8f6ba84667e6a7d",
+        "sha256_in_prefix": "24cf6db859c744982ff188bea7f7c4d16feae4695fae8070f8f6ba84667e6a7d",
+        "size_in_bytes": 2012
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/pycompat.py",
+        "path_type": "hardlink",
+        "sha256": "daa3e47a940052df9f7f10d2408aa73cc046515659b9da1026fd6d1badb9b490",
+        "sha256_in_prefix": "daa3e47a940052df9f7f10d2408aa73cc046515659b9da1026fd6d1badb9b490",
+        "size_in_bytes": 2216
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/resample.py",
+        "path_type": "hardlink",
+        "sha256": "d26e3880e5eae6a8aa70d360048b2407cc7fffa8fe3bc4cee328bd3e7e52ce61",
+        "sha256_in_prefix": "d26e3880e5eae6a8aa70d360048b2407cc7fffa8fe3bc4cee328bd3e7e52ce61",
+        "size_in_bytes": 14651
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/resample_cftime.py",
+        "path_type": "hardlink",
+        "sha256": "4c3e8cddc5cc5c19c6ebfd5eab9ec48ee2a0497946ef92b3efdf5c582e09fc46",
+        "sha256_in_prefix": "4c3e8cddc5cc5c19c6ebfd5eab9ec48ee2a0497946ef92b3efdf5c582e09fc46",
+        "size_in_bytes": 13864
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/rolling.py",
+        "path_type": "hardlink",
+        "sha256": "c17d31bd82de3f11f5875c40c648784d591510375dc6b6a8b2d42be456d69c66",
+        "sha256_in_prefix": "c17d31bd82de3f11f5875c40c648784d591510375dc6b6a8b2d42be456d69c66",
+        "size_in_bytes": 40083
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/rolling_exp.py",
+        "path_type": "hardlink",
+        "sha256": "8b8f9a51361899b3fb04bddc81f4a42571e8cab8970e17a978e9c35bc777cd1b",
+        "sha256_in_prefix": "8b8f9a51361899b3fb04bddc81f4a42571e8cab8970e17a978e9c35bc777cd1b",
+        "size_in_bytes": 5674
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/types.py",
+        "path_type": "hardlink",
+        "sha256": "d87f37f6e5d76fe3ed6acdac695ece410fa6851e4862abdd0a631baeaf7560e8",
+        "sha256_in_prefix": "d87f37f6e5d76fe3ed6acdac695ece410fa6851e4862abdd0a631baeaf7560e8",
+        "size_in_bytes": 6136
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/utils.py",
+        "path_type": "hardlink",
+        "sha256": "d4d6ad04cf500788e1f17424e5238f5d21c1d14cb6d3a155017ae9e9e6615b7d",
+        "sha256_in_prefix": "d4d6ad04cf500788e1f17424e5238f5d21c1d14cb6d3a155017ae9e9e6615b7d",
+        "size_in_bytes": 30727
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/variable.py",
+        "path_type": "hardlink",
+        "sha256": "8fa4e0ca61500327fb2e1628c16d2074226f8a4c97283fce80290f7706d66867",
+        "sha256_in_prefix": "8fa4e0ca61500327fb2e1628c16d2074226f8a4c97283fce80290f7706d66867",
+        "size_in_bytes": 118144
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/core/weighted.py",
+        "path_type": "hardlink",
+        "sha256": "fa8077c9d6eac9ee67aa72e9dd6b01816d6eb906177cd4707b25ee0e5640d7a9",
+        "sha256_in_prefix": "fa8077c9d6eac9ee67aa72e9dd6b01816d6eb906177cd4707b25ee0e5640d7a9",
+        "size_in_bytes": 18985
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/indexes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "129b52a8b51faf820e5a4c08369d28d33565d155bcf7e8701ade719b0a3bb197",
+        "sha256_in_prefix": "129b52a8b51faf820e5a4c08369d28d33565d155bcf7e8701ade719b0a3bb197",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/indexes/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ea70cde48ccb0af9dc33d2afd30c479c3b3ca2816179d53a2aecdb8290c27cd",
+        "sha256_in_prefix": "2ea70cde48ccb0af9dc33d2afd30c479c3b3ca2816179d53a2aecdb8290c27cd",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/plot/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "65e7436acb88035d32a455e45943bf0e90c8e1bad20b98c491f5aed7030aa2a7",
+        "sha256_in_prefix": "65e7436acb88035d32a455e45943bf0e90c8e1bad20b98c491f5aed7030aa2a7",
+        "size_in_bytes": 540
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/plot/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8002acb0174e10e594fd22af61bb9edf09ed01752fb54e999f314a8fc764bdaa",
+        "sha256_in_prefix": "8002acb0174e10e594fd22af61bb9edf09ed01752fb54e999f314a8fc764bdaa",
+        "size_in_bytes": 656
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/plot/__pycache__/accessor.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "034ebd2be8be0e189cf4eddf6ed56ce1fa5aff7dc9a9dca0fde8b67b8a0ab522",
+        "sha256_in_prefix": "034ebd2be8be0e189cf4eddf6ed56ce1fa5aff7dc9a9dca0fde8b67b8a0ab522",
+        "size_in_bytes": 17719
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/plot/__pycache__/dataarray_plot.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "431fd40e2c34256f803b343368441c7f1342c41e472cf8bca48ec693c202bb2e",
+        "sha256_in_prefix": "431fd40e2c34256f803b343368441c7f1342c41e472cf8bca48ec693c202bb2e",
+        "size_in_bytes": 51973
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/plot/__pycache__/dataset_plot.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "da9f4da0527b17c5bfad225b0a765844467ba8cf58ad8e88ca66798358d1bc50",
+        "sha256_in_prefix": "da9f4da0527b17c5bfad225b0a765844467ba8cf58ad8e88ca66798358d1bc50",
+        "size_in_bytes": 19734
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/plot/__pycache__/facetgrid.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b27d3686f886536631cb109d1e231d240edb46473956f46ec6571eb08717e024",
+        "sha256_in_prefix": "b27d3686f886536631cb109d1e231d240edb46473956f46ec6571eb08717e024",
+        "size_in_bytes": 25956
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/plot/__pycache__/utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4fb234dc6f799fd10e867f0d88f506706a4d2782fec8875d2cf18cd4ae894187",
+        "sha256_in_prefix": "4fb234dc6f799fd10e867f0d88f506706a4d2782fec8875d2cf18cd4ae894187",
+        "size_in_bytes": 40995
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/plot/accessor.py",
+        "path_type": "hardlink",
+        "sha256": "3d51ab9ab1233f4cdd4f8c560c7aadc065e77e31e04270cfe3637e8ee0a6e6ee",
+        "sha256_in_prefix": "3d51ab9ab1233f4cdd4f8c560c7aadc065e77e31e04270cfe3637e8ee0a6e6ee",
+        "size_in_bytes": 41911
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/plot/dataarray_plot.py",
+        "path_type": "hardlink",
+        "sha256": "e4ea96beb0ae32ab23581e1ac05a1a54144e9fb3c6c267938d6afb74c1096619",
+        "sha256_in_prefix": "e4ea96beb0ae32ab23581e1ac05a1a54144e9fb3c6c267938d6afb74c1096619",
+        "size_in_bytes": 86537
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/plot/dataset_plot.py",
+        "path_type": "hardlink",
+        "sha256": "f304378ccd76e88a623d0669af5991f6a462f69617400c19d5fffaa2cfc11376",
+        "sha256_in_prefix": "f304378ccd76e88a623d0669af5991f6a462f69617400c19d5fffaa2cfc11376",
+        "size_in_bytes": 30677
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/plot/facetgrid.py",
+        "path_type": "hardlink",
+        "sha256": "016a692a18281e2da662a06f4ae4e65217292935e50fc6ea1db769261d7a8720",
+        "sha256_in_prefix": "016a692a18281e2da662a06f4ae4e65217292935e50fc6ea1db769261d7a8720",
+        "size_in_bytes": 36556
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/plot/utils.py",
+        "path_type": "hardlink",
+        "sha256": "97bc5942759de7a58066f940b0735ca79264d59f19ae6fd6b8a02d247ccecea4",
+        "sha256_in_prefix": "97bc5942759de7a58066f940b0735ca79264d59f19ae6fd6b8a02d247ccecea4",
+        "size_in_bytes": 55085
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/static/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/static/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ffed97c9de4379211b30f9427efdf417051597493b0eeb4aeac4008c988aa83",
+        "sha256_in_prefix": "8ffed97c9de4379211b30f9427efdf417051597493b0eeb4aeac4008c988aa83",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/static/css/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/static/css/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f98850cfb32643d381473d6e74e218f3e1e61a30e6c255de674444472cd29851",
+        "sha256_in_prefix": "f98850cfb32643d381473d6e74e218f3e1e61a30e6c255de674444472cd29851",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/static/css/style.css",
+        "path_type": "hardlink",
+        "sha256": "d703c243e260b9abdc9435822cc19c7a74f0f51691f690e09eaead018a25e214",
+        "sha256_in_prefix": "d703c243e260b9abdc9435822cc19c7a74f0f51691f690e09eaead018a25e214",
+        "size_in_bytes": 6075
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/static/html/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/static/html/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3a59c318ee8f140f65ccdb7af7d21068ed09c19028ea011bcf2c5dddc4acf15c",
+        "sha256_in_prefix": "3a59c318ee8f140f65ccdb7af7d21068ed09c19028ea011bcf2c5dddc4acf15c",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/static/html/icons-svg-inline.html",
+        "path_type": "hardlink",
+        "sha256": "b7e0a16ed4b51aff2e671737d430894bc4ae5c3b0b1941e82a0c2ff33bba8f63",
+        "sha256_in_prefix": "b7e0a16ed4b51aff2e671737d430894bc4ae5c3b0b1941e82a0c2ff33bba8f63",
+        "size_in_bytes": 1343
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/testing.py",
+        "path_type": "hardlink",
+        "sha256": "9acf96a2d1179bf5c6426147770c8ab7bd8d31391c0e39de6c83788361adde25",
+        "sha256_in_prefix": "9acf96a2d1179bf5c6426147770c8ab7bd8d31391c0e39de6c83788361adde25",
+        "size_in_bytes": 14485
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7ec5f5fbec98f1b3935cd6a8e85608d35071787a60c4db4b6bcbd8cac1584b21",
+        "sha256_in_prefix": "7ec5f5fbec98f1b3935cd6a8e85608d35071787a60c4db4b6bcbd8cac1584b21",
+        "size_in_bytes": 7764
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a42937f06338c80d839e8b4254c80c56b6a188bc7e48ff6f2f0514131413961",
+        "sha256_in_prefix": "9a42937f06338c80d839e8b4254c80c56b6a188bc7e48ff6f2f0514131413961",
+        "size_in_bytes": 8337
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/conftest.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c007f7c5c7a59ec17be42af6e965e5600dc81afe72eb3ff4a3fce30276edb0f1",
+        "sha256_in_prefix": "c007f7c5c7a59ec17be42af6e965e5600dc81afe72eb3ff4a3fce30276edb0f1",
+        "size_in_bytes": 1856
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_accessor_dt.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "213e881fea20a06ed31bb0d482e12aff15710e926d2186e32a3d7e741161089c",
+        "sha256_in_prefix": "213e881fea20a06ed31bb0d482e12aff15710e926d2186e32a3d7e741161089c",
+        "size_in_bytes": 15528
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_accessor_str.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "01063db04381877b281d44a45df8741c3e8d448e18512a29c325d0bc2f8a60a2",
+        "sha256_in_prefix": "01063db04381877b281d44a45df8741c3e8d448e18512a29c325d0bc2f8a60a2",
+        "size_in_bytes": 82922
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_array_api.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2d591718ba400173d1085a08956afb81aad903599b7995f3b2e26ab709ed73d",
+        "sha256_in_prefix": "a2d591718ba400173d1085a08956afb81aad903599b7995f3b2e26ab709ed73d",
+        "size_in_bytes": 3053
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_backends.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "968417bb62d8688e84fe499e7bf5fc713810068c43c98d41db0b9a49e769553d",
+        "sha256_in_prefix": "968417bb62d8688e84fe499e7bf5fc713810068c43c98d41db0b9a49e769553d",
+        "size_in_bytes": 178509
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_backends_api.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c67b51ff089fba3a5ad3bee44da08f6f357496f5e2f923073a68f0b03483502c",
+        "sha256_in_prefix": "c67b51ff089fba3a5ad3bee44da08f6f357496f5e2f923073a68f0b03483502c",
+        "size_in_bytes": 6169
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_backends_common.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b8930b6b2617ecb87dcf03920e795c42043ca4c45662300f18dc79cd2484862",
+        "sha256_in_prefix": "1b8930b6b2617ecb87dcf03920e795c42043ca4c45662300f18dc79cd2484862",
+        "size_in_bytes": 1329
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_backends_file_manager.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ac11d6b582d96d921bd16dc02d9582c4b071268e2367740bc6f6fb19662b66e",
+        "sha256_in_prefix": "5ac11d6b582d96d921bd16dc02d9582c4b071268e2367740bc6f6fb19662b66e",
+        "size_in_bytes": 6827
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_backends_locks.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "63c162ab03f20e6353fa378e74372ba9675f7c589d65af925de961348b7451e4",
+        "sha256_in_prefix": "63c162ab03f20e6353fa378e74372ba9675f7c589d65af925de961348b7451e4",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_backends_lru_cache.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd4e636275b9f684665cf8c9e0937a90a85cf01558c483a417f6c2b2556ee63e",
+        "sha256_in_prefix": "cd4e636275b9f684665cf8c9e0937a90a85cf01558c483a417f6c2b2556ee63e",
+        "size_in_bytes": 2685
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_calendar_ops.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "20853476b0a74b0e6be9b7ec4f75f803b9130e8869ca098aca52abb2b7b8eee6",
+        "sha256_in_prefix": "20853476b0a74b0e6be9b7ec4f75f803b9130e8869ca098aca52abb2b7b8eee6",
+        "size_in_bytes": 5476
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_cftime_offsets.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b7b2980189c4de1eefa2a7fa9b174e9c7ccd44b68a7e8ad5684f20c64d2eee5",
+        "sha256_in_prefix": "3b7b2980189c4de1eefa2a7fa9b174e9c7ccd44b68a7e8ad5684f20c64d2eee5",
+        "size_in_bytes": 26329
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_cftimeindex.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5373a44dfb91baed732d440771190363bd20a9f8d7380bceaac346ef01313e0",
+        "sha256_in_prefix": "b5373a44dfb91baed732d440771190363bd20a9f8d7380bceaac346ef01313e0",
+        "size_in_bytes": 35875
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_cftimeindex_resample.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5a49055c1c1ac32e2107ea9fd83b2dde47d63e3d9280f6310bda5561288379a0",
+        "sha256_in_prefix": "5a49055c1c1ac32e2107ea9fd83b2dde47d63e3d9280f6310bda5561288379a0",
+        "size_in_bytes": 3103
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_coarsen.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ecae11f6e9620f93d4517bbe8122de6b3deb025f73bfa51cfe08e47fbf8c0c4c",
+        "sha256_in_prefix": "ecae11f6e9620f93d4517bbe8122de6b3deb025f73bfa51cfe08e47fbf8c0c4c",
+        "size_in_bytes": 8372
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_coding.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6841c34add99de2627985bab99a0decf5b05f4adabe069ee224b730068e0bbdf",
+        "sha256_in_prefix": "6841c34add99de2627985bab99a0decf5b05f4adabe069ee224b730068e0bbdf",
+        "size_in_bytes": 4813
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_coding_strings.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3ff9c0725197b227120ab8ade5da28692bfd154ef2f6ce8514b23436c7eb4a1",
+        "sha256_in_prefix": "a3ff9c0725197b227120ab8ade5da28692bfd154ef2f6ce8514b23436c7eb4a1",
+        "size_in_bytes": 7623
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_coding_times.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b22a9df64024c77bbb423339b804da5fdf02554652eb0efe402f8c8f291e3688",
+        "sha256_in_prefix": "b22a9df64024c77bbb423339b804da5fdf02554652eb0efe402f8c8f291e3688",
+        "size_in_bytes": 31978
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_combine.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d4191fd0d74dc3ec368bb990c5624b4226e9bcc071d0c08f9e6e3172cf6703bb",
+        "sha256_in_prefix": "d4191fd0d74dc3ec368bb990c5624b4226e9bcc071d0c08f9e6e3172cf6703bb",
+        "size_in_bytes": 35889
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_computation.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7da994f7ae6258a5dc104e3ddec424a67680f276be7bbf1f4dcfcdb3cffbb78a",
+        "sha256_in_prefix": "7da994f7ae6258a5dc104e3ddec424a67680f276be7bbf1f4dcfcdb3cffbb78a",
+        "size_in_bytes": 52974
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_concat.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b32c8bcf4998f48b23105287033d39ffc1db8a9aa2f9f59a74f1417f28ebae41",
+        "sha256_in_prefix": "b32c8bcf4998f48b23105287033d39ffc1db8a9aa2f9f59a74f1417f28ebae41",
+        "size_in_bytes": 26244
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_conventions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "237747fe6f02e2e6634ba7585094c44ab7a08076cd10a4c6bff2812aa157b418",
+        "sha256_in_prefix": "237747fe6f02e2e6634ba7585094c44ab7a08076cd10a4c6bff2812aa157b418",
+        "size_in_bytes": 17256
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_cupy.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "81ea40c7606ca6d33c0d511663418fac27cd3bad52d19167b4644cd855444d0a",
+        "sha256_in_prefix": "81ea40c7606ca6d33c0d511663418fac27cd3bad52d19167b4644cd855444d0a",
+        "size_in_bytes": 2002
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_dask.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb0113f9523ef1a318c1aa6b3836dcc85ce3ea1f32605eaec7bdb878c0f7e4d8",
+        "sha256_in_prefix": "cb0113f9523ef1a318c1aa6b3836dcc85ce3ea1f32605eaec7bdb878c0f7e4d8",
+        "size_in_bytes": 58295
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_dataarray.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ce3b5109b7bea5145b4e62e9c18a6e8b0953f456aa890135ce66acdc927ade8",
+        "sha256_in_prefix": "8ce3b5109b7bea5145b4e62e9c18a6e8b0953f456aa890135ce66acdc927ade8",
+        "size_in_bytes": 181301
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_dataset.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "22cd42cd0220cdbd2eee3774837667d26e1ed7a0859b962b92f97d9273358a0e",
+        "sha256_in_prefix": "22cd42cd0220cdbd2eee3774837667d26e1ed7a0859b962b92f97d9273358a0e",
+        "size_in_bytes": 192664
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_deprecation_helpers.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e835fa46d8ef354de8edbcb1ed39f76854b5b3b396446cb090ea4953c5598c0f",
+        "sha256_in_prefix": "e835fa46d8ef354de8edbcb1ed39f76854b5b3b396446cb090ea4953c5598c0f",
+        "size_in_bytes": 5612
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_distributed.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff750250379a13babc760b387d26e96f76cee7e0c7491effc4ce635a2cb395ba",
+        "sha256_in_prefix": "ff750250379a13babc760b387d26e96f76cee7e0c7491effc4ce635a2cb395ba",
+        "size_in_bytes": 8175
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_dtypes.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae5bc1df9d48767937b7ba57b8df6abb16af13113669d243ac7458be96c8bb88",
+        "sha256_in_prefix": "ae5bc1df9d48767937b7ba57b8df6abb16af13113669d243ac7458be96c8bb88",
+        "size_in_bytes": 2744
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_duck_array_ops.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e0c7d43fdfed04c7fcda99edecdc63d0147c34fbba11e4bf268d3e878d5858ea",
+        "sha256_in_prefix": "e0c7d43fdfed04c7fcda99edecdc63d0147c34fbba11e4bf268d3e878d5858ea",
+        "size_in_bytes": 23353
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_extensions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f9480165ef937d9af9944b17a073602b9fe6b866ceca4558f5d7e4c6ad53f0e",
+        "sha256_in_prefix": "9f9480165ef937d9af9944b17a073602b9fe6b866ceca4558f5d7e4c6ad53f0e",
+        "size_in_bytes": 3479
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_formatting.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ded9862134697c11313197610c3db83728dc8080d1c3f87be86dd41e6d16ecf",
+        "sha256_in_prefix": "8ded9862134697c11313197610c3db83728dc8080d1c3f87be86dd41e6d16ecf",
+        "size_in_bytes": 25216
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_formatting_html.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa70abf7565a27aefae875bd22a95007354ac08bb85371ad69405b7f278ffdc5",
+        "sha256_in_prefix": "aa70abf7565a27aefae875bd22a95007354ac08bb85371ad69405b7f278ffdc5",
+        "size_in_bytes": 6578
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_groupby.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa92d5601c310bb5a98eebef0bb362e5d75c4a7b0bafad85e5ffd42d9ee774b9",
+        "sha256_in_prefix": "aa92d5601c310bb5a98eebef0bb362e5d75c4a7b0bafad85e5ffd42d9ee774b9",
+        "size_in_bytes": 61274
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_indexes.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d469bfd1cc7ed977da3d91d745b6a5c1938918bdb60844cc8ef940a562b6e852",
+        "sha256_in_prefix": "d469bfd1cc7ed977da3d91d745b6a5c1938918bdb60844cc8ef940a562b6e852",
+        "size_in_bytes": 24865
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_indexing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f6151425fddf255f65b7966102606283a0796af3cb8fbf153ae77f4607399c3",
+        "sha256_in_prefix": "1f6151425fddf255f65b7966102606283a0796af3cb8fbf153ae77f4607399c3",
+        "size_in_bytes": 24592
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_interp.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ecc88f6b65e1c31d3410e9170d9621f082640baca590814bea7f25e47776f02",
+        "sha256_in_prefix": "1ecc88f6b65e1c31d3410e9170d9621f082640baca590814bea7f25e47776f02",
+        "size_in_bytes": 23361
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_merge.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "774c2aa4867a321ac492632a5176d4e81a9e6d31f98ee5fe7f8b3e621aea04be",
+        "sha256_in_prefix": "774c2aa4867a321ac492632a5176d4e81a9e6d31f98ee5fe7f8b3e621aea04be",
+        "size_in_bytes": 14652
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_missing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "85242a62e16d241f523957e3643aa1633e415fd67d2e016769fc8b63ef39051c",
+        "sha256_in_prefix": "85242a62e16d241f523957e3643aa1633e415fd67d2e016769fc8b63ef39051c",
+        "size_in_bytes": 21483
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_nputils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d6474de862c5da7708f8b2b0644a190d154a7cac22d6f23568c2b7072dbd1c06",
+        "sha256_in_prefix": "d6474de862c5da7708f8b2b0644a190d154a7cac22d6f23568c2b7072dbd1c06",
+        "size_in_bytes": 1198
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_options.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "87bc9e44416acc3644d3ab79b42a79da6f717f6db97c24991a6520fbe9a170e2",
+        "sha256_in_prefix": "87bc9e44416acc3644d3ab79b42a79da6f717f6db97c24991a6520fbe9a170e2",
+        "size_in_bytes": 7780
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_plot.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "679d6015f36ce62c23d4010cb4737aecc1609db80fed66f1c71bd8a141b2057f",
+        "sha256_in_prefix": "679d6015f36ce62c23d4010cb4737aecc1609db80fed66f1c71bd8a141b2057f",
+        "size_in_bytes": 118038
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_plugins.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "618ad33e711977d2f4dbf2d17e1430aa348a20399ff186e7e72adfdc728e7eb8",
+        "sha256_in_prefix": "618ad33e711977d2f4dbf2d17e1430aa348a20399ff186e7e72adfdc728e7eb8",
+        "size_in_bytes": 7092
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_print_versions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4119a89e94180757cb27795825d81ebf3832bca18c673afebf72a0e77f3f04f",
+        "sha256_in_prefix": "f4119a89e94180757cb27795825d81ebf3832bca18c673afebf72a0e77f3f04f",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_rolling.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4bc49e611e166b0f81891bc2b9f47bec18239695236c606d9c3303c8a24f71e",
+        "sha256_in_prefix": "c4bc49e611e166b0f81891bc2b9f47bec18239695236c606d9c3303c8a24f71e",
+        "size_in_bytes": 21687
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_sparse.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "85f2646d5915b7fa6b0ce454bdace4867181f3f589d3deef0ea42b0283bf58bb",
+        "sha256_in_prefix": "85f2646d5915b7fa6b0ce454bdace4867181f3f589d3deef0ea42b0283bf58bb",
+        "size_in_bytes": 24247
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_testing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "863ff5fb17dc85e8beafaed7e1a7c02d604e7783381fc5a807754afb030f5cb2",
+        "sha256_in_prefix": "863ff5fb17dc85e8beafaed7e1a7c02d604e7783381fc5a807754afb030f5cb2",
+        "size_in_bytes": 4231
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_tutorial.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ef7fc41d750762af61d9aae04ea13078f020b2713efe72278096f998477333b",
+        "sha256_in_prefix": "1ef7fc41d750762af61d9aae04ea13078f020b2713efe72278096f998477333b",
+        "size_in_bytes": 1433
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_ufuncs.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "747fd399cff8495eca1581d7d0d6a02bcb44b596e9a862063e0c1165caaf73a4",
+        "sha256_in_prefix": "747fd399cff8495eca1581d7d0d6a02bcb44b596e9a862063e0c1165caaf73a4",
+        "size_in_bytes": 5235
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_units.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b7fca397700958a1928231c36cb1c080661e36a62a847f77d305373342af4ad",
+        "sha256_in_prefix": "3b7fca397700958a1928231c36cb1c080661e36a62a847f77d305373342af4ad",
+        "size_in_bytes": 119005
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4a527388e04c421b00ba7ac26275bb735314b5e2a3531a02dbd326ce1f85ff4",
+        "sha256_in_prefix": "b4a527388e04c421b00ba7ac26275bb735314b5e2a3531a02dbd326ce1f85ff4",
+        "size_in_bytes": 10249
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_variable.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "25452876e8be1840dc480fccaaf1906f5d73bf5e2c20cb125568e09c6595f6b7",
+        "sha256_in_prefix": "25452876e8be1840dc480fccaaf1906f5d73bf5e2c20cb125568e09c6595f6b7",
+        "size_in_bytes": 94910
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/__pycache__/test_weighted.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d74de7b1c5fa1065ab79c143aeafdbe552d85ebdf864a33ac9d9db92c55dc9b",
+        "sha256_in_prefix": "9d74de7b1c5fa1065ab79c143aeafdbe552d85ebdf864a33ac9d9db92c55dc9b",
+        "size_in_bytes": 17924
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "bfc7c39019973ed0b3f62ff61a78da073d0d4de396a33f4a81b3d6f6fb8b8b6f",
+        "sha256_in_prefix": "bfc7c39019973ed0b3f62ff61a78da073d0d4de396a33f4a81b3d6f6fb8b8b6f",
+        "size_in_bytes": 2135
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/data/bears.nc",
+        "path_type": "hardlink",
+        "sha256": "f75dad4397c7212f950d305edd4a65422dab75172b78c490d2d21d08e83d1512",
+        "sha256_in_prefix": "f75dad4397c7212f950d305edd4a65422dab75172b78c490d2d21d08e83d1512",
+        "size_in_bytes": 1184
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/data/example.grib",
+        "path_type": "hardlink",
+        "sha256": "902bf30a5065f3faff1b9361ce9778667fa1681feb74d343d4f17aae498ab26d",
+        "sha256_in_prefix": "902bf30a5065f3faff1b9361ce9778667fa1681feb74d343d4f17aae498ab26d",
+        "size_in_bytes": 5232
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/data/example.ict",
+        "path_type": "hardlink",
+        "sha256": "879de0bc56074326fef4d380ba522c55850ec0acb9c5967184d1d7020ecbf261",
+        "sha256_in_prefix": "879de0bc56074326fef4d380ba522c55850ec0acb9c5967184d1d7020ecbf261",
+        "size_in_bytes": 783
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/data/example.uamiv",
+        "path_type": "hardlink",
+        "sha256": "6b7f8e94fc56698ea268e90b3f34d5ad8c04de664317bcef87ee822bc779ab7a",
+        "sha256_in_prefix": "6b7f8e94fc56698ea268e90b3f34d5ad8c04de664317bcef87ee822bc779ab7a",
+        "size_in_bytes": 608
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/data/example_1.nc",
+        "path_type": "hardlink",
+        "sha256": "1247c2e7b7565de963817cb9b2276b247246d760f5826414c8f0cad7c5b3953e",
+        "sha256_in_prefix": "1247c2e7b7565de963817cb9b2276b247246d760f5826414c8f0cad7c5b3953e",
+        "size_in_bytes": 1736
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/data/example_1.nc.gz",
+        "path_type": "hardlink",
+        "sha256": "d88def15dddb52a79c63a1b412922b30c9112eba30d374944176110ba523261e",
+        "sha256_in_prefix": "d88def15dddb52a79c63a1b412922b30c9112eba30d374944176110ba523261e",
+        "size_in_bytes": 470
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_accessor_dt.py",
+        "path_type": "hardlink",
+        "sha256": "9faed349635e615d3e46999fd5a7c707631689cce9791eb2d2e327013c0c7fee",
+        "sha256_in_prefix": "9faed349635e615d3e46999fd5a7c707631689cce9791eb2d2e327013c0c7fee",
+        "size_in_bytes": 20093
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_accessor_str.py",
+        "path_type": "hardlink",
+        "sha256": "833d85d0933eb5f27008ef3dd030a8e4ec3468776791f15ba2f54fd8ce0f0ece",
+        "sha256_in_prefix": "833d85d0933eb5f27008ef3dd030a8e4ec3468776791f15ba2f54fd8ce0f0ece",
+        "size_in_bytes": 121918
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_array_api.py",
+        "path_type": "hardlink",
+        "sha256": "557095ba5c0717b5f7af3a708072851246708312f5143d135da61877a1239ac9",
+        "sha256_in_prefix": "557095ba5c0717b5f7af3a708072851246708312f5143d135da61877a1239ac9",
+        "size_in_bytes": 2971
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_backends.py",
+        "path_type": "hardlink",
+        "sha256": "96fcd15408d5b877119087a70b5c80d8a5294d9f20ac71f7b66cabadfc20ba97",
+        "sha256_in_prefix": "96fcd15408d5b877119087a70b5c80d8a5294d9f20ac71f7b66cabadfc20ba97",
+        "size_in_bytes": 224217
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_backends_api.py",
+        "path_type": "hardlink",
+        "sha256": "17e51d5715c30ff16d46f42645761fff864e993a8d31828c84a48026be42800b",
+        "sha256_in_prefix": "17e51d5715c30ff16d46f42645761fff864e993a8d31828c84a48026be42800b",
+        "size_in_bytes": 7142
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_backends_common.py",
+        "path_type": "hardlink",
+        "sha256": "2f6f82c787e4e5450e30e16b2fc1685afbb486e5b800e97ecca59e15607b525e",
+        "sha256_in_prefix": "2f6f82c787e4e5450e30e16b2fc1685afbb486e5b800e97ecca59e15607b525e",
+        "size_in_bytes": 774
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_backends_file_manager.py",
+        "path_type": "hardlink",
+        "sha256": "74f743ec5820c0a7078fc607f7bbc60458fcd6bcc202a3840ddc547f27c5123f",
+        "sha256_in_prefix": "74f743ec5820c0a7078fc607f7bbc60458fcd6bcc202a3840ddc547f27c5123f",
+        "size_in_bytes": 7220
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_backends_locks.py",
+        "path_type": "hardlink",
+        "sha256": "4582e6648045bd0826c4807c8c5ace770e06633c050ddfe0aafcf9954899fec2",
+        "sha256_in_prefix": "4582e6648045bd0826c4807c8c5ace770e06633c050ddfe0aafcf9954899fec2",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_backends_lru_cache.py",
+        "path_type": "hardlink",
+        "sha256": "80f0f1d6882793f4b34c9556ae074f63cc138bb3c075e0cf151a506420178de9",
+        "sha256_in_prefix": "80f0f1d6882793f4b34c9556ae074f63cc138bb3c075e0cf151a506420178de9",
+        "size_in_bytes": 2300
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_calendar_ops.py",
+        "path_type": "hardlink",
+        "sha256": "0b15f9294a65330ab87ca8898c75bb160efaaf69bcf7416e799cbc5f07ee56f9",
+        "sha256_in_prefix": "0b15f9294a65330ab87ca8898c75bb160efaaf69bcf7416e799cbc5f07ee56f9",
+        "size_in_bytes": 7526
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_cftime_offsets.py",
+        "path_type": "hardlink",
+        "sha256": "869d0139b6f5ae3d91ea54f20554e027be1a5e82354e085a91f66a2bcbd880c8",
+        "sha256_in_prefix": "869d0139b6f5ae3d91ea54f20554e027be1a5e82354e085a91f66a2bcbd880c8",
+        "size_in_bytes": 42555
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_cftimeindex.py",
+        "path_type": "hardlink",
+        "sha256": "3ec67ba27e2d85f7fdc88b7a4060b66c2c16772bed7b1ecb96aa01a75c124e84",
+        "sha256_in_prefix": "3ec67ba27e2d85f7fdc88b7a4060b66c2c16772bed7b1ecb96aa01a75c124e84",
+        "size_in_bytes": 41209
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_cftimeindex_resample.py",
+        "path_type": "hardlink",
+        "sha256": "3e51e9bde9d0ffa9fb1f5f0c86a786e0dafe4fd61fb29d242de35b91d0a56377",
+        "sha256_in_prefix": "3e51e9bde9d0ffa9fb1f5f0c86a786e0dafe4fd61fb29d242de35b91d0a56377",
+        "size_in_bytes": 4551
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_coarsen.py",
+        "path_type": "hardlink",
+        "sha256": "05f38864587bde943f2b6c568018a8b9cd63ee881b5b8bf010d0038b27e41c13",
+        "sha256_in_prefix": "05f38864587bde943f2b6c568018a8b9cd63ee881b5b8bf010d0038b27e41c13",
+        "size_in_bytes": 11469
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_coding.py",
+        "path_type": "hardlink",
+        "sha256": "bd546d1b4897d281f34a25e7c026070b1aa128a4c235462f2b62ccb2b9a0834e",
+        "sha256_in_prefix": "bd546d1b4897d281f34a25e7c026070b1aa128a4c235462f2b62ccb2b9a0834e",
+        "size_in_bytes": 5132
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_coding_strings.py",
+        "path_type": "hardlink",
+        "sha256": "47099a040761cfc7166d7a451d8bafec6eb7428c8838bb5a748b0e5297c6c7c4",
+        "sha256_in_prefix": "47099a040761cfc7166d7a451d8bafec6eb7428c8838bb5a748b0e5297c6c7c4",
+        "size_in_bytes": 8040
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_coding_times.py",
+        "path_type": "hardlink",
+        "sha256": "8a905321ee2316d7de792410664d590b1314b062461a06f6f7214de62cc4a6ea",
+        "sha256_in_prefix": "8a905321ee2316d7de792410664d590b1314b062461a06f6f7214de62cc4a6ea",
+        "size_in_bytes": 42729
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_combine.py",
+        "path_type": "hardlink",
+        "sha256": "56797a044277761734e3c05e8222315ab19d1f64d650f7688bc113f42b73634b",
+        "sha256_in_prefix": "56797a044277761734e3c05e8222315ab19d1f64d650f7688bc113f42b73634b",
+        "size_in_bytes": 44442
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_computation.py",
+        "path_type": "hardlink",
+        "sha256": "c6ab41bfa164855a429b8b2d1f270709e9045829d8d8944f409d2906200c084b",
+        "sha256_in_prefix": "c6ab41bfa164855a429b8b2d1f270709e9045829d8d8944f409d2906200c084b",
+        "size_in_bytes": 73406
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_concat.py",
+        "path_type": "hardlink",
+        "sha256": "55716ee948e5412be3a979b30cb6ebdba9433ed7ca28ffa7458742fccc8aa16b",
+        "sha256_in_prefix": "55716ee948e5412be3a979b30cb6ebdba9433ed7ca28ffa7458742fccc8aa16b",
+        "size_in_bytes": 33076
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_conventions.py",
+        "path_type": "hardlink",
+        "sha256": "1487f65ab7f712731c81384ec8a4fb1d1c75dd448ad64e0801446ef739f28921",
+        "sha256_in_prefix": "1487f65ab7f712731c81384ec8a4fb1d1c75dd448ad64e0801446ef739f28921",
+        "size_in_bytes": 18696
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_cupy.py",
+        "path_type": "hardlink",
+        "sha256": "0d540e5f62443bc54b78a45153bf143e752aa02fbc75a9927077afafa575b163",
+        "sha256_in_prefix": "0d540e5f62443bc54b78a45153bf143e752aa02fbc75a9927077afafa575b163",
+        "size_in_bytes": 1681
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_dask.py",
+        "path_type": "hardlink",
+        "sha256": "2433b05530e465ffa3b0630aa8dcdc9e4e0ec7df05f9d14a33dd3dfef7516e89",
+        "sha256_in_prefix": "2433b05530e465ffa3b0630aa8dcdc9e4e0ec7df05f9d14a33dd3dfef7516e89",
+        "size_in_bytes": 60255
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_dataarray.py",
+        "path_type": "hardlink",
+        "sha256": "b3f1ff702eff3e84c382eb6dfa41f13701b88c722df6f74327101dd29a32ada5",
+        "sha256_in_prefix": "b3f1ff702eff3e84c382eb6dfa41f13701b88c722df6f74327101dd29a32ada5",
+        "size_in_bytes": 243254
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_dataset.py",
+        "path_type": "hardlink",
+        "sha256": "b3585368e4dd905ab697cd36b03202906ee65756c853ea53ad740636631b836d",
+        "sha256_in_prefix": "b3585368e4dd905ab697cd36b03202906ee65756c853ea53ad740636631b836d",
+        "size_in_bytes": 252730
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_deprecation_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "e1071d03e95648c7b410cf46a69abe9cd049bb093fe846ddd5b4ad27b857c802",
+        "sha256_in_prefix": "e1071d03e95648c7b410cf46a69abe9cd049bb093fe846ddd5b4ad27b857c802",
+        "size_in_bytes": 4300
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_distributed.py",
+        "path_type": "hardlink",
+        "sha256": "1d5a6b38da48fe761a9a91df58063ef8ce6ed6151ea3e18e261c6f6d9ef1ae1c",
+        "sha256_in_prefix": "1d5a6b38da48fe761a9a91df58063ef8ce6ed6151ea3e18e261c6f6d9ef1ae1c",
+        "size_in_bytes": 9110
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_dtypes.py",
+        "path_type": "hardlink",
+        "sha256": "359ddb121b6271397fc7cbffa1ba01768638ea1ad4e28b6004e175fbe0acea79",
+        "sha256_in_prefix": "359ddb121b6271397fc7cbffa1ba01768638ea1ad4e28b6004e175fbe0acea79",
+        "size_in_bytes": 3472
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_duck_array_ops.py",
+        "path_type": "hardlink",
+        "sha256": "2bec04cdd4d963e18dc00bf20f4af049e5ca3a1ce4bd23e2e8f84b2c7e3e644b",
+        "sha256_in_prefix": "2bec04cdd4d963e18dc00bf20f4af049e5ca3a1ce4bd23e2e8f84b2c7e3e644b",
+        "size_in_bytes": 30009
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_extensions.py",
+        "path_type": "hardlink",
+        "sha256": "77cc0cbad894a9e28a0f62453c6e5f8b4828008b4df9e3707112e6295e8c3b49",
+        "sha256_in_prefix": "77cc0cbad894a9e28a0f62453c6e5f8b4828008b4df9e3707112e6295e8c3b49",
+        "size_in_bytes": 2744
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_formatting.py",
+        "path_type": "hardlink",
+        "sha256": "861e104498f0171a8a614443a2850df7c159b2c15231981da5d08b5b954c133e",
+        "sha256_in_prefix": "861e104498f0171a8a614443a2850df7c159b2c15231981da5d08b5b954c133e",
+        "size_in_bytes": 24798
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_formatting_html.py",
+        "path_type": "hardlink",
+        "sha256": "f9a140034a8eec4d3ad5dabc3ebd8d6c067fa4d8639f83b83ce3a8ee4c852357",
+        "sha256_in_prefix": "f9a140034a8eec4d3ad5dabc3ebd8d6c067fa4d8639f83b83ce3a8ee4c852357",
+        "size_in_bytes": 6549
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_groupby.py",
+        "path_type": "hardlink",
+        "sha256": "9cdba8650476fcb1ba2e43159d4178f2b4934cd1f102133589ebd80d5498a499",
+        "sha256_in_prefix": "9cdba8650476fcb1ba2e43159d4178f2b4934cd1f102133589ebd80d5498a499",
+        "size_in_bytes": 74977
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_indexes.py",
+        "path_type": "hardlink",
+        "sha256": "f7775347689eba1b7792388eb5b15fa0a09c78733207a7b9c9c3509bbb05249b",
+        "sha256_in_prefix": "f7775347689eba1b7792388eb5b15fa0a09c78733207a7b9c9c3509bbb05249b",
+        "size_in_bytes": 25486
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_indexing.py",
+        "path_type": "hardlink",
+        "sha256": "b24492fef36787ce59078ed98dad2b644dfbe4f449b19b1afd13eb35c4286a92",
+        "sha256_in_prefix": "b24492fef36787ce59078ed98dad2b644dfbe4f449b19b1afd13eb35c4286a92",
+        "size_in_bytes": 29307
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_interp.py",
+        "path_type": "hardlink",
+        "sha256": "778a297a579231367865c018eb568dc9bead536dce3ace6f46231c8ee143489c",
+        "sha256_in_prefix": "778a297a579231367865c018eb568dc9bead536dce3ace6f46231c8ee143489c",
+        "size_in_bytes": 29897
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_merge.py",
+        "path_type": "hardlink",
+        "sha256": "d26308488a8a079f2e9b123deda137a9696015ac1ee20f4ac84ad79fa5c3c7d6",
+        "sha256_in_prefix": "d26308488a8a079f2e9b123deda137a9696015ac1ee20f4ac84ad79fa5c3c7d6",
+        "size_in_bytes": 18108
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_missing.py",
+        "path_type": "hardlink",
+        "sha256": "50c3d9521ca30ac7c0c34bd94b147189a8508f23241a6a777b90b7b7d2a4ec39",
+        "sha256_in_prefix": "50c3d9521ca30ac7c0c34bd94b147189a8508f23241a6a777b90b7b7d2a4ec39",
+        "size_in_bytes": 23375
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_nputils.py",
+        "path_type": "hardlink",
+        "sha256": "2807acef14194aeb15f9178a0f478921291e9750164de29fe6ade5910c2d52d0",
+        "sha256_in_prefix": "2807acef14194aeb15f9178a0f478921291e9750164de29fe6ade5910c2d52d0",
+        "size_in_bytes": 987
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_options.py",
+        "path_type": "hardlink",
+        "sha256": "fedce17f01c0ca89ddc40708278752387e297c7395208d66a4b63e17f8251451",
+        "sha256_in_prefix": "fedce17f01c0ca89ddc40708278752387e297c7395208d66a4b63e17f8251451",
+        "size_in_bytes": 7670
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_plot.py",
+        "path_type": "hardlink",
+        "sha256": "055a825a58b80b958da83091812cfc48e09296a794856d2390ba3dc85a5a8a4d",
+        "sha256_in_prefix": "055a825a58b80b958da83091812cfc48e09296a794856d2390ba3dc85a5a8a4d",
+        "size_in_bytes": 116695
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_plugins.py",
+        "path_type": "hardlink",
+        "sha256": "9b9c1aa8653cadc8995ca5b826b60f671374dd418ca3ecbad2355ecf71c58a45",
+        "sha256_in_prefix": "9b9c1aa8653cadc8995ca5b826b60f671374dd418ca3ecbad2355ecf71c58a45",
+        "size_in_bytes": 7949
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_print_versions.py",
+        "path_type": "hardlink",
+        "sha256": "4d5e9f4076a3616ef554bbd04697a6410bfcb6b325158ad7457c0b4c5462ed83",
+        "sha256_in_prefix": "4d5e9f4076a3616ef554bbd04697a6410bfcb6b325158ad7457c0b4c5462ed83",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_rolling.py",
+        "path_type": "hardlink",
+        "sha256": "8abc2c91f5be3ffdb81e310211746fa70977bf578c4055766e84bad5e9d7584d",
+        "sha256_in_prefix": "8abc2c91f5be3ffdb81e310211746fa70977bf578c4055766e84bad5e9d7584d",
+        "size_in_bytes": 31211
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_sparse.py",
+        "path_type": "hardlink",
+        "sha256": "9d6b67ec5d9d8fb46dc42215097fbd4055926ed3893b56897ebbde5c2a66f61d",
+        "sha256_in_prefix": "9d6b67ec5d9d8fb46dc42215097fbd4055926ed3893b56897ebbde5c2a66f61d",
+        "size_in_bytes": 28962
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_testing.py",
+        "path_type": "hardlink",
+        "sha256": "85a0af7f7d8ce2af877b213719f6ed7e9a4a9012fe80fa3a8acc3b32b3573584",
+        "sha256_in_prefix": "85a0af7f7d8ce2af877b213719f6ed7e9a4a9012fe80fa3a8acc3b32b3573584",
+        "size_in_bytes": 4713
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_tutorial.py",
+        "path_type": "hardlink",
+        "sha256": "c91c3c1ad80e191598153ee6923f503605dd894c02913c54fc7a7d207375b3cc",
+        "sha256_in_prefix": "c91c3c1ad80e191598153ee6923f503605dd894c02913c54fc7a7d207375b3cc",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_ufuncs.py",
+        "path_type": "hardlink",
+        "sha256": "cf6b1c7637397f3c55d848e8a23d5bc0619b50bfc081cdd7375a5fa19a65d99c",
+        "sha256_in_prefix": "cf6b1c7637397f3c55d848e8a23d5bc0619b50bfc081cdd7375a5fa19a65d99c",
+        "size_in_bytes": 4730
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_units.py",
+        "path_type": "hardlink",
+        "sha256": "0c2d89505427d6d6772a0ba1bb4b60c73cf522fcf3daa422a09db82eae7e61fe",
+        "sha256_in_prefix": "0c2d89505427d6d6772a0ba1bb4b60c73cf522fcf3daa422a09db82eae7e61fe",
+        "size_in_bytes": 188826
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "7e85848053d965db10c9a9b3651d9ee55d23ecfa8a85ab17153cdd44d7618109",
+        "sha256_in_prefix": "7e85848053d965db10c9a9b3651d9ee55d23ecfa8a85ab17153cdd44d7618109",
+        "size_in_bytes": 8198
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_variable.py",
+        "path_type": "hardlink",
+        "sha256": "2a57c85e73f24b296d2cdf562bb1686145a3856daf80e803cf97c47dfb0a5737",
+        "sha256_in_prefix": "2a57c85e73f24b296d2cdf562bb1686145a3856daf80e803cf97c47dfb0a5737",
+        "size_in_bytes": 107658
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tests/test_weighted.py",
+        "path_type": "hardlink",
+        "sha256": "35c9feddd4f3e15df1352973e3c871535ff8ad9a3e4d557e988719f6462dd0d4",
+        "sha256_in_prefix": "35c9feddd4f3e15df1352973e3c871535ff8ad9a3e4d557e988719f6462dd0d4",
+        "size_in_bytes": 24174
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/tutorial.py",
+        "path_type": "hardlink",
+        "sha256": "317b657594a97fb27317ffac4091323f26976efcaf860f25a9f4cbcd5ed402a2",
+        "sha256_in_prefix": "317b657594a97fb27317ffac4091323f26976efcaf860f25a9f4cbcd5ed402a2",
+        "size_in_bytes": 9493
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/util/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "85f78f94f8b01d8a970b49d9e2ffeeafd1cbc99d8fea4cbedc1de01d3ad1e89d",
+        "sha256_in_prefix": "85f78f94f8b01d8a970b49d9e2ffeeafd1cbc99d8fea4cbedc1de01d3ad1e89d",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/util/__pycache__/deprecation_helpers.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c13bc2960075a0466e49c9c5771e4ed234eaa1a3ff189ec2fa0f79eff0134229",
+        "sha256_in_prefix": "c13bc2960075a0466e49c9c5771e4ed234eaa1a3ff189ec2fa0f79eff0134229",
+        "size_in_bytes": 2521
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/util/__pycache__/generate_aggregations.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd5d4d82d6f5e85bfda8bca43e898053ce99fa87fbbc7c38681685b11c8f302c",
+        "sha256_in_prefix": "fd5d4d82d6f5e85bfda8bca43e898053ce99fa87fbbc7c38681685b11c8f302c",
+        "size_in_bytes": 13533
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/util/__pycache__/generate_ops.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb9bbd5c24971bdbbd1ff2fed1dbdb5b1dded084418e0cdafefe53a2977298ef",
+        "sha256_in_prefix": "eb9bbd5c24971bdbbd1ff2fed1dbdb5b1dded084418e0cdafefe53a2977298ef",
+        "size_in_bytes": 7559
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/util/__pycache__/print_versions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4bf74488db2bb98ea1566f4082f6bc2f1bac498253b40c3d5989bcd8fbb9bb21",
+        "sha256_in_prefix": "4bf74488db2bb98ea1566f4082f6bc2f1bac498253b40c3d5989bcd8fbb9bb21",
+        "size_in_bytes": 6300
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/util/deprecation_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "3fc34d5c77c17d712a28a65fc717c60f608b4fa6f22bc0c0c273188440747fc8",
+        "sha256_in_prefix": "3fc34d5c77c17d712a28a65fc717c60f608b4fa6f22bc0c0c273188440747fc8",
+        "size_in_bytes": 4275
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/util/generate_aggregations.py",
+        "path_type": "hardlink",
+        "sha256": "d3f64fd734db1b32473b26f72fee22f610bb98ef8e4d8ea44212b91a1999c8b5",
+        "sha256_in_prefix": "d3f64fd734db1b32473b26f72fee22f610bb98ef8e4d8ea44212b91a1999c8b5",
+        "size_in_bytes": 16591
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/util/generate_ops.py",
+        "path_type": "hardlink",
+        "sha256": "ba7d722c044e50d4fc9b62f7eaa7c6d1e8b84dbc80ab530d791c0b35f56c91b8",
+        "sha256_in_prefix": "ba7d722c044e50d4fc9b62f7eaa7c6d1e8b84dbc80ab530d791c0b35f56c91b8",
+        "size_in_bytes": 9239
+      },
+      {
+        "_path": "lib/python3.9/site-packages/xarray/util/print_versions.py",
+        "path_type": "hardlink",
+        "sha256": "17a6d4f2788b0412d5d8a70d8de00bd6a1993fadf383aff0c4e832d16d020b22",
+        "sha256_in_prefix": "17a6d4f2788b0412d5d8a70d8de00bd6a1993fadf383aff0c4e832d16d020b22",
+        "size_in_bytes": 5249
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "49cabae606f89a9f428bbbd0ff2f907713632f6d7fa244ec62d4daa894d8754d",
+  "size": 1662433,
+  "subdir": "osx-arm64",
+  "timestamp": 1668776684805,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/xarray-2022.11.0-py39hca03da5_0.conda",
+  "version": "2022.11.0"
+}

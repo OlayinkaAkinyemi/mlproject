@@ -1,0 +1,124 @@
+{
+  "build": "h1a28f6b_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "oniguruma 6.9.*",
+    "oniguruma >=6.9.7.1,<6.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/jq-1.6-h1a28f6b_1",
+  "features": "",
+  "files": [
+    "bin/jq",
+    "include/jq.h",
+    "include/jv.h",
+    "lib/libjq.1.dylib",
+    "lib/libjq.a",
+    "lib/libjq.dylib",
+    "share/doc/jq/AUTHORS",
+    "share/doc/jq/COPYING",
+    "share/doc/jq/README",
+    "share/doc/jq/README.md",
+    "share/man/man1/jq.1"
+  ],
+  "fn": "jq-1.6-h1a28f6b_1.conda",
+  "legacy_bz2_md5": "fee45e330caa11a1f4dd1742dad8f49e",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/jq-1.6-h1a28f6b_1",
+    "type": 1
+  },
+  "md5": "998291c4024aac2698a305351ffba45a",
+  "name": "jq",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/jq-1.6-h1a28f6b_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/jq",
+        "path_type": "hardlink",
+        "sha256": "39555e996054c8d585bb82c7f78360df7950b715caa672f16ad549090829f7a0",
+        "sha256_in_prefix": "39555e996054c8d585bb82c7f78360df7950b715caa672f16ad549090829f7a0",
+        "size_in_bytes": 343648
+      },
+      {
+        "_path": "include/jq.h",
+        "path_type": "hardlink",
+        "sha256": "bb8c53c0c457664827f2cf0c826b8ae8cc57577482c7c10d52192e9fa22a8a6c",
+        "sha256_in_prefix": "bb8c53c0c457664827f2cf0c826b8ae8cc57577482c7c10d52192e9fa22a8a6c",
+        "size_in_bytes": 2371
+      },
+      {
+        "_path": "include/jv.h",
+        "path_type": "hardlink",
+        "sha256": "a6ac21decec66ce745ec640d3d7d9c2ab422e72ae5122bf5ce394ea2204c1eb9",
+        "sha256_in_prefix": "a6ac21decec66ce745ec640d3d7d9c2ab422e72ae5122bf5ce394ea2204c1eb9",
+        "size_in_bytes": 10047
+      },
+      {
+        "_path": "lib/libjq.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "89c9c562287627166be416bd494fa89ad7ac65a4a82c0f026f50b8aa6ace173e",
+        "sha256_in_prefix": "89c9c562287627166be416bd494fa89ad7ac65a4a82c0f026f50b8aa6ace173e",
+        "size_in_bytes": 341424
+      },
+      {
+        "_path": "lib/libjq.a",
+        "path_type": "hardlink",
+        "sha256": "d224fc8fb9a809d7d7b54edb3cd07ca398428592f784f0b0090b9115ce2c87ad",
+        "sha256_in_prefix": "d224fc8fb9a809d7d7b54edb3cd07ca398428592f784f0b0090b9115ce2c87ad",
+        "size_in_bytes": 459856
+      },
+      {
+        "_path": "lib/libjq.dylib",
+        "path_type": "softlink",
+        "sha256": "89c9c562287627166be416bd494fa89ad7ac65a4a82c0f026f50b8aa6ace173e",
+        "size_in_bytes": 341424
+      },
+      {
+        "_path": "share/doc/jq/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "d0981d56cdff9ef59cf8225949c352e56090b1ab0ff62b9b54038d146570ea17",
+        "sha256_in_prefix": "d0981d56cdff9ef59cf8225949c352e56090b1ab0ff62b9b54038d146570ea17",
+        "size_in_bytes": 4180
+      },
+      {
+        "_path": "share/doc/jq/COPYING",
+        "path_type": "hardlink",
+        "sha256": "111136aebcbfa68b6b0084e582b30e981da76adcff84eab6f9be32a1f38c5bf1",
+        "sha256_in_prefix": "111136aebcbfa68b6b0084e582b30e981da76adcff84eab6f9be32a1f38c5bf1",
+        "size_in_bytes": 2940
+      },
+      {
+        "_path": "share/doc/jq/README",
+        "path_type": "hardlink",
+        "sha256": "481d101b9eff86171829d34a765abb628ed8bb9b0642f93f43317a5c079ca36d",
+        "sha256_in_prefix": "481d101b9eff86171829d34a765abb628ed8bb9b0642f93f43317a5c079ca36d",
+        "size_in_bytes": 3045
+      },
+      {
+        "_path": "share/doc/jq/README.md",
+        "path_type": "hardlink",
+        "sha256": "481d101b9eff86171829d34a765abb628ed8bb9b0642f93f43317a5c079ca36d",
+        "sha256_in_prefix": "481d101b9eff86171829d34a765abb628ed8bb9b0642f93f43317a5c079ca36d",
+        "size_in_bytes": 3045
+      },
+      {
+        "_path": "share/man/man1/jq.1",
+        "path_type": "hardlink",
+        "sha256": "f67037388004a62b1418783e0ff55752e993182ef887b8ea4bb9bc04e57d3565",
+        "sha256_in_prefix": "f67037388004a62b1418783e0ff55752e993182ef887b8ea4bb9bc04e57d3565",
+        "size_in_bytes": 100874
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9cf21434984c4606ddbc5a96491bb2f6dcce0dcd2d32127ce3c3aa2ae832933a",
+  "size": 257835,
+  "subdir": "osx-arm64",
+  "timestamp": 1630514099268,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/jq-1.6-h1a28f6b_1.conda",
+  "version": "1.6"
+}

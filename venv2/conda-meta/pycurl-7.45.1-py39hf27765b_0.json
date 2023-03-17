@@ -1,0 +1,591 @@
+{
+  "build": "py39hf27765b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcurl >=7.82.0,<8.0a0",
+    "openssl >=1.1.1o,<1.1.2a",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/pycurl-7.45.1-py39hf27765b_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/curl/__init__.py",
+    "lib/python3.9/site-packages/curl/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pycurl-7.45.1-py3.9-macosx-11.1-arm64.egg-info/PKG-INFO",
+    "lib/python3.9/site-packages/pycurl-7.45.1-py3.9-macosx-11.1-arm64.egg-info/SOURCES.txt",
+    "lib/python3.9/site-packages/pycurl-7.45.1-py3.9-macosx-11.1-arm64.egg-info/dependency_links.txt",
+    "lib/python3.9/site-packages/pycurl-7.45.1-py3.9-macosx-11.1-arm64.egg-info/native_libs.txt",
+    "lib/python3.9/site-packages/pycurl-7.45.1-py3.9-macosx-11.1-arm64.egg-info/not-zip-safe",
+    "lib/python3.9/site-packages/pycurl-7.45.1-py3.9-macosx-11.1-arm64.egg-info/top_level.txt",
+    "lib/python3.9/site-packages/pycurl.cpython-39-darwin.so",
+    "lib/python3.9/site-packages/pycurl.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/AUTHORS",
+    "lib/python3.9/site-packages/share/doc/pycurl/COPYING-LGPL",
+    "lib/python3.9/site-packages/share/doc/pycurl/COPYING-MIT",
+    "lib/python3.9/site-packages/share/doc/pycurl/ChangeLog",
+    "lib/python3.9/site-packages/share/doc/pycurl/INSTALL.rst",
+    "lib/python3.9/site-packages/share/doc/pycurl/README.rst",
+    "lib/python3.9/site-packages/share/doc/pycurl/RELEASE-NOTES.rst",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/basicfirst.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/file_upload.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/linksys.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/multi-socket_action-select.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/opensocketexception.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/retriever-multi.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/retriever.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/sfquery.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/smtp.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/ssh_keyfunction.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/xmlrpc_curl.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/basicfirst.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/file_upload.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/linksys.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/multi-socket_action-select.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/opensocketexception.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/file_upload_buffer.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/file_upload_real.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/file_upload_real_fancy.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/follow_redirect.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/form_post.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/get.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/get_python2.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/get_python2_https.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/get_python3.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/get_python3_https.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/put_buffer.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/put_file.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/response_headers.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/response_info.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/write_file.cpython-39.pyc",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/file_upload_buffer.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/file_upload_real.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/file_upload_real_fancy.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/follow_redirect.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/form_post.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/get.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/get_python2.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/get_python2_https.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/get_python3.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/get_python3_https.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/put_buffer.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/put_file.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/response_headers.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/response_info.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/write_file.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/retriever-multi.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/retriever.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/sfquery.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/smtp.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/ssh_keyfunction.py",
+    "lib/python3.9/site-packages/share/doc/pycurl/examples/xmlrpc_curl.py"
+  ],
+  "fn": "pycurl-7.45.1-py39hf27765b_0.conda",
+  "legacy_bz2_md5": "8291bb45fd23477ef351bf8f6aa18604",
+  "license": "LGPL-2.1-only, MIT",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/pycurl-7.45.1-py39hf27765b_0",
+    "type": 1
+  },
+  "md5": "9c677dd67a9639b4f59a485a606e2a27",
+  "name": "pycurl",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/pycurl-7.45.1-py39hf27765b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/curl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1b7422d4f2bc4f139e45e36adc2a792742f9f05fb7c22ddcaa27f92cadb4e563",
+        "sha256_in_prefix": "1b7422d4f2bc4f139e45e36adc2a792742f9f05fb7c22ddcaa27f92cadb4e563",
+        "size_in_bytes": 7470
+      },
+      {
+        "_path": "lib/python3.9/site-packages/curl/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "73eca8f9d80d88a390f3755fa905bfd6c94cf36c83a69950932ddbd69b0f30da",
+        "sha256_in_prefix": "73eca8f9d80d88a390f3755fa905bfd6c94cf36c83a69950932ddbd69b0f30da",
+        "size_in_bytes": 6766
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pycurl-7.45.1-py3.9-macosx-11.1-arm64.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "778e9e811556570959b3bb8736236d0f049ad34c981eecdf0dd7e53cece3ba38",
+        "sha256_in_prefix": "778e9e811556570959b3bb8736236d0f049ad34c981eecdf0dd7e53cece3ba38",
+        "size_in_bytes": 4218
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pycurl-7.45.1-py3.9-macosx-11.1-arm64.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "eab2e5ac259cd3973a2ce9ba0779620c3dabc250d64f949cb66f700bcf3cbfd5",
+        "sha256_in_prefix": "eab2e5ac259cd3973a2ce9ba0779620c3dabc250d64f949cb66f700bcf3cbfd5",
+        "size_in_bytes": 6099
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pycurl-7.45.1-py3.9-macosx-11.1-arm64.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pycurl-7.45.1-py3.9-macosx-11.1-arm64.egg-info/native_libs.txt",
+        "path_type": "hardlink",
+        "sha256": "9e1408c4d118646f557ac5242f70ade58dd2a8dc916743623aa51c549fe3ca32",
+        "sha256_in_prefix": "9e1408c4d118646f557ac5242f70ade58dd2a8dc916743623aa51c549fe3ca32",
+        "size_in_bytes": 28
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pycurl-7.45.1-py3.9-macosx-11.1-arm64.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pycurl-7.45.1-py3.9-macosx-11.1-arm64.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9c6391f27683a289c3851c6ec74be319b038e4da68757c35353d9da65f852442",
+        "sha256_in_prefix": "9c6391f27683a289c3851c6ec74be319b038e4da68757c35353d9da65f852442",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pycurl.cpython-39-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "ec8646bb65f2fee5b00b0651bcb0714e3ba29da0c8fb986145bdf76fb897d752",
+        "sha256_in_prefix": "ec8646bb65f2fee5b00b0651bcb0714e3ba29da0c8fb986145bdf76fb897d752",
+        "size_in_bytes": 206000
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pycurl.py",
+        "path_type": "hardlink",
+        "sha256": "7e40eeb1c135179187b2e34911c49f27d07405972bfe3b044431ce36d9d492a5",
+        "sha256_in_prefix": "7e40eeb1c135179187b2e34911c49f27d07405972bfe3b044431ce36d9d492a5",
+        "size_in_bytes": 421
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "1157c5647423e70cff859dda174a8b569cb9b13ca2a9379c40a5ce6bfee979cc",
+        "sha256_in_prefix": "1157c5647423e70cff859dda174a8b569cb9b13ca2a9379c40a5ce6bfee979cc",
+        "size_in_bytes": 3346
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/COPYING-LGPL",
+        "path_type": "hardlink",
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+        "sha256_in_prefix": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+        "size_in_bytes": 26530
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/COPYING-MIT",
+        "path_type": "hardlink",
+        "sha256": "9dfbea2d787fce7407ec6627578ac9e63efbbafe5570f19318829a7887ef5f2e",
+        "sha256_in_prefix": "9dfbea2d787fce7407ec6627578ac9e63efbbafe5570f19318829a7887ef5f2e",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/ChangeLog",
+        "path_type": "hardlink",
+        "sha256": "b4fecf2ae5f1992303220ca1c65d1ef103514a3bf80c36295b964f8bb50bef3e",
+        "sha256_in_prefix": "b4fecf2ae5f1992303220ca1c65d1ef103514a3bf80c36295b964f8bb50bef3e",
+        "size_in_bytes": 59310
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/INSTALL.rst",
+        "path_type": "hardlink",
+        "sha256": "902aceb4b2f602e49db5e4c645b85d79d4ef2067e241fdc48f58d87ac3a2f674",
+        "sha256_in_prefix": "902aceb4b2f602e49db5e4c645b85d79d4ef2067e241fdc48f58d87ac3a2f674",
+        "size_in_bytes": 12192
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/README.rst",
+        "path_type": "hardlink",
+        "sha256": "6ed342284b5a62128fbc0e69d1289ce744643ec1c720acf1a8458d2d88fe9f63",
+        "sha256_in_prefix": "6ed342284b5a62128fbc0e69d1289ce744643ec1c720acf1a8458d2d88fe9f63",
+        "size_in_bytes": 6502
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/RELEASE-NOTES.rst",
+        "path_type": "hardlink",
+        "sha256": "44557dc1d3c4a090dad7f06c102d892d669e72ea7c798871f8278bf6677d8b2e",
+        "sha256_in_prefix": "44557dc1d3c4a090dad7f06c102d892d669e72ea7c798871f8278bf6677d8b2e",
+        "size_in_bytes": 7889
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/basicfirst.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5607f1be63d818ac0ce7220b6ea64bfa3fcb8de33a71719805f23629094cc5e4",
+        "sha256_in_prefix": "5607f1be63d818ac0ce7220b6ea64bfa3fcb8de33a71719805f23629094cc5e4",
+        "size_in_bytes": 980
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/file_upload.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "badb22f1a4a48c05f01c8e57508ce6c841e338d7989acd99a387c3907e57d76c",
+        "sha256_in_prefix": "badb22f1a4a48c05f01c8e57508ce6c841e338d7989acd99a387c3907e57d76c",
+        "size_in_bytes": 1208
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/linksys.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "95dab384171d946643a95cc63f0a0a1810d77937f7a87a8ee9368a9749f23ada",
+        "sha256_in_prefix": "95dab384171d946643a95cc63f0a0a1810d77937f7a87a8ee9368a9749f23ada",
+        "size_in_bytes": 26597
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/multi-socket_action-select.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "62dbe253e128c49e75395bd501d3b345fc1e352d43c1fd407479f69e1702a6d8",
+        "sha256_in_prefix": "62dbe253e128c49e75395bd501d3b345fc1e352d43c1fd407479f69e1702a6d8",
+        "size_in_bytes": 2552
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/opensocketexception.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c8a8756fb72d44a3dbd5d696b512d7f273bc9751e8474fc9152b463c54b647f6",
+        "sha256_in_prefix": "c8a8756fb72d44a3dbd5d696b512d7f273bc9751e8474fc9152b463c54b647f6",
+        "size_in_bytes": 1225
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/retriever-multi.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9046098fad3dd71f65c50127f870a2d88f69a93bd9a462d2e219e8c1a9c6453b",
+        "sha256_in_prefix": "9046098fad3dd71f65c50127f870a2d88f69a93bd9a462d2e219e8c1a9c6453b",
+        "size_in_bytes": 2147
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/retriever.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e3ba0c27be2ad3d88dbdb3b77d188282a5f9d89d8c1fc4102a15dfb4260c982",
+        "sha256_in_prefix": "5e3ba0c27be2ad3d88dbdb3b77d188282a5f9d89d8c1fc4102a15dfb4260c982",
+        "size_in_bytes": 2345
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/sfquery.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "acc801f3d7682bdae80965aed99ea8d6f56c14f1ef7008abf713abd04e46b946",
+        "sha256_in_prefix": "acc801f3d7682bdae80965aed99ea8d6f56c14f1ef7008abf713abd04e46b946",
+        "size_in_bytes": 1896
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/smtp.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d21af2d46f1e9821670c2565471c20296204cdc2072111f8a39c04183f25e11",
+        "sha256_in_prefix": "7d21af2d46f1e9821670c2565471c20296204cdc2072111f8a39c04183f25e11",
+        "size_in_bytes": 862
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/ssh_keyfunction.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec3e56e3e305e0158d8cd3a69ef07e648cd76b0a5fe9d2e836e869855d351741",
+        "sha256_in_prefix": "ec3e56e3e305e0158d8cd3a69ef07e648cd76b0a5fe9d2e836e869855d351741",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/__pycache__/xmlrpc_curl.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3a03804d0dda08cff262a33e30879539438a6ff316ad15c4c6b83ec4df69e5e6",
+        "sha256_in_prefix": "3a03804d0dda08cff262a33e30879539438a6ff316ad15c4c6b83ec4df69e5e6",
+        "size_in_bytes": 2135
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/basicfirst.py",
+        "path_type": "hardlink",
+        "sha256": "a9567f8087e2c4729e71e47dc37bae61215d019fe93f8d253533859cbccccad2",
+        "sha256_in_prefix": "a9567f8087e2c4729e71e47dc37bae61215d019fe93f8d253533859cbccccad2",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/file_upload.py",
+        "path_type": "hardlink",
+        "sha256": "c94d073751fe2b33fe27e4eb4eb5acc37051d77c174846b99ed1f67d4eb6ab0a",
+        "sha256_in_prefix": "c94d073751fe2b33fe27e4eb4eb5acc37051d77c174846b99ed1f67d4eb6ab0a",
+        "size_in_bytes": 1179
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/linksys.py",
+        "path_type": "hardlink",
+        "sha256": "2d0223b2d46d96de9ad9ee99f971f5a9fd3b37949004222cb908ba4231119043",
+        "sha256_in_prefix": "2d0223b2d46d96de9ad9ee99f971f5a9fd3b37949004222cb908ba4231119043",
+        "size_in_bytes": 21771
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/multi-socket_action-select.py",
+        "path_type": "hardlink",
+        "sha256": "6fceac2843022f45a1ce52819d740714d6f93a21a2812dcb0ef6886eb26df64d",
+        "sha256_in_prefix": "6fceac2843022f45a1ce52819d740714d6f93a21a2812dcb0ef6886eb26df64d",
+        "size_in_bytes": 7985
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/opensocketexception.py",
+        "path_type": "hardlink",
+        "sha256": "c1356469a1ba146a5e53b48c1396ae069fcdc7d300a5d2491107a2e140a96d9b",
+        "sha256_in_prefix": "c1356469a1ba146a5e53b48c1396ae069fcdc7d300a5d2491107a2e140a96d9b",
+        "size_in_bytes": 861
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/file_upload_buffer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "abb32215167566946e041c021988efea5fb55bbd3d631611d6ddb46128c06c33",
+        "sha256_in_prefix": "abb32215167566946e041c021988efea5fb55bbd3d631611d6ddb46128c06c33",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/file_upload_real.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f25a49b580145c047577a245b0ed82fdefdaf09015d8d74ef942c4b8b689b7ab",
+        "sha256_in_prefix": "f25a49b580145c047577a245b0ed82fdefdaf09015d8d74ef942c4b8b689b7ab",
+        "size_in_bytes": 424
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/file_upload_real_fancy.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9fc06bc13e2449da84b362bf2f2796bbc8dfe6dfb029339c85a9667bb1e56666",
+        "sha256_in_prefix": "9fc06bc13e2449da84b362bf2f2796bbc8dfe6dfb029339c85a9667bb1e56666",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/follow_redirect.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b1503c57cf2d954b76637cc37a59cc796a4c258add73d25289b12e733bf0fab5",
+        "sha256_in_prefix": "b1503c57cf2d954b76637cc37a59cc796a4c258add73d25289b12e733bf0fab5",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/form_post.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ce4398891104412b3f3fce124b94fe9814efd951907e7df601c9bacab1b8a4b",
+        "sha256_in_prefix": "9ce4398891104412b3f3fce124b94fe9814efd951907e7df601c9bacab1b8a4b",
+        "size_in_bytes": 532
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/get.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "04f3b7cff6863ed14412843e72110f5cc4d520650d8f43768b723cc595a0dbdd",
+        "sha256_in_prefix": "04f3b7cff6863ed14412843e72110f5cc4d520650d8f43768b723cc595a0dbdd",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/get_python2.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6994dd9742463eb8fce366c00cb4d06a541677236eea1753161e5f7cc0309918",
+        "sha256_in_prefix": "6994dd9742463eb8fce366c00cb4d06a541677236eea1753161e5f7cc0309918",
+        "size_in_bytes": 450
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/get_python2_https.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a6382b4a6d482b9e9eb2f79972c3439eba5482529bb73de1ab371bfb2cf8c514",
+        "sha256_in_prefix": "a6382b4a6d482b9e9eb2f79972c3439eba5482529bb73de1ab371bfb2cf8c514",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/get_python3.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7e52752160fb7e6e2e6ec4431e2a7e43b234d742b28a989284bdee4809b691d",
+        "sha256_in_prefix": "f7e52752160fb7e6e2e6ec4431e2a7e43b234d742b28a989284bdee4809b691d",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/get_python3_https.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b24b123ad935a91c217bc18db310b9fb76349fc5fc6c7d8b25add338497640b3",
+        "sha256_in_prefix": "b24b123ad935a91c217bc18db310b9fb76349fc5fc6c7d8b25add338497640b3",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/put_buffer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "77f1b8ec4f7b6f0870abe850a195dba1ac74119b20d590685729e6c9f113b53e",
+        "sha256_in_prefix": "77f1b8ec4f7b6f0870abe850a195dba1ac74119b20d590685729e6c9f113b53e",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/put_file.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7bb766852a4f0fef1eaf98d6c3ff1c05ffc92d055d4d237c57085d0dbd65d883",
+        "sha256_in_prefix": "7bb766852a4f0fef1eaf98d6c3ff1c05ffc92d055d4d237c57085d0dbd65d883",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/response_headers.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1efcdf3cd415800546be172d279ca21eca61ff6e4a6cdf37cc19740e39cca588",
+        "sha256_in_prefix": "1efcdf3cd415800546be172d279ca21eca61ff6e4a6cdf37cc19740e39cca588",
+        "size_in_bytes": 1122
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/response_info.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f78485851058c6abe4b6d776bed5125d89beac4b3a29372730bb7bbc7a6e9fb2",
+        "sha256_in_prefix": "f78485851058c6abe4b6d776bed5125d89beac4b3a29372730bb7bbc7a6e9fb2",
+        "size_in_bytes": 593
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/__pycache__/write_file.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0317a1f5c0385d170301908ad683b91ae6098385ca8f8d206c7b4f5092c8069",
+        "sha256_in_prefix": "d0317a1f5c0385d170301908ad683b91ae6098385ca8f8d206c7b4f5092c8069",
+        "size_in_bytes": 426
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/file_upload_buffer.py",
+        "path_type": "hardlink",
+        "sha256": "78809b826d8a88a0042b3ab4a13543bd65f982138c0b591bbe0fd0f9df15cac2",
+        "sha256_in_prefix": "78809b826d8a88a0042b3ab4a13543bd65f982138c0b591bbe0fd0f9df15cac2",
+        "size_in_bytes": 311
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/file_upload_real.py",
+        "path_type": "hardlink",
+        "sha256": "dcc2afca04054a3d22ecfab4774cef8416581225c38b5b293c23eaff4c527026",
+        "sha256_in_prefix": "dcc2afca04054a3d22ecfab4774cef8416581225c38b5b293c23eaff4c527026",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/file_upload_real_fancy.py",
+        "path_type": "hardlink",
+        "sha256": "fecbb6d8dcdb414d6974a4f9106ed094e8e1817c59375eda40f874cf9c35d9eb",
+        "sha256_in_prefix": "fecbb6d8dcdb414d6974a4f9106ed094e8e1817c59375eda40f874cf9c35d9eb",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/follow_redirect.py",
+        "path_type": "hardlink",
+        "sha256": "31d129a6a04e75890ed18e066881c8fe4fcfee41518a99b2c37ebdfe80fa53a4",
+        "sha256_in_prefix": "31d129a6a04e75890ed18e066881c8fe4fcfee41518a99b2c37ebdfe80fa53a4",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/form_post.py",
+        "path_type": "hardlink",
+        "sha256": "d608d732441c98e6072113b4b380db1cd26d87b1bd06ce652153ebdf10d619e9",
+        "sha256_in_prefix": "d608d732441c98e6072113b4b380db1cd26d87b1bd06ce652153ebdf10d619e9",
+        "size_in_bytes": 564
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/get.py",
+        "path_type": "hardlink",
+        "sha256": "5a5508675e8d0b65304173dfbd5c086fc49304d0b37fcb1128cc22b585e5df4a",
+        "sha256_in_prefix": "5a5508675e8d0b65304173dfbd5c086fc49304d0b37fcb1128cc22b585e5df4a",
+        "size_in_bytes": 583
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/get_python2.py",
+        "path_type": "hardlink",
+        "sha256": "9dfdbcbf76d8a1c429c1f3e6b6fa11e21ae2524b96b036a370c0e0fe523cc7e2",
+        "sha256_in_prefix": "9dfdbcbf76d8a1c429c1f3e6b6fa11e21ae2524b96b036a370c0e0fe523cc7e2",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/get_python2_https.py",
+        "path_type": "hardlink",
+        "sha256": "cf46d826ced438cbaf9d6b56e27525bcf34fa85219d803ca9ba61632f9fd7856",
+        "sha256_in_prefix": "cf46d826ced438cbaf9d6b56e27525bcf34fa85219d803ca9ba61632f9fd7856",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/get_python3.py",
+        "path_type": "hardlink",
+        "sha256": "63db2a8c40fe7cace4b29247cc3ffa44236bc076071623c5493c1fac4efb7ad0",
+        "sha256_in_prefix": "63db2a8c40fe7cace4b29247cc3ffa44236bc076071623c5493c1fac4efb7ad0",
+        "size_in_bytes": 403
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/get_python3_https.py",
+        "path_type": "hardlink",
+        "sha256": "bb8fc26cacd6043b516cd1ede4c11055345f3048dfc8a790a0712d269c8fd07b",
+        "sha256_in_prefix": "bb8fc26cacd6043b516cd1ede4c11055345f3048dfc8a790a0712d269c8fd07b",
+        "size_in_bytes": 454
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/put_buffer.py",
+        "path_type": "hardlink",
+        "sha256": "35a8552447e0ea41e84c49be58805286eb664ff9ec54d5574932af0bd55c4feb",
+        "sha256_in_prefix": "35a8552447e0ea41e84c49be58805286eb664ff9ec54d5574932af0bd55c4feb",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/put_file.py",
+        "path_type": "hardlink",
+        "sha256": "48845017224d8f3c4be39778d9f49197675c4ec5224d0eac8469972edf712fd0",
+        "sha256_in_prefix": "48845017224d8f3c4be39778d9f49197675c4ec5224d0eac8469972edf712fd0",
+        "size_in_bytes": 300
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/response_headers.py",
+        "path_type": "hardlink",
+        "sha256": "3f480832e2f5486b810e0afc108ff5d393c7685e44da9169919005ffb0ca6081",
+        "sha256_in_prefix": "3f480832e2f5486b810e0afc108ff5d393c7685e44da9169919005ffb0ca6081",
+        "size_in_bytes": 2097
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/response_info.py",
+        "path_type": "hardlink",
+        "sha256": "34a14662ac633bb08de42eb088ad11ed1fe012cb458514642d13841aa7ed95ff",
+        "sha256_in_prefix": "34a14662ac633bb08de42eb088ad11ed1fe012cb458514642d13841aa7ed95ff",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/quickstart/write_file.py",
+        "path_type": "hardlink",
+        "sha256": "2da7fefd2c17a746cf521c96f1fcb89a87e0e95dc47d5d7fda87ba9087f8a3da",
+        "sha256_in_prefix": "2da7fefd2c17a746cf521c96f1fcb89a87e0e95dc47d5d7fda87ba9087f8a3da",
+        "size_in_bytes": 357
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/retriever-multi.py",
+        "path_type": "hardlink",
+        "sha256": "a51da01e9c54d0b71624e8b6b6e7644c4f7fadcde4e80519e93c7ff4286448ea",
+        "sha256_in_prefix": "a51da01e9c54d0b71624e8b6b6e7644c4f7fadcde4e80519e93c7ff4286448ea",
+        "size_in_bytes": 3359
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/retriever.py",
+        "path_type": "hardlink",
+        "sha256": "019e5563f2acc7f40f2cecf826260736316827e98c6b8cf920aa76e14f1d15eb",
+        "sha256_in_prefix": "019e5563f2acc7f40f2cecf826260736316827e98c6b8cf920aa76e14f1d15eb",
+        "size_in_bytes": 2665
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/sfquery.py",
+        "path_type": "hardlink",
+        "sha256": "6fdeb84a7cbd47f2896531807d347c910049e7c1df941e3ecb733bcf74dbc424",
+        "sha256_in_prefix": "6fdeb84a7cbd47f2896531807d347c910049e7c1df941e3ecb733bcf74dbc424",
+        "size_in_bytes": 2457
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/smtp.py",
+        "path_type": "hardlink",
+        "sha256": "266391488a84ce0de7e71f12e3d23fd02f0ecbbb9d3f1ec3534feff6aa622979",
+        "sha256_in_prefix": "266391488a84ce0de7e71f12e3d23fd02f0ecbbb9d3f1ec3534feff6aa622979",
+        "size_in_bytes": 1099
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/ssh_keyfunction.py",
+        "path_type": "hardlink",
+        "sha256": "b7d4bc90dedb0146bb93a275427e73ec73ba50e6a4f3e793a2684940fc81673a",
+        "sha256_in_prefix": "b7d4bc90dedb0146bb93a275427e73ec73ba50e6a4f3e793a2684940fc81673a",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "lib/python3.9/site-packages/share/doc/pycurl/examples/xmlrpc_curl.py",
+        "path_type": "hardlink",
+        "sha256": "638f027b1b3ee5b7e7198d2d1ee84e65d080b8cc763df537684370f66e48e81a",
+        "sha256_in_prefix": "638f027b1b3ee5b7e7198d2d1ee84e65d080b8cc763df537684370f66e48e81a",
+        "size_in_bytes": 2179
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a876540d4dcfd71edb0f07ae7baefdedd531df033b9d27b81f6a1155f7140a71",
+  "size": 127975,
+  "subdir": "osx-arm64",
+  "timestamp": 1655908647316,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/pycurl-7.45.1-py39hf27765b_0.conda",
+  "version": "7.45.1"
+}

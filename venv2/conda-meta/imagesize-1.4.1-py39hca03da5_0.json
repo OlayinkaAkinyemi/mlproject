@@ -1,0 +1,133 @@
+{
+  "build": "py39hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/imagesize-1.4.1-py39hca03da5_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/LICENSE.rst",
+    "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/imagesize/__init__.py",
+    "lib/python3.9/site-packages/imagesize/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/imagesize/__pycache__/imagesize.cpython-39.pyc",
+    "lib/python3.9/site-packages/imagesize/imagesize.py"
+  ],
+  "fn": "imagesize-1.4.1-py39hca03da5_0.conda",
+  "legacy_bz2_md5": "5368d9e118800d9a8c8059ef07c813e7",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/imagesize-1.4.1-py39hca03da5_0",
+    "type": 1
+  },
+  "md5": "fbfed888caba4dd7417d51883998f5b2",
+  "name": "imagesize",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/imagesize-1.4.1-py39hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "d0659c2767a164c2bf2736ee9f7bb619e0f165c89a962839de53fd5f77f62f4e",
+        "sha256_in_prefix": "d0659c2767a164c2bf2736ee9f7bb619e0f165c89a962839de53fd5f77f62f4e",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1937fe189b45e573483af7a44506b522562e0549bc4764f9e3d42388702be283",
+        "sha256_in_prefix": "1937fe189b45e573483af7a44506b522562e0549bc4764f9e3d42388702be283",
+        "size_in_bytes": 1454
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ce9c11652ed4dfb01d0e64653f18ba2cf74470317720705f6ef97d18659a7935",
+        "sha256_in_prefix": "ce9c11652ed4dfb01d0e64653f18ba2cf74470317720705f6ef97d18659a7935",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "sha256_in_prefix": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7532f180965dd5435dc9be8c3c680497dc04fd3abb46e1c97c1b13e12a0ff465",
+        "sha256_in_prefix": "7532f180965dd5435dc9be8c3c680497dc04fd3abb46e1c97c1b13e12a0ff465",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagesize-1.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fff8fa9258b3a0a09a664db55b6f9d29c400565769d28a5f1d5122122664e914",
+        "sha256_in_prefix": "fff8fa9258b3a0a09a664db55b6f9d29c400565769d28a5f1d5122122664e914",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagesize/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "615b44aa4689aa0b7e1e720d133832755f5e1a1b2a07f8802161035e36cbcb30",
+        "sha256_in_prefix": "615b44aa4689aa0b7e1e720d133832755f5e1a1b2a07f8802161035e36cbcb30",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagesize/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1031ec7a050e8df0320ca807c2321623722165db0f7af691b75cad889b7ce63b",
+        "sha256_in_prefix": "1031ec7a050e8df0320ca807c2321623722165db0f7af691b75cad889b7ce63b",
+        "size_in_bytes": 256
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagesize/__pycache__/imagesize.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ab9de2c4df2764a13eb94fbaa1c54f64bf00b2a08b94d139e9e4dda904ba3e1",
+        "sha256_in_prefix": "5ab9de2c4df2764a13eb94fbaa1c54f64bf00b2a08b94d139e9e4dda904ba3e1",
+        "size_in_bytes": 7647
+      },
+      {
+        "_path": "lib/python3.9/site-packages/imagesize/imagesize.py",
+        "path_type": "hardlink",
+        "sha256": "955631fd5661ce576af667154cf8924c1509329915791ffd7b67a0feeff32e13",
+        "sha256_in_prefix": "955631fd5661ce576af667154cf8924c1509329915791ffd7b67a0feeff32e13",
+        "size_in_bytes": 13992
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4d344170eba8f6a6ac4304937334f64f5753fd99038e8a29648109022fd85acb",
+  "size": 14304,
+  "subdir": "osx-arm64",
+  "timestamp": 1657179641567,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/imagesize-1.4.1-py39hca03da5_0.conda",
+  "version": "1.4.1"
+}

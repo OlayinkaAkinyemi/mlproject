@@ -1,0 +1,106 @@
+{
+  "build": "hf27765b_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "llvm-openmp >=12.0.0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/sleef-3.5.1-hf27765b_1",
+  "features": "",
+  "files": [
+    "include/sleef.h",
+    "include/sleefdft.h",
+    "lib/libsleef.3.5.1.dylib",
+    "lib/libsleef.3.dylib",
+    "lib/libsleef.dylib",
+    "lib/libsleefdft.3.5.1.dylib",
+    "lib/libsleefdft.3.dylib",
+    "lib/libsleefdft.dylib",
+    "lib/pkgconfig/sleef.pc"
+  ],
+  "fn": "sleef-3.5.1-hf27765b_1.conda",
+  "legacy_bz2_md5": "9992630b470f9b90010610c88c5d7ce7",
+  "license": "BSL-1.0",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/sleef-3.5.1-hf27765b_1",
+    "type": 1
+  },
+  "md5": "d85dabe27c9feabfc0b517ae229124d9",
+  "name": "sleef",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/sleef-3.5.1-hf27765b_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/sleef.h",
+        "path_type": "hardlink",
+        "sha256": "5db54bf1a8aa4d29bcbfef6cab820d07f004a89fd80b71e9136c737124d86155",
+        "sha256_in_prefix": "5db54bf1a8aa4d29bcbfef6cab820d07f004a89fd80b71e9136c737124d86155",
+        "size_in_bytes": 146909
+      },
+      {
+        "_path": "include/sleefdft.h",
+        "path_type": "hardlink",
+        "sha256": "fe7869af7f27df1c12e23f66cc74a5c9c803d38c064e088e87463cf78eb45fdb",
+        "sha256_in_prefix": "fe7869af7f27df1c12e23f66cc74a5c9c803d38c064e088e87463cf78eb45fdb",
+        "size_in_bytes": 3337
+      },
+      {
+        "_path": "lib/libsleef.3.5.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "bfd6be39b25f327d12d410a4e464b5186826b9f457287135686f7a143f59f392",
+        "sha256_in_prefix": "bfd6be39b25f327d12d410a4e464b5186826b9f457287135686f7a143f59f392",
+        "size_in_bytes": 896672
+      },
+      {
+        "_path": "lib/libsleef.3.dylib",
+        "path_type": "softlink",
+        "sha256": "bfd6be39b25f327d12d410a4e464b5186826b9f457287135686f7a143f59f392",
+        "size_in_bytes": 896672
+      },
+      {
+        "_path": "lib/libsleef.dylib",
+        "path_type": "softlink",
+        "sha256": "bfd6be39b25f327d12d410a4e464b5186826b9f457287135686f7a143f59f392",
+        "size_in_bytes": 896672
+      },
+      {
+        "_path": "lib/libsleefdft.3.5.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "a3524b7b2fac22e0d6bf53ee68df33a6ad3d69d6481340f746fb5ccf768db3ea",
+        "sha256_in_prefix": "a3524b7b2fac22e0d6bf53ee68df33a6ad3d69d6481340f746fb5ccf768db3ea",
+        "size_in_bytes": 1730576
+      },
+      {
+        "_path": "lib/libsleefdft.3.dylib",
+        "path_type": "softlink",
+        "sha256": "a3524b7b2fac22e0d6bf53ee68df33a6ad3d69d6481340f746fb5ccf768db3ea",
+        "size_in_bytes": 1730576
+      },
+      {
+        "_path": "lib/libsleefdft.dylib",
+        "path_type": "softlink",
+        "sha256": "a3524b7b2fac22e0d6bf53ee68df33a6ad3d69d6481340f746fb5ccf768db3ea",
+        "size_in_bytes": 1730576
+      },
+      {
+        "_path": "lib/pkgconfig/sleef.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/ktietz/demo/mc3/conda-bld/sleef_1629399116924/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "028da2cea7ef95aca1f8c8cf14e88d94e9e7f8df212295b908cc0ae620ffec7f",
+        "sha256_in_prefix": "aa67fe90b97522a1394988c59ba8731e21d9f2a2fd93683d48502ffd2a0ed99b",
+        "size_in_bytes": 970
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "90956cfc65af919c6f65c2eb0daad89ceadd60c5838a466a5d60e81519667aba",
+  "size": 321924,
+  "subdir": "osx-arm64",
+  "timestamp": 1629399147831,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/sleef-3.5.1-hf27765b_1.conda",
+  "version": "3.5.1"
+}

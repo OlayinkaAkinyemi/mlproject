@@ -1,0 +1,45 @@
+{
+  "build": "h525c30c_5",
+  "build_number": 5,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=12.0.0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/ninja-base-1.10.2-h525c30c_5",
+  "features": "",
+  "files": [
+    "bin/ninja"
+  ],
+  "fn": "ninja-base-1.10.2-h525c30c_5.conda",
+  "legacy_bz2_md5": "4a8d61da46d6da3e08e2961442b79f1b",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/ninja-base-1.10.2-h525c30c_5",
+    "type": 1
+  },
+  "md5": "612dec70e12cc417096bfa18a5ad23c8",
+  "name": "ninja-base",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/ninja-base-1.10.2-h525c30c_5.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/ninja",
+        "path_type": "hardlink",
+        "sha256": "4e2125bd4c149186d6715a3d46ca294fc58ff9dbae8b3444c8e9330941276b57",
+        "sha256_in_prefix": "4e2125bd4c149186d6715a3d46ca294fc58ff9dbae8b3444c8e9330941276b57",
+        "size_in_bytes": 305104
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "faa0cb55a753cc95ead638d05c2ec5cb1ebe7073d46538abaf8b6f860ad38b9a",
+  "size": 110417,
+  "subdir": "osx-arm64",
+  "timestamp": 1651243055401,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/ninja-base-1.10.2-h525c30c_5.conda",
+  "version": "1.10.2"
+}

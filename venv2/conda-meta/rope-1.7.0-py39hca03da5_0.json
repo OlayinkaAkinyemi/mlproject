@@ -1,0 +1,1646 @@
+{
+  "build": "py39hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "pytoolconfig >=1.2.2"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/rope-1.7.0-py39hca03da5_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/rope-1.7.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/rope-1.7.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/rope-1.7.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/rope-1.7.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/rope-1.7.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/rope-1.7.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/rope-1.7.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/rope/__init__.py",
+    "lib/python3.9/site-packages/rope/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__init__.py",
+    "lib/python3.9/site-packages/rope/base/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/arguments.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/ast.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/builtins.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/change.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/codeanalyze.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/evaluate.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/exceptions.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/fscommands.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/history.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/libutils.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/nameanalyze.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/prefs.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/project.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/pycore.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/pynames.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/pynamesdef.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/pyobjects.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/pyobjectsdef.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/pyscopes.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/resourceobserver.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/resources.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/serializer.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/simplify.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/stdmods.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/taskhandle.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/versioning.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/__pycache__/worder.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/arguments.py",
+    "lib/python3.9/site-packages/rope/base/ast.py",
+    "lib/python3.9/site-packages/rope/base/builtins.py",
+    "lib/python3.9/site-packages/rope/base/change.py",
+    "lib/python3.9/site-packages/rope/base/codeanalyze.py",
+    "lib/python3.9/site-packages/rope/base/evaluate.py",
+    "lib/python3.9/site-packages/rope/base/exceptions.py",
+    "lib/python3.9/site-packages/rope/base/fscommands.py",
+    "lib/python3.9/site-packages/rope/base/history.py",
+    "lib/python3.9/site-packages/rope/base/libutils.py",
+    "lib/python3.9/site-packages/rope/base/nameanalyze.py",
+    "lib/python3.9/site-packages/rope/base/oi/__init__.py",
+    "lib/python3.9/site-packages/rope/base/oi/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/__pycache__/doa.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/__pycache__/memorydb.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/__pycache__/objectdb.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/__pycache__/objectinfo.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/__pycache__/runmod.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/__pycache__/soa.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/__pycache__/soi.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/__pycache__/transform.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/doa.py",
+    "lib/python3.9/site-packages/rope/base/oi/memorydb.py",
+    "lib/python3.9/site-packages/rope/base/oi/objectdb.py",
+    "lib/python3.9/site-packages/rope/base/oi/objectinfo.py",
+    "lib/python3.9/site-packages/rope/base/oi/runmod.py",
+    "lib/python3.9/site-packages/rope/base/oi/soa.py",
+    "lib/python3.9/site-packages/rope/base/oi/soi.py",
+    "lib/python3.9/site-packages/rope/base/oi/transform.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/__init__.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/__pycache__/evaluate.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/__pycache__/factory.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/__pycache__/interfaces.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/evaluate.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/factory.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/interfaces.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__init__.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/composite.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/docstrings.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/inheritance.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/interfaces.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/numpydocstrings.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/pep0484_type_comments.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/composite.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/docstrings.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/inheritance.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/interfaces.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/numpydocstrings.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/pep0484_type_comments.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/__init__.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/__pycache__/composite.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/__pycache__/interfaces.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/__pycache__/types.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/composite.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/interfaces.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/types.py",
+    "lib/python3.9/site-packages/rope/base/oi/type_hinting/utils.py",
+    "lib/python3.9/site-packages/rope/base/prefs.py",
+    "lib/python3.9/site-packages/rope/base/project.py",
+    "lib/python3.9/site-packages/rope/base/pycore.py",
+    "lib/python3.9/site-packages/rope/base/pynames.py",
+    "lib/python3.9/site-packages/rope/base/pynamesdef.py",
+    "lib/python3.9/site-packages/rope/base/pyobjects.py",
+    "lib/python3.9/site-packages/rope/base/pyobjectsdef.py",
+    "lib/python3.9/site-packages/rope/base/pyscopes.py",
+    "lib/python3.9/site-packages/rope/base/resourceobserver.py",
+    "lib/python3.9/site-packages/rope/base/resources.py",
+    "lib/python3.9/site-packages/rope/base/serializer.py",
+    "lib/python3.9/site-packages/rope/base/simplify.py",
+    "lib/python3.9/site-packages/rope/base/stdmods.py",
+    "lib/python3.9/site-packages/rope/base/taskhandle.py",
+    "lib/python3.9/site-packages/rope/base/utils/__init__.py",
+    "lib/python3.9/site-packages/rope/base/utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/utils/__pycache__/datastructures.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/base/utils/datastructures.py",
+    "lib/python3.9/site-packages/rope/base/versioning.py",
+    "lib/python3.9/site-packages/rope/base/worder.py",
+    "lib/python3.9/site-packages/rope/contrib/__init__.py",
+    "lib/python3.9/site-packages/rope/contrib/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/__pycache__/changestack.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/__pycache__/codeassist.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/__pycache__/finderrors.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/__pycache__/findit.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/__pycache__/fixmodnames.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/__pycache__/fixsyntax.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/__pycache__/generate.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/__init__.py",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/defs.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/models.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/parse.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/pickle.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/sqlite.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/defs.py",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/models.py",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/parse.py",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/pickle.py",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/sqlite.py",
+    "lib/python3.9/site-packages/rope/contrib/autoimport/utils.py",
+    "lib/python3.9/site-packages/rope/contrib/changestack.py",
+    "lib/python3.9/site-packages/rope/contrib/codeassist.py",
+    "lib/python3.9/site-packages/rope/contrib/finderrors.py",
+    "lib/python3.9/site-packages/rope/contrib/findit.py",
+    "lib/python3.9/site-packages/rope/contrib/fixmodnames.py",
+    "lib/python3.9/site-packages/rope/contrib/fixsyntax.py",
+    "lib/python3.9/site-packages/rope/contrib/generate.py",
+    "lib/python3.9/site-packages/rope/refactor/__init__.py",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/change_signature.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/encapsulate_field.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/extract.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/functionutils.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/inline.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/introduce_factory.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/introduce_parameter.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/localtofield.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/method_object.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/move.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/multiproject.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/occurrences.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/patchedast.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/rename.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/restructure.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/similarfinder.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/sourceutils.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/suites.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/topackage.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/usefunction.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/__pycache__/wildcards.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/change_signature.py",
+    "lib/python3.9/site-packages/rope/refactor/encapsulate_field.py",
+    "lib/python3.9/site-packages/rope/refactor/extract.py",
+    "lib/python3.9/site-packages/rope/refactor/functionutils.py",
+    "lib/python3.9/site-packages/rope/refactor/importutils/__init__.py",
+    "lib/python3.9/site-packages/rope/refactor/importutils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/importutils/__pycache__/actions.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/importutils/__pycache__/importinfo.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/importutils/__pycache__/module_imports.cpython-39.pyc",
+    "lib/python3.9/site-packages/rope/refactor/importutils/actions.py",
+    "lib/python3.9/site-packages/rope/refactor/importutils/importinfo.py",
+    "lib/python3.9/site-packages/rope/refactor/importutils/module_imports.py",
+    "lib/python3.9/site-packages/rope/refactor/inline.py",
+    "lib/python3.9/site-packages/rope/refactor/introduce_factory.py",
+    "lib/python3.9/site-packages/rope/refactor/introduce_parameter.py",
+    "lib/python3.9/site-packages/rope/refactor/localtofield.py",
+    "lib/python3.9/site-packages/rope/refactor/method_object.py",
+    "lib/python3.9/site-packages/rope/refactor/move.py",
+    "lib/python3.9/site-packages/rope/refactor/multiproject.py",
+    "lib/python3.9/site-packages/rope/refactor/occurrences.py",
+    "lib/python3.9/site-packages/rope/refactor/patchedast.py",
+    "lib/python3.9/site-packages/rope/refactor/rename.py",
+    "lib/python3.9/site-packages/rope/refactor/restructure.py",
+    "lib/python3.9/site-packages/rope/refactor/similarfinder.py",
+    "lib/python3.9/site-packages/rope/refactor/sourceutils.py",
+    "lib/python3.9/site-packages/rope/refactor/suites.py",
+    "lib/python3.9/site-packages/rope/refactor/topackage.py",
+    "lib/python3.9/site-packages/rope/refactor/usefunction.py",
+    "lib/python3.9/site-packages/rope/refactor/wildcards.py"
+  ],
+  "fn": "rope-1.7.0-py39hca03da5_0.conda",
+  "legacy_bz2_md5": "098410815d040f4acdae8dfe61c1850f",
+  "license": "LGPL-3.0-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/rope-1.7.0-py39hca03da5_0",
+    "type": 1
+  },
+  "md5": "4027e0c5868fde5bac018adeaa583f55",
+  "name": "rope",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/rope-1.7.0-py39hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/rope-1.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope-1.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f600d8cc69aeda33ec06f936269139c6f54cd976f7e2009de56e87e83e964003",
+        "sha256_in_prefix": "f600d8cc69aeda33ec06f936269139c6f54cd976f7e2009de56e87e83e964003",
+        "size_in_bytes": 5564
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope-1.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "12b8aee2c051bcd2bce3eea8428cf0ea861049561c050b67dc4df21269eb9a96",
+        "sha256_in_prefix": "12b8aee2c051bcd2bce3eea8428cf0ea861049561c050b67dc4df21269eb9a96",
+        "size_in_bytes": 14521
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope-1.7.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope-1.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope-1.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d4ae6ae8d0fe975c724b837543fbc16e987dfad811419d30f71b4a22fb202f44",
+        "sha256_in_prefix": "d4ae6ae8d0fe975c724b837543fbc16e987dfad811419d30f71b4a22fb202f44",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope-1.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f49dbd4c4c75a26c4ad156a14b1337780d6c67a8b0a092f163f097978785d4ad",
+        "sha256_in_prefix": "f49dbd4c4c75a26c4ad156a14b1337780d6c67a8b0a092f163f097978785d4ad",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d6806c37b6200e932de69edc4f0fb97f9c0cf243b5460e15783a937d7b6e6505",
+        "sha256_in_prefix": "d6806c37b6200e932de69edc4f0fb97f9c0cf243b5460e15783a937d7b6e6505",
+        "size_in_bytes": 1431
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d6afc199d0728510c1019f9652b7a5d8d482495d59959834ddb52eea438293a8",
+        "sha256_in_prefix": "d6afc199d0728510c1019f9652b7a5d8d482495d59959834ddb52eea438293a8",
+        "size_in_bytes": 1563
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "45cfc25f3072104b387c2f80a7718232d56dda77ba89164b78a3f261c71e488b",
+        "sha256_in_prefix": "45cfc25f3072104b387c2f80a7718232d56dda77ba89164b78a3f261c71e488b",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "23ac90a4d0abcf08bf2f33d1ad9933f2ee16ed5aece6b678564fbf6ace439e50",
+        "sha256_in_prefix": "23ac90a4d0abcf08bf2f33d1ad9933f2ee16ed5aece6b678564fbf6ace439e50",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/arguments.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c469e728dabf814af28035007af6964111a67c3da9792a218a9ee8b25584628",
+        "sha256_in_prefix": "9c469e728dabf814af28035007af6964111a67c3da9792a218a9ee8b25584628",
+        "size_in_bytes": 3973
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/ast.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "76454efdb436f59646a1cb76ec5e6017c289a0b7de0c4a37fd8d9318e2876278",
+        "sha256_in_prefix": "76454efdb436f59646a1cb76ec5e6017c289a0b7de0c4a37fd8d9318e2876278",
+        "size_in_bytes": 2557
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/builtins.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bff6c2805cbcc8bf185c2707363c7f167b7ddae500eae747630b3f28dc151ef4",
+        "sha256_in_prefix": "bff6c2805cbcc8bf185c2707363c7f167b7ddae500eae747630b3f28dc151ef4",
+        "size_in_bytes": 26091
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/change.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c3f25df092aba232e5be8e3dda33e88225cecb3f877707dc95285c291d0c58fc",
+        "sha256_in_prefix": "c3f25df092aba232e5be8e3dda33e88225cecb3f877707dc95285c291d0c58fc",
+        "size_in_bytes": 16362
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/codeanalyze.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "47fb0e11596a4a30b4a1f26175b11c58faa5320371284d7869333e3ab42dbf18",
+        "sha256_in_prefix": "47fb0e11596a4a30b4a1f26175b11c58faa5320371284d7869333e3ab42dbf18",
+        "size_in_bytes": 11877
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/evaluate.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa1c433be4b470a7dfdbf60e94f5a6b370f02c5e3b8d97dafd3f0b04a55f4d2a",
+        "sha256_in_prefix": "fa1c433be4b470a7dfdbf60e94f5a6b370f02c5e3b8d97dafd3f0b04a55f4d2a",
+        "size_in_bytes": 12314
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "81cd035cd632313b9342c9ff6c4368f676db6182711d63e22480c57e8488d3ba",
+        "sha256_in_prefix": "81cd035cd632313b9342c9ff6c4368f676db6182711d63e22480c57e8488d3ba",
+        "size_in_bytes": 2661
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/fscommands.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2bcb64aee23f44302e7e9c0f6eb7f77e5859f43387d787dc9b6dbcb52deffd00",
+        "sha256_in_prefix": "2bcb64aee23f44302e7e9c0f6eb7f77e5859f43387d787dc9b6dbcb52deffd00",
+        "size_in_bytes": 10109
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/history.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d2f16d94e30289550dbfa7b24f4fb2ad1af58e7e25178b04c4f8c7a8ffad1f5",
+        "sha256_in_prefix": "2d2f16d94e30289550dbfa7b24f4fb2ad1af58e7e25178b04c4f8c7a8ffad1f5",
+        "size_in_bytes": 8462
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/libutils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "287a6c6d406036aeb0cbcabe9189b2a6ebb24477827de93d8bbbcbd639da72a6",
+        "sha256_in_prefix": "287a6c6d406036aeb0cbcabe9189b2a6ebb24477827de93d8bbbcbd639da72a6",
+        "size_in_bytes": 3775
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/nameanalyze.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e1b76cb1b02443b16cc163846133398a480e708a66129a63b317949bef7d92b",
+        "sha256_in_prefix": "3e1b76cb1b02443b16cc163846133398a480e708a66129a63b317949bef7d92b",
+        "size_in_bytes": 2510
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/prefs.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bd1b9f0fa6f772e893e23c5d5724421f4374389c974250adb2b1ab3964d25ed",
+        "sha256_in_prefix": "8bd1b9f0fa6f772e893e23c5d5724421f4374389c974250adb2b1ab3964d25ed",
+        "size_in_bytes": 10082
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/project.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad674348cc874769677fd7cff6125482d41052c08b4b05d32e82696def6ee89a",
+        "sha256_in_prefix": "ad674348cc874769677fd7cff6125482d41052c08b4b05d32e82696def6ee89a",
+        "size_in_bytes": 16616
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/pycore.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d8c9a7d0b4fa0230b262899e740c963f1dc1affd264b64abd174f5690468de0",
+        "sha256_in_prefix": "5d8c9a7d0b4fa0230b262899e740c963f1dc1affd264b64abd174f5690468de0",
+        "size_in_bytes": 13365
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/pynames.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ae3eed4506189b4e5da263121b7545b8726eba50a32cf7da390c286adbc71dd",
+        "sha256_in_prefix": "4ae3eed4506189b4e5da263121b7545b8726eba50a32cf7da390c286adbc71dd",
+        "size_in_bytes": 8114
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/pynamesdef.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6deb130f9eb1429ec8e1fe89e374772b5ef4e1c7d1bf773bb4329d0dfd3abee8",
+        "sha256_in_prefix": "6deb130f9eb1429ec8e1fe89e374772b5ef4e1c7d1bf773bb4329d0dfd3abee8",
+        "size_in_bytes": 3516
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/pyobjects.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "05f982e48f650edf376d11bafb9c0c5beff19cb15ea5ef30ee9da7e2ffef36f1",
+        "sha256_in_prefix": "05f982e48f650edf376d11bafb9c0c5beff19cb15ea5ef30ee9da7e2ffef36f1",
+        "size_in_bytes": 12815
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/pyobjectsdef.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "861433d0f016a57a3e5b828e3245f20b4aaffb9d146cbae8b121c1489c302b06",
+        "sha256_in_prefix": "861433d0f016a57a3e5b828e3245f20b4aaffb9d146cbae8b121c1489c302b06",
+        "size_in_bytes": 25296
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/pyscopes.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f8fb570a19cb08385490230a9002ca4de9c1c44b81e217f75beff9281d7e490",
+        "sha256_in_prefix": "2f8fb570a19cb08385490230a9002ca4de9c1c44b81e217f75beff9281d7e490",
+        "size_in_bytes": 14624
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/resourceobserver.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "176024c83b6580773c59920e921d4db0c3595c3fbbb755d54a6eae8f15d80340",
+        "sha256_in_prefix": "176024c83b6580773c59920e921d4db0c3595c3fbbb755d54a6eae8f15d80340",
+        "size_in_bytes": 10082
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/resources.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "eee94335fd62e491cacc9c5a52f66e45364a7b7646ea75b25403b7b8e41a3176",
+        "sha256_in_prefix": "eee94335fd62e491cacc9c5a52f66e45364a7b7646ea75b25403b7b8e41a3176",
+        "size_in_bytes": 10250
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/serializer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b112f36f18ce60ecb2eb4a13c5281aa821c017f483e850ee92c95587d56214af",
+        "sha256_in_prefix": "b112f36f18ce60ecb2eb4a13c5281aa821c017f483e850ee92c95587d56214af",
+        "size_in_bytes": 5223
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/simplify.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "681c61e06b7dce71468e89d270de69d65d68d267a4d9462f2e00f61daad8f371",
+        "sha256_in_prefix": "681c61e06b7dce71468e89d270de69d65d68d267a4d9462f2e00f61daad8f371",
+        "size_in_bytes": 1868
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/stdmods.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "83f247e1851a4447160bd9d043d3b8994ea6ee5bc65b84fa07a1d71f5d861f24",
+        "sha256_in_prefix": "83f247e1851a4447160bd9d043d3b8994ea6ee5bc65b84fa07a1d71f5d861f24",
+        "size_in_bytes": 1586
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/taskhandle.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "db187eb5b0484011dc7b6c678930885f7b79e8d33fbb5b0f2a04f94fabf10924",
+        "sha256_in_prefix": "db187eb5b0484011dc7b6c678930885f7b79e8d33fbb5b0f2a04f94fabf10924",
+        "size_in_bytes": 8506
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/versioning.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bdda744d11126e93cbd8566b11c0e1a329bd8bc40bc06c48415257421987413",
+        "sha256_in_prefix": "8bdda744d11126e93cbd8566b11c0e1a329bd8bc40bc06c48415257421987413",
+        "size_in_bytes": 1742
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/__pycache__/worder.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7d6505f3394644106a7cc7f598aa143f796fb22501e8cd15a863f57f8111ed3",
+        "sha256_in_prefix": "a7d6505f3394644106a7cc7f598aa143f796fb22501e8cd15a863f57f8111ed3",
+        "size_in_bytes": 20134
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/arguments.py",
+        "path_type": "hardlink",
+        "sha256": "3f036d089a9c6a684b8a17bdd29f3298b353921d7233bdd49d0d0d3f8924bcca",
+        "sha256_in_prefix": "3f036d089a9c6a684b8a17bdd29f3298b353921d7233bdd49d0d0d3f8924bcca",
+        "size_in_bytes": 3283
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/ast.py",
+        "path_type": "hardlink",
+        "sha256": "d945ca9517ef3a834ff6ee798cf939c09ec60a341d75fb4adc0c17322954db2a",
+        "sha256_in_prefix": "d945ca9517ef3a834ff6ee798cf939c09ec60a341d75fb4adc0c17322954db2a",
+        "size_in_bytes": 2416
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/builtins.py",
+        "path_type": "hardlink",
+        "sha256": "91fa9ef70d0578c5d8c5d4d0616034bfdfadad9053cfd1e64f9ad107c91dbbf7",
+        "sha256_in_prefix": "91fa9ef70d0578c5d8c5d4d0616034bfdfadad9053cfd1e64f9ad107c91dbbf7",
+        "size_in_bytes": 26263
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/change.py",
+        "path_type": "hardlink",
+        "sha256": "7a6e9b1cf7117594eccefdc1e11250c8deba593a96b9b0a032a7c944afb00622",
+        "sha256_in_prefix": "7a6e9b1cf7117594eccefdc1e11250c8deba593a96b9b0a032a7c944afb00622",
+        "size_in_bytes": 13675
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/codeanalyze.py",
+        "path_type": "hardlink",
+        "sha256": "000ac7f4e6080cbec41fd5507abed6d50a8604544fef44c86a62ad5f87b10116",
+        "sha256_in_prefix": "000ac7f4e6080cbec41fd5507abed6d50a8604544fef44c86a62ad5f87b10116",
+        "size_in_bytes": 11774
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/evaluate.py",
+        "path_type": "hardlink",
+        "sha256": "d2935da4861a580a5e03f66ad4acd844a8124fbf82dadb0b3cb32e5d630f36f1",
+        "sha256_in_prefix": "d2935da4861a580a5e03f66ad4acd844a8124fbf82dadb0b3cb32e5d630f36f1",
+        "size_in_bytes": 13587
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "f6cdf6104a8ae4b1e6aa3e6705a04c7023339d36ab62c6002c9e757526016beb",
+        "sha256_in_prefix": "f6cdf6104a8ae4b1e6aa3e6705a04c7023339d36ab62c6002c9e757526016beb",
+        "size_in_bytes": 1370
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/fscommands.py",
+        "path_type": "hardlink",
+        "sha256": "ba0beb0d6ce92e15c874c356f6f98658d7a5bfede30df0e2b5bbd616f7e0e738",
+        "sha256_in_prefix": "ba0beb0d6ce92e15c874c356f6f98658d7a5bfede30df0e2b5bbd616f7e0e738",
+        "size_in_bytes": 8421
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/history.py",
+        "path_type": "hardlink",
+        "sha256": "17ad1ef82f21186fe50893fee9ca3fad0df370427a18e709e577e7bbccd91371",
+        "sha256_in_prefix": "17ad1ef82f21186fe50893fee9ca3fad0df370427a18e709e577e7bbccd91371",
+        "size_in_bytes": 8342
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/libutils.py",
+        "path_type": "hardlink",
+        "sha256": "dcb3e6e3ac25c6d740f8dd3ecd2ff56287e06a484316ea78ad856bc9c3c8cfce",
+        "sha256_in_prefix": "dcb3e6e3ac25c6d740f8dd3ecd2ff56287e06a484316ea78ad856bc9c3c8cfce",
+        "size_in_bytes": 3841
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/nameanalyze.py",
+        "path_type": "hardlink",
+        "sha256": "717e5303cfda8a9242a2f38220de5af7bf74f8c69ae5b1c17ea64b62f0cfaba7",
+        "sha256_in_prefix": "717e5303cfda8a9242a2f38220de5af7bf74f8c69ae5b1c17ea64b62f0cfaba7",
+        "size_in_bytes": 1656
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c11e227fe0c9f2a73e786c0a6b6585d189df97963d09fe9e4acdd8afbb42fa9a",
+        "sha256_in_prefix": "c11e227fe0c9f2a73e786c0a6b6585d189df97963d09fe9e4acdd8afbb42fa9a",
+        "size_in_bytes": 1682
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d461bb76317a7648f4ae43723ec46059a7fd8f8ac8d2fac94d6a0abc9ff3ab7",
+        "sha256_in_prefix": "7d461bb76317a7648f4ae43723ec46059a7fd8f8ac8d2fac94d6a0abc9ff3ab7",
+        "size_in_bytes": 1833
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/__pycache__/doa.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "495784cee513e7f067653a1622a69525633e22781a4c2f6d459d6b12aaa843c4",
+        "sha256_in_prefix": "495784cee513e7f067653a1622a69525633e22781a4c2f6d459d6b12aaa843c4",
+        "size_in_bytes": 6739
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/__pycache__/memorydb.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "657eb3da0e04d32f0a7a3e0a9d5e406b0044ea00b892a4b366c41ad2f2ce97b3",
+        "sha256_in_prefix": "657eb3da0e04d32f0a7a3e0a9d5e406b0044ea00b892a4b366c41ad2f2ce97b3",
+        "size_in_bytes": 5648
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/__pycache__/objectdb.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc1d7c49e6493a7b7e454722d0499ba76e0d1f5c9c615d80ce4b59ba18c63600",
+        "sha256_in_prefix": "bc1d7c49e6493a7b7e454722d0499ba76e0d1f5c9c615d80ce4b59ba18c63600",
+        "size_in_bytes": 7078
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/__pycache__/objectinfo.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2d686c29444c627ec166b5e6ed3d47b06e37e73fe12ff527f661aa46f216b1f",
+        "sha256_in_prefix": "c2d686c29444c627ec166b5e6ed3d47b06e37e73fe12ff527f661aa46f216b1f",
+        "size_in_bytes": 9125
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/__pycache__/runmod.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bed9cbcba1b9eacd657c1f9e2a43993161eb5742525f4d01cc4d145677509639",
+        "sha256_in_prefix": "bed9cbcba1b9eacd657c1f9e2a43993161eb5742525f4d01cc4d145677509639",
+        "size_in_bytes": 8647
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/__pycache__/soa.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "53dca6a53a61ae2700f656ad81bc09284301d287a6f0dc5856c0f54ab7ab0287",
+        "sha256_in_prefix": "53dca6a53a61ae2700f656ad81bc09284301d287a6f0dc5856c0f54ab7ab0287",
+        "size_in_bytes": 5685
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/__pycache__/soi.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2ccad4a82554abcfd964e629db7cba31f2050e6e389a5ed5421de9e45094982",
+        "sha256_in_prefix": "c2ccad4a82554abcfd964e629db7cba31f2050e6e389a5ed5421de9e45094982",
+        "size_in_bytes": 5548
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/__pycache__/transform.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "91de5f24ddf050f077be96eae3bc7074891b36bc9d7bd8d1af6432ab9e4f0582",
+        "sha256_in_prefix": "91de5f24ddf050f077be96eae3bc7074891b36bc9d7bd8d1af6432ab9e4f0582",
+        "size_in_bytes": 12181
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/doa.py",
+        "path_type": "hardlink",
+        "sha256": "88e4aee44201df8d00f4d6ff6d10b815fb51f01960e3d5943e05da1b82eac3a5",
+        "sha256_in_prefix": "88e4aee44201df8d00f4d6ff6d10b815fb51f01960e3d5943e05da1b82eac3a5",
+        "size_in_bytes": 7369
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/memorydb.py",
+        "path_type": "hardlink",
+        "sha256": "850ea22777abc7379fe1c9813cc0b55b732bbe089e164d52967e3e91f9ca9d6e",
+        "sha256_in_prefix": "850ea22777abc7379fe1c9813cc0b55b732bbe089e164d52967e3e91f9ca9d6e",
+        "size_in_bytes": 3440
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/objectdb.py",
+        "path_type": "hardlink",
+        "sha256": "172cd2d1eb0cf6c257aea67886bcff1b04fa0170aee5d663fecbb14ddbec5e29",
+        "sha256_in_prefix": "172cd2d1eb0cf6c257aea67886bcff1b04fa0170aee5d663fecbb14ddbec5e29",
+        "size_in_bytes": 4547
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/objectinfo.py",
+        "path_type": "hardlink",
+        "sha256": "ecb8031b274aa9633e6185bfe8682e278c6a0e4d67627d07b0a94d09649d858e",
+        "sha256_in_prefix": "ecb8031b274aa9633e6185bfe8682e278c6a0e4d67627d07b0a94d09649d858e",
+        "size_in_bytes": 8624
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/runmod.py",
+        "path_type": "hardlink",
+        "sha256": "1d4c0afabc9dbe0a36e0a932b3b7a85f5b3414870da77d29e65cb81a0cc01d1b",
+        "sha256_in_prefix": "1d4c0afabc9dbe0a36e0a932b3b7a85f5b3414870da77d29e65cb81a0cc01d1b",
+        "size_in_bytes": 8519
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/soa.py",
+        "path_type": "hardlink",
+        "sha256": "e1c2ddb1633bd4c879d6eb651eda3c77209691f212c79d91601de8ea79f5c109",
+        "sha256_in_prefix": "e1c2ddb1633bd4c879d6eb651eda3c77209691f212c79d91601de8ea79f5c109",
+        "size_in_bytes": 5862
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/soi.py",
+        "path_type": "hardlink",
+        "sha256": "1e524a408f84088a727394ef8f133074f9c936be07a5050d05d84a1aa962012d",
+        "sha256_in_prefix": "1e524a408f84088a727394ef8f133074f9c936be07a5050d05d84a1aa962012d",
+        "size_in_bytes": 7800
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/transform.py",
+        "path_type": "hardlink",
+        "sha256": "93c9cf31e3cbbc0e7310599bfde3d8547f1a937d5c84fb37780d5b74167a57d6",
+        "sha256_in_prefix": "93c9cf31e3cbbc0e7310599bfde3d8547f1a937d5c84fb37780d5b74167a57d6",
+        "size_in_bytes": 9829
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "57fd662a448b328281edc3bf7490c4e910f214cbf85aaa60d40f10fdf87d71a6",
+        "sha256_in_prefix": "57fd662a448b328281edc3bf7490c4e910f214cbf85aaa60d40f10fdf87d71a6",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/__pycache__/evaluate.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8a87420e93d718d5faca8f4e75988eb8d2f537f202660b4465d2d6e9dd7e0e63",
+        "sha256_in_prefix": "8a87420e93d718d5faca8f4e75988eb8d2f537f202660b4465d2d6e9dd7e0e63",
+        "size_in_bytes": 10226
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/__pycache__/factory.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c79e96fe724a53eafea032b9df7afd071627037e79336c4d30942e5cc2c960ab",
+        "sha256_in_prefix": "c79e96fe724a53eafea032b9df7afd071627037e79336c4d30942e5cc2c960ab",
+        "size_in_bytes": 2866
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/__pycache__/interfaces.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c92700411a99ad3a16193cbd35f366238b29e6236f4b63963794b3e4ec35343",
+        "sha256_in_prefix": "6c92700411a99ad3a16193cbd35f366238b29e6236f4b63963794b3e4ec35343",
+        "size_in_bytes": 1311
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/__pycache__/utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca82bd7bdf199920729e028c854726ec5bd1642c720ee1df48cd92f82a65b127",
+        "sha256_in_prefix": "ca82bd7bdf199920729e028c854726ec5bd1642c720ee1df48cd92f82a65b127",
+        "size_in_bytes": 4229
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/evaluate.py",
+        "path_type": "hardlink",
+        "sha256": "fd9b8f5c9405adb504dd5b90574be876dd3c0e9d045b74fe4860fad8e1961fa2",
+        "sha256_in_prefix": "fd9b8f5c9405adb504dd5b90574be876dd3c0e9d045b74fe4860fad8e1961fa2",
+        "size_in_bytes": 8867
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/factory.py",
+        "path_type": "hardlink",
+        "sha256": "4aebaf13f710082fa2febf51b365af657aef9c2859847c80c49f4fe12ef2f2ce",
+        "sha256_in_prefix": "4aebaf13f710082fa2febf51b365af657aef9c2859847c80c49f4fe12ef2f2ce",
+        "size_in_bytes": 2728
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/interfaces.py",
+        "path_type": "hardlink",
+        "sha256": "6a13c3ae4d5507f62e2e56203a04a6e8e6baa2ef6f9fb01e41a329d2f3daf9d7",
+        "sha256_in_prefix": "6a13c3ae4d5507f62e2e56203a04a6e8e6baa2ef6f9fb01e41a329d2f3daf9d7",
+        "size_in_bytes": 715
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "04796ac814b612a0bdd30d44961fabe4b7a5601b2885b148371b891dd4c1d849",
+        "sha256_in_prefix": "04796ac814b612a0bdd30d44961fabe4b7a5601b2885b148371b891dd4c1d849",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/composite.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5e5102206cdf2d91c29cd0a884a1f7baa15f0f689f8e66dffc8774962702907",
+        "sha256_in_prefix": "f5e5102206cdf2d91c29cd0a884a1f7baa15f0f689f8e66dffc8774962702907",
+        "size_in_bytes": 2477
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/docstrings.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "71bbdc368c454ddd1144a92ca6f09b6f4e193cafcc0f39f744cfdcf777b2cde0",
+        "sha256_in_prefix": "71bbdc368c454ddd1144a92ca6f09b6f4e193cafcc0f39f744cfdcf777b2cde0",
+        "size_in_bytes": 7172
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/inheritance.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1af623ec1ac98707fc179369278738edffbcc098c7e5856348b503f6ce447ec6",
+        "sha256_in_prefix": "1af623ec1ac98707fc179369278738edffbcc098c7e5856348b503f6ce447ec6",
+        "size_in_bytes": 2603
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/interfaces.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6547dbab9ad607666280334126d2581e009c8ecc91a30937cfb3516c1e8e10d6",
+        "sha256_in_prefix": "6547dbab9ad607666280334126d2581e009c8ecc91a30937cfb3516c1e8e10d6",
+        "size_in_bytes": 1656
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/numpydocstrings.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd565dd315a3c392a65be99a77514e10ebda13ef75cd847206f4ea12af28b740",
+        "sha256_in_prefix": "bd565dd315a3c392a65be99a77514e10ebda13ef75cd847206f4ea12af28b740",
+        "size_in_bytes": 1804
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/__pycache__/pep0484_type_comments.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d36c4627269cbddd92f149152d4f3762838fb60de649e8462bee0eef58d3fcd7",
+        "sha256_in_prefix": "d36c4627269cbddd92f149152d4f3762838fb60de649e8462bee0eef58d3fcd7",
+        "size_in_bytes": 1939
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/composite.py",
+        "path_type": "hardlink",
+        "sha256": "bc656e6bedb1db8c838cd42adfe03ef5db9f46637e223e9a27eee17949f3da3e",
+        "sha256_in_prefix": "bc656e6bedb1db8c838cd42adfe03ef5db9f46637e223e9a27eee17949f3da3e",
+        "size_in_bytes": 1856
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/docstrings.py",
+        "path_type": "hardlink",
+        "sha256": "c4dee9cd0c7154d9073a86fd22e494287a4db5f00b27f22ac051c18341238719",
+        "sha256_in_prefix": "c4dee9cd0c7154d9073a86fd22e494287a4db5f00b27f22ac051c18341238719",
+        "size_in_bytes": 6167
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/inheritance.py",
+        "path_type": "hardlink",
+        "sha256": "0ef730bb90ee6860f2601b4918279edd8bc1915ed8896de82139101e5d65773d",
+        "sha256_in_prefix": "0ef730bb90ee6860f2601b4918279edd8bc1915ed8896de82139101e5d65773d",
+        "size_in_bytes": 2116
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/interfaces.py",
+        "path_type": "hardlink",
+        "sha256": "b76c4303ad7eaecb8af1bf6fa0638eebfb6f1cadf98fb6c9b91a7d0cd6476d07",
+        "sha256_in_prefix": "b76c4303ad7eaecb8af1bf6fa0638eebfb6f1cadf98fb6c9b91a7d0cd6476d07",
+        "size_in_bytes": 1055
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/numpydocstrings.py",
+        "path_type": "hardlink",
+        "sha256": "5a6e5919be817b35ec5767b46ef78afe95f66bed7e3be73640cf1fbde062766d",
+        "sha256_in_prefix": "5a6e5919be817b35ec5767b46ef78afe95f66bed7e3be73640cf1fbde062766d",
+        "size_in_bytes": 1389
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/providers/pep0484_type_comments.py",
+        "path_type": "hardlink",
+        "sha256": "965b45b471ede6f4941e17f01d407724046e3039dcbdfd29b4c9d4072a912a04",
+        "sha256_in_prefix": "965b45b471ede6f4941e17f01d407724046e3039dcbdfd29b4c9d4072a912a04",
+        "size_in_bytes": 1525
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b88999e683d7db47ce4eaffaf866c8e2a1ebdddda1aaa8ab4da8df23001d543",
+        "sha256_in_prefix": "0b88999e683d7db47ce4eaffaf866c8e2a1ebdddda1aaa8ab4da8df23001d543",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/__pycache__/composite.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "011bc343a1848cf17d6d70b9324166e5be245239b5e6b12238a6d27fe6cb3022",
+        "sha256_in_prefix": "011bc343a1848cf17d6d70b9324166e5be245239b5e6b12238a6d27fe6cb3022",
+        "size_in_bytes": 1147
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/__pycache__/interfaces.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a0d24537ec2e2d9b318f8d467b0a7b53d0fe2fb2676a7feb7be62bc8e7c63f39",
+        "sha256_in_prefix": "a0d24537ec2e2d9b318f8d467b0a7b53d0fe2fb2676a7feb7be62bc8e7c63f39",
+        "size_in_bytes": 780
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/__pycache__/types.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b48c12d1f90c2a68e33d67b92323fee90544456091f53aaad93fa59197322b6",
+        "sha256_in_prefix": "4b48c12d1f90c2a68e33d67b92323fee90544456091f53aaad93fa59197322b6",
+        "size_in_bytes": 952
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/composite.py",
+        "path_type": "hardlink",
+        "sha256": "7396f90af592ef6f7d0a9234056b1ae4ba4a9c1a68d7aec1fe97a723555e7b32",
+        "sha256_in_prefix": "7396f90af592ef6f7d0a9234056b1ae4ba4a9c1a68d7aec1fe97a723555e7b32",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/interfaces.py",
+        "path_type": "hardlink",
+        "sha256": "00980fc89caab3d86c77c59d96adf65159283dafd1cf4bae04f64c0fae06e4e1",
+        "sha256_in_prefix": "00980fc89caab3d86c77c59d96adf65159283dafd1cf4bae04f64c0fae06e4e1",
+        "size_in_bytes": 405
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/resolvers/types.py",
+        "path_type": "hardlink",
+        "sha256": "303fdbc6b21c48998a9c411fa9b78bc5966af82a3180306e6363c406b58dbd7f",
+        "sha256_in_prefix": "303fdbc6b21c48998a9c411fa9b78bc5966af82a3180306e6363c406b58dbd7f",
+        "size_in_bytes": 611
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/oi/type_hinting/utils.py",
+        "path_type": "hardlink",
+        "sha256": "4c95ae7c320b46c8c4e6b4662ebe08238322c2155f4b9c75e9e6c570e8b39c1c",
+        "sha256_in_prefix": "4c95ae7c320b46c8c4e6b4662ebe08238322c2155f4b9c75e9e6c570e8b39c1c",
+        "size_in_bytes": 5162
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/prefs.py",
+        "path_type": "hardlink",
+        "sha256": "996b385d4810f2f1da3d2bfbcb0fcc568c8db045116e7b8c9a85056ed8409eda",
+        "sha256_in_prefix": "996b385d4810f2f1da3d2bfbcb0fcc568c8db045116e7b8c9a85056ed8409eda",
+        "size_in_bytes": 10158
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/project.py",
+        "path_type": "hardlink",
+        "sha256": "9f506c1d89ff90cff8980be0225ca2685c55781ddbb7d99a545441ab3d097b0e",
+        "sha256_in_prefix": "9f506c1d89ff90cff8980be0225ca2685c55781ddbb7d99a545441ab3d097b0e",
+        "size_in_bytes": 14976
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/pycore.py",
+        "path_type": "hardlink",
+        "sha256": "510e28df3c65800f296226ec1a2906fd45d43527179d48f221744e2b1679e753",
+        "sha256_in_prefix": "510e28df3c65800f296226ec1a2906fd45d43527179d48f221744e2b1679e753",
+        "size_in_bytes": 12805
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/pynames.py",
+        "path_type": "hardlink",
+        "sha256": "3b60ef98c893f144eab96ff3e2c62942d5b8dc653ddba51cb4743004d69c4e12",
+        "sha256_in_prefix": "3b60ef98c893f144eab96ff3e2c62942d5b8dc653ddba51cb4743004d69c4e12",
+        "size_in_bytes": 6390
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/pynamesdef.py",
+        "path_type": "hardlink",
+        "sha256": "d3bcdeb8fb8a5ae216bbe8a3fda28b6c433338a2d6fedce4983c369d982f7877",
+        "sha256_in_prefix": "d3bcdeb8fb8a5ae216bbe8a3fda28b6c433338a2d6fedce4983c369d982f7877",
+        "size_in_bytes": 2098
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/pyobjects.py",
+        "path_type": "hardlink",
+        "sha256": "80ed079dab413d6a8b54d8226a37bc9014a673426826b46f48136998db270867",
+        "sha256_in_prefix": "80ed079dab413d6a8b54d8226a37bc9014a673426826b46f48136998db270867",
+        "size_in_bytes": 9179
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/pyobjectsdef.py",
+        "path_type": "hardlink",
+        "sha256": "b81b123cc1d65519c4276dc5cfb13d235a1013aba13a51695d36b87b453433e5",
+        "sha256_in_prefix": "b81b123cc1d65519c4276dc5cfb13d235a1013aba13a51695d36b87b453433e5",
+        "size_in_bytes": 22735
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/pyscopes.py",
+        "path_type": "hardlink",
+        "sha256": "8549fc9d98dedcbcd79c41f41432c1471ace9dc66f7a87976fceb67be9e160e9",
+        "sha256_in_prefix": "8549fc9d98dedcbcd79c41f41432c1471ace9dc66f7a87976fceb67be9e160e9",
+        "size_in_bytes": 11468
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/resourceobserver.py",
+        "path_type": "hardlink",
+        "sha256": "311dc06bf6a34db3d69104d4b6d29f0e837fa8e9916d5eb78701a5c8783ff93d",
+        "sha256_in_prefix": "311dc06bf6a34db3d69104d4b6d29f0e837fa8e9916d5eb78701a5c8783ff93d",
+        "size_in_bytes": 10291
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/resources.py",
+        "path_type": "hardlink",
+        "sha256": "17b6e92c65f77772732602af00e80db3d9074a7177552fc1c10738e912521b72",
+        "sha256_in_prefix": "17b6e92c65f77772732602af00e80db3d9074a7177552fc1c10738e912521b72",
+        "size_in_bytes": 7892
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/serializer.py",
+        "path_type": "hardlink",
+        "sha256": "19eca912952a6d400a7d31a73224d2bbe860738d0e90bbb957141887967794e2",
+        "sha256_in_prefix": "19eca912952a6d400a7d31a73224d2bbe860738d0e90bbb957141887967794e2",
+        "size_in_bytes": 5590
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/simplify.py",
+        "path_type": "hardlink",
+        "sha256": "42d71c7120ac954c3c2535768c6e03d6d0094053751ed858cb8143dcd76a3668",
+        "sha256_in_prefix": "42d71c7120ac954c3c2535768c6e03d6d0094053751ed858cb8143dcd76a3668",
+        "size_in_bytes": 1905
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/stdmods.py",
+        "path_type": "hardlink",
+        "sha256": "b33b375f76d69bf96c5505f6de16c926c581549cc9e8d6680a072e8fce18fc42",
+        "sha256_in_prefix": "b33b375f76d69bf96c5505f6de16c926c581549cc9e8d6680a072e8fce18fc42",
+        "size_in_bytes": 1607
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/taskhandle.py",
+        "path_type": "hardlink",
+        "sha256": "2db01b9c0ad6e797da3d174f45276840618abca9a2512366abfdbb5612b864c5",
+        "sha256_in_prefix": "2db01b9c0ad6e797da3d174f45276840618abca9a2512366abfdbb5612b864c5",
+        "size_in_bytes": 4990
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d1320fccd4651b094e1f434c4156bfe3b389e60f6326e48187c131f8a81e9fdd",
+        "sha256_in_prefix": "d1320fccd4651b094e1f434c4156bfe3b389e60f6326e48187c131f8a81e9fdd",
+        "size_in_bytes": 3949
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4459793e36a3b147e6f4ec8337d662ae23790134baba541a17fe6659765ac157",
+        "sha256_in_prefix": "4459793e36a3b147e6f4ec8337d662ae23790134baba541a17fe6659765ac157",
+        "size_in_bytes": 4786
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/utils/__pycache__/datastructures.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "932db95f883dd8edc43e558353e468aab576993be0a5079ec485279a8c929b0d",
+        "sha256_in_prefix": "932db95f883dd8edc43e558353e468aab576993be0a5079ec485279a8c929b0d",
+        "size_in_bytes": 2583
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/utils/datastructures.py",
+        "path_type": "hardlink",
+        "sha256": "1176077639d2f557b0498a9bb09642ea6812d33ad7121c90ab8ddb03ffbcb24b",
+        "sha256_in_prefix": "1176077639d2f557b0498a9bb09642ea6812d33ad7121c90ab8ddb03ffbcb24b",
+        "size_in_bytes": 1824
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/versioning.py",
+        "path_type": "hardlink",
+        "sha256": "638275e044aea8d266be9c0b31da23d136e84b5005201dbfde86f9081ba21ac9",
+        "sha256_in_prefix": "638275e044aea8d266be9c0b31da23d136e84b5005201dbfde86f9081ba21ac9",
+        "size_in_bytes": 1405
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/base/worder.py",
+        "path_type": "hardlink",
+        "sha256": "ee6bce728add89c83cb2f846301862434e78ef7f3349863a4648cab104ad0967",
+        "sha256_in_prefix": "ee6bce728add89c83cb2f846301862434e78ef7f3349863a4648cab104ad0967",
+        "size_in_bytes": 22416
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dad776fd03dab82bc898e566cf76bceb48f6c84f96decb60f413a1d4c6f87651",
+        "sha256_in_prefix": "dad776fd03dab82bc898e566cf76bceb48f6c84f96decb60f413a1d4c6f87651",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f563b9195d4a95af4032f7410951b5e75f1d57124bae7555923fbd5de86796d",
+        "sha256_in_prefix": "4f563b9195d4a95af4032f7410951b5e75f1d57124bae7555923fbd5de86796d",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/__pycache__/changestack.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ede2988897ccc8710d4440bcd81c54d5d5f5ed6ab12840aba4660262e99e89f",
+        "sha256_in_prefix": "9ede2988897ccc8710d4440bcd81c54d5d5f5ed6ab12840aba4660262e99e89f",
+        "size_in_bytes": 1884
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/__pycache__/codeassist.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "683ee29b7d0023a0154caa1ade2921f7ca8bfdeded49960f064f0f1596c17835",
+        "sha256_in_prefix": "683ee29b7d0023a0154caa1ade2921f7ca8bfdeded49960f064f0f1596c17835",
+        "size_in_bytes": 23543
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/__pycache__/finderrors.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "69a454e1c6c12c23b72232290b7617e204dcce4652b622b455c5181f785fa868",
+        "sha256_in_prefix": "69a454e1c6c12c23b72232290b7617e204dcce4652b622b455c5181f785fa868",
+        "size_in_bytes": 3442
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/__pycache__/findit.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9dc54fbc57c0ff8c3d3401c3d657805fc7473674ea812e922e46c2f08f5b0df2",
+        "sha256_in_prefix": "9dc54fbc57c0ff8c3d3401c3d657805fc7473674ea812e922e46c2f08f5b0df2",
+        "size_in_bytes": 4340
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/__pycache__/fixmodnames.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "072f2fce0348f32d098426ba56e968b6fc0f9dd8b35cc44c1b269811736f9dd5",
+        "sha256_in_prefix": "072f2fce0348f32d098426ba56e968b6fc0f9dd8b35cc44c1b269811736f9dd5",
+        "size_in_bytes": 2451
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/__pycache__/fixsyntax.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cc822c893cfb4c5f106003714accc4a617241aaf3fd2cf470fe7728dd0ae7aa1",
+        "sha256_in_prefix": "cc822c893cfb4c5f106003714accc4a617241aaf3fd2cf470fe7728dd0ae7aa1",
+        "size_in_bytes": 6046
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/__pycache__/generate.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bfc9fdbe3c37f6363fb5b3438f896319bb2033dd543d6246160fba19286299df",
+        "sha256_in_prefix": "bfc9fdbe3c37f6363fb5b3438f896319bb2033dd543d6246160fba19286299df",
+        "size_in_bytes": 14725
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8ecf98e095c5e4f2ed61fa6b962923098905ce6a2b4002e50546ab13982aa359",
+        "sha256_in_prefix": "8ecf98e095c5e4f2ed61fa6b962923098905ce6a2b4002e50546ab13982aa359",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "64b3c1401084c0beb257f0b375ea23ba0ec9210d5a9ad8470d2a7e14866c5d82",
+        "sha256_in_prefix": "64b3c1401084c0beb257f0b375ea23ba0ec9210d5a9ad8470d2a7e14866c5d82",
+        "size_in_bytes": 327
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/defs.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0986b0e795155028b274d39a6fb93a564d41d78f04283c989eba98dc9568c03c",
+        "sha256_in_prefix": "0986b0e795155028b274d39a6fb93a564d41d78f04283c989eba98dc9568c03c",
+        "size_in_bytes": 3666
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/models.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fad408813d2ef8b1096814232a0cd2d547c171f135acbf743de7cf8611193b65",
+        "sha256_in_prefix": "fad408813d2ef8b1096814232a0cd2d547c171f135acbf743de7cf8611193b65",
+        "size_in_bytes": 4648
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/parse.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf2d96f306146802657a8d107386ada17d6cb37e845f3b4aac6f50cd156ab517",
+        "sha256_in_prefix": "cf2d96f306146802657a8d107386ada17d6cb37e845f3b4aac6f50cd156ab517",
+        "size_in_bytes": 3987
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/pickle.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d36411f85373ea25b7424ad6eae4525598a893508fcfb0158d6f87dcda6cf659",
+        "sha256_in_prefix": "d36411f85373ea25b7424ad6eae4525598a893508fcfb0158d6f87dcda6cf659",
+        "size_in_bytes": 8092
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/sqlite.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b6616eaad6f1506e3803693ec4eb68aae8af8d6c82c081ef2eabd6b13e7aa5c",
+        "sha256_in_prefix": "3b6616eaad6f1506e3803693ec4eb68aae8af8d6c82c081ef2eabd6b13e7aa5c",
+        "size_in_bytes": 18129
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/__pycache__/utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a590dc07e96229587ce7063572460b895193bc3ae2e5e014473fc937cd9107b",
+        "sha256_in_prefix": "2a590dc07e96229587ce7063572460b895193bc3ae2e5e014473fc937cd9107b",
+        "size_in_bytes": 4495
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/defs.py",
+        "path_type": "hardlink",
+        "sha256": "7f46fd59dcd3cd808f90b00f3ac812f3b57cb112910b6a1f6c17d65ee980688a",
+        "sha256_in_prefix": "7f46fd59dcd3cd808f90b00f3ac812f3b57cb112910b6a1f6c17d65ee980688a",
+        "size_in_bytes": 2444
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/models.py",
+        "path_type": "hardlink",
+        "sha256": "c5960d7fb0ca5506c69d00d698bf978d3a6ed4db0217d506958d25d459fcce14",
+        "sha256_in_prefix": "c5960d7fb0ca5506c69d00d698bf978d3a6ed4db0217d506958d25d459fcce14",
+        "size_in_bytes": 3273
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/parse.py",
+        "path_type": "hardlink",
+        "sha256": "21d6e2698ba251cec392e5cee087f669ec0d94d42f6b38840daaceaa3e65a8e2",
+        "sha256_in_prefix": "21d6e2698ba251cec392e5cee087f669ec0d94d42f6b38840daaceaa3e65a8e2",
+        "size_in_bytes": 5276
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/pickle.py",
+        "path_type": "hardlink",
+        "sha256": "a34b26ff6de6147acd64322dda8e9c2b85349b99a9cad012576fa5f425380220",
+        "sha256_in_prefix": "a34b26ff6de6147acd64322dda8e9c2b85349b99a9cad012576fa5f425380220",
+        "size_in_bytes": 8394
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/sqlite.py",
+        "path_type": "hardlink",
+        "sha256": "480d1c2e6efe44d21a25a6c18142b5fe4975d3654bbf216796486087b574a52c",
+        "sha256_in_prefix": "480d1c2e6efe44d21a25a6c18142b5fe4975d3654bbf216796486087b574a52c",
+        "size_in_bytes": 19713
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/autoimport/utils.py",
+        "path_type": "hardlink",
+        "sha256": "36d1e8ad1d290a5f65ea9862a360044c68d1a7e410e0589f2203b11a180b0002",
+        "sha256_in_prefix": "36d1e8ad1d290a5f65ea9862a360044c68d1a7e410e0589f2203b11a180b0002",
+        "size_in_bytes": 4823
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/changestack.py",
+        "path_type": "hardlink",
+        "sha256": "db9a99f79a5e445d7f2df5d8580ed65f93c1ed5f781be8858ee03510fc570d95",
+        "sha256_in_prefix": "db9a99f79a5e445d7f2df5d8580ed65f93c1ed5f781be8858ee03510fc570d95",
+        "size_in_bytes": 1350
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/codeassist.py",
+        "path_type": "hardlink",
+        "sha256": "c823cfdbf1216ba6937d2ad736d2fa5a47f23ec12ee5c39ad95d4e1ab1a1cc04",
+        "sha256_in_prefix": "c823cfdbf1216ba6937d2ad736d2fa5a47f23ec12ee5c39ad95d4e1ab1a1cc04",
+        "size_in_bytes": 26473
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/finderrors.py",
+        "path_type": "hardlink",
+        "sha256": "4d43e9539d0d273be1336e8f1ea6e9db7fe2f0036868b4f46f245cbc7c0fae9c",
+        "sha256_in_prefix": "4d43e9539d0d273be1336e8f1ea6e9db7fe2f0036868b4f46f245cbc7c0fae9c",
+        "size_in_bytes": 2935
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/findit.py",
+        "path_type": "hardlink",
+        "sha256": "f62c2a1813e411fdd330722fbb06ba2a0efbe7d1f774a8b21bead24b34f239d3",
+        "sha256_in_prefix": "f62c2a1813e411fdd330722fbb06ba2a0efbe7d1f774a8b21bead24b34f239d3",
+        "size_in_bytes": 4483
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/fixmodnames.py",
+        "path_type": "hardlink",
+        "sha256": "70431b3dd66f059a9490f1f4084e01a2178a4b7b44a46b161366d1deea9606e3",
+        "sha256_in_prefix": "70431b3dd66f059a9490f1f4084e01a2178a4b7b44a46b161366d1deea9606e3",
+        "size_in_bytes": 2194
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/fixsyntax.py",
+        "path_type": "hardlink",
+        "sha256": "72e51e4e638315c0f425dc27198a101c451ed342f7c49127e9949a71ddcc6cb8",
+        "sha256_in_prefix": "72e51e4e638315c0f425dc27198a101c451ed342f7c49127e9949a71ddcc6cb8",
+        "size_in_bytes": 6777
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/contrib/generate.py",
+        "path_type": "hardlink",
+        "sha256": "5ffea98c62068e54c2874bfa4fdfe56cbb30d1281ec21b2374a262d51a465940",
+        "sha256_in_prefix": "5ffea98c62068e54c2874bfa4fdfe56cbb30d1281ec21b2374a262d51a465940",
+        "size_in_bytes": 14846
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "845ad328f3e2b6264345a90d6ce0aa730593df2d48489daf39cf55fcc56a9a09",
+        "sha256_in_prefix": "845ad328f3e2b6264345a90d6ce0aa730593df2d48489daf39cf55fcc56a9a09",
+        "size_in_bytes": 2126
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a71f769da3ba6ff696d7eaf808c840b5afdca6fc2f2b85c38ddbba817415a630",
+        "sha256_in_prefix": "a71f769da3ba6ff696d7eaf808c840b5afdca6fc2f2b85c38ddbba817415a630",
+        "size_in_bytes": 2205
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/change_signature.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f384523cd58d33b41b0f074cd3b951ee50d66468349fc043942d48227e2ceed8",
+        "sha256_in_prefix": "f384523cd58d33b41b0f074cd3b951ee50d66468349fc043942d48227e2ceed8",
+        "size_in_bytes": 13042
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/encapsulate_field.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5457d672a3f65e172b87a11304621a1d84c4d561007b798319f89562550f753e",
+        "sha256_in_prefix": "5457d672a3f65e172b87a11304621a1d84c4d561007b798319f89562550f753e",
+        "size_in_bytes": 7329
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/extract.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "aca1417745055badeb4994043560f7115957148ad733ed1acc9713d3444782d4",
+        "sha256_in_prefix": "aca1417745055badeb4994043560f7115957148ad733ed1acc9713d3444782d4",
+        "size_in_bytes": 38819
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/functionutils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f653c054a7f203ea51b3a4d9bad10249394ba5dfa63c9bfc7106e7cb3acac4d3",
+        "sha256_in_prefix": "f653c054a7f203ea51b3a4d9bad10249394ba5dfa63c9bfc7106e7cb3acac4d3",
+        "size_in_bytes": 7081
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/inline.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "39b421cbb9f59f09e319af1602cb81ae57fd88bd4c81d4a8b890c6f808d8992c",
+        "sha256_in_prefix": "39b421cbb9f59f09e319af1602cb81ae57fd88bd4c81d4a8b890c6f808d8992c",
+        "size_in_bytes": 21130
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/introduce_factory.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f70e75b461a85f37a1e1ce5f50263ed07d12252224ea4119a8c59d14f2acb34",
+        "sha256_in_prefix": "3f70e75b461a85f37a1e1ce5f50263ed07d12252224ea4119a8c59d14f2acb34",
+        "size_in_bytes": 4921
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/introduce_parameter.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8aeb214e2add191be8b68848fd405817f2eeeb07bbe6fd21b59b6ac6cd8aa899",
+        "sha256_in_prefix": "8aeb214e2add191be8b68848fd405817f2eeeb07bbe6fd21b59b6ac6cd8aa899",
+        "size_in_bytes": 3800
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/localtofield.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6bdb98051732f50f8d8ec60bd0842b4a979008572c4e587391b619ef60e7f981",
+        "sha256_in_prefix": "6bdb98051732f50f8d8ec60bd0842b4a979008572c4e587391b619ef60e7f981",
+        "size_in_bytes": 2143
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/method_object.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4946f69008dc4f17e77420127adbe76742f6b36f460662220c99eab4a9fa4eb",
+        "sha256_in_prefix": "f4946f69008dc4f17e77420127adbe76742f6b36f460662220c99eab4a9fa4eb",
+        "size_in_bytes": 3617
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/move.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fad2429aedec4e97d700ae0ad25a290eb526dd191e071e8e9ec970c5e3757525",
+        "sha256_in_prefix": "fad2429aedec4e97d700ae0ad25a290eb526dd191e071e8e9ec970c5e3757525",
+        "size_in_bytes": 25208
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/multiproject.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "04b2b13170ad295222afc291a8ecc5bc99999faf8a3814cdb02c2519af3c3181",
+        "sha256_in_prefix": "04b2b13170ad295222afc291a8ecc5bc99999faf8a3814cdb02c2519af3c3181",
+        "size_in_bytes": 3486
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/occurrences.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb5000fe4de2ab634aa08a442be06bf77f3b21e6e37558327aa8a3f2a4f35e67",
+        "sha256_in_prefix": "bb5000fe4de2ab634aa08a442be06bf77f3b21e6e37558327aa8a3f2a4f35e67",
+        "size_in_bytes": 14660
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/patchedast.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8954bc68472c0556a8f86781a19d4d81c0f0a34176d16ba6c0ff5e66f9a30017",
+        "sha256_in_prefix": "8954bc68472c0556a8f86781a19d4d81c0f0a34176d16ba6c0ff5e66f9a30017",
+        "size_in_bytes": 31496
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/rename.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1f1c79eab6a10c85b2b862bde096123d3e1ea57356c26402eff447c9b935fc4",
+        "sha256_in_prefix": "f1f1c79eab6a10c85b2b862bde096123d3e1ea57356c26402eff447c9b935fc4",
+        "size_in_bytes": 7907
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/restructure.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "aaf14426c4d68265315f9f9daefadabc5c2fa68fa8f16c9636c33dcd7383ecc3",
+        "sha256_in_prefix": "aaf14426c4d68265315f9f9daefadabc5c2fa68fa8f16c9636c33dcd7383ecc3",
+        "size_in_bytes": 10445
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/similarfinder.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f78f905df588f9e490049b5a7e6e11370fa68d1ddc97c72d42263685063b05f",
+        "sha256_in_prefix": "3f78f905df588f9e490049b5a7e6e11370fa68d1ddc97c72d42263685063b05f",
+        "size_in_bytes": 13535
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/sourceutils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d7677569cfa5c9c908f6357b0c14860119c3c82cc8e0a69e65075ba421bedd2",
+        "sha256_in_prefix": "7d7677569cfa5c9c908f6357b0c14860119c3c82cc8e0a69e65075ba421bedd2",
+        "size_in_bytes": 2728
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/suites.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e489ed466812fa3abfe1b97d4aefd2d926102a940dc668b5c02c7895d6b74d1",
+        "sha256_in_prefix": "4e489ed466812fa3abfe1b97d4aefd2d926102a940dc668b5c02c7895d6b74d1",
+        "size_in_bytes": 5827
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/topackage.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "af736d209369a1d88841053a0eadca9b0bf661e745fc52fc1d15c69963d5074c",
+        "sha256_in_prefix": "af736d209369a1d88841053a0eadca9b0bf661e745fc52fc1d15c69963d5074c",
+        "size_in_bytes": 1455
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/usefunction.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d67a4042453f20dfa1d8735ad9109639134f556e0885e4d2221d4080eda282f1",
+        "sha256_in_prefix": "d67a4042453f20dfa1d8735ad9109639134f556e0885e4d2221d4080eda282f1",
+        "size_in_bytes": 7390
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/__pycache__/wildcards.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f2919496cc5e9da5af998f40befd9f4ec16a5ec1acb4b46d45a814562658fee",
+        "sha256_in_prefix": "4f2919496cc5e9da5af998f40befd9f4ec16a5ec1acb4b46d45a814562658fee",
+        "size_in_bytes": 6499
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/change_signature.py",
+        "path_type": "hardlink",
+        "sha256": "9faf6aeb31aa5b15b8f26e59096dfd090f2975671e4a60199d1c924fca0b03f4",
+        "sha256_in_prefix": "9faf6aeb31aa5b15b8f26e59096dfd090f2975671e4a60199d1c924fca0b03f4",
+        "size_in_bytes": 13432
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/encapsulate_field.py",
+        "path_type": "hardlink",
+        "sha256": "77be8ea6631a327e5853e62b0ebb880c35059f7e2fb7f3b7ba973dee00679312",
+        "sha256_in_prefix": "77be8ea6631a327e5853e62b0ebb880c35059f7e2fb7f3b7ba973dee00679312",
+        "size_in_bytes": 8459
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/extract.py",
+        "path_type": "hardlink",
+        "sha256": "ade0347e779aa355b10ea2e503b5097bef483fcb3b13c63c541f736914b7480b",
+        "sha256_in_prefix": "ade0347e779aa355b10ea2e503b5097bef483fcb3b13c63c541f736914b7480b",
+        "size_in_bytes": 39148
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/functionutils.py",
+        "path_type": "hardlink",
+        "sha256": "9b1f52cb8d6b808c66f048f0f788448436c8555ebc3f9536e0f97da0844c6e51",
+        "sha256_in_prefix": "9b1f52cb8d6b808c66f048f0f788448436c8555ebc3f9536e0f97da0844c6e51",
+        "size_in_bytes": 8316
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/importutils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "90673cc8ba680630b972725dbd48a05680d7844ab9412625ca30a35ccdabc55d",
+        "sha256_in_prefix": "90673cc8ba680630b972725dbd48a05680d7844ab9412625ca30a35ccdabc55d",
+        "size_in_bytes": 13354
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/importutils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "60bad8262252b1ccdecc6418dd64baae317a878a98135ad7bf7a7f2f9091bb00",
+        "sha256_in_prefix": "60bad8262252b1ccdecc6418dd64baae317a878a98135ad7bf7a7f2f9091bb00",
+        "size_in_bytes": 9972
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/importutils/__pycache__/actions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "adb43ddea61991a31dc5b462fae700b32a61c8039c2c8f77d742ec265c306dda",
+        "sha256_in_prefix": "adb43ddea61991a31dc5b462fae700b32a61c8039c2c8f77d742ec265c306dda",
+        "size_in_bytes": 12331
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/importutils/__pycache__/importinfo.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a56f852a33ca96edd7d0bc04bda62d4215436478f1607d7c32d068b0313148a8",
+        "sha256_in_prefix": "a56f852a33ca96edd7d0bc04bda62d4215436478f1607d7c32d068b0313148a8",
+        "size_in_bytes": 7747
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/importutils/__pycache__/module_imports.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "113949d38dbca10e8e168e34f5cd690ae7a44bf70feaad621ff23c659cae938b",
+        "sha256_in_prefix": "113949d38dbca10e8e168e34f5cd690ae7a44bf70feaad621ff23c659cae938b",
+        "size_in_bytes": 19972
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/importutils/actions.py",
+        "path_type": "hardlink",
+        "sha256": "2e345af24ccb0ddd84af0693ccaa53cb853ff0798e33e6a457c5f5fa7e67af45",
+        "sha256_in_prefix": "2e345af24ccb0ddd84af0693ccaa53cb853ff0798e33e6a457c5f5fa7e67af45",
+        "size_in_bytes": 14255
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/importutils/importinfo.py",
+        "path_type": "hardlink",
+        "sha256": "5830887af85a94f27678c6ecabaa8affb7727f43985bedd7025b115ad7289148",
+        "sha256_in_prefix": "5830887af85a94f27678c6ecabaa8affb7727f43985bedd7025b115ad7289148",
+        "size_in_bytes": 5735
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/importutils/module_imports.py",
+        "path_type": "hardlink",
+        "sha256": "d0687461b82b6d7beeb5ca031738ec3124885ff73d9ca7fecb4faa9c6cae466d",
+        "sha256_in_prefix": "d0687461b82b6d7beeb5ca031738ec3124885ff73d9ca7fecb4faa9c6cae466d",
+        "size_in_bytes": 21673
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/inline.py",
+        "path_type": "hardlink",
+        "sha256": "184b7e0db61caea47d53f56b6c2cb5fd0cfb05f1590bd64145480f17b79b468c",
+        "sha256_in_prefix": "184b7e0db61caea47d53f56b6c2cb5fd0cfb05f1590bd64145480f17b79b468c",
+        "size_in_bytes": 25111
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/introduce_factory.py",
+        "path_type": "hardlink",
+        "sha256": "65cc50cec6aa0ac9f8cc0a0449b19dab5e998ecbf6af6903ab5ecbbad1c03307",
+        "sha256_in_prefix": "65cc50cec6aa0ac9f8cc0a0449b19dab5e998ecbf6af6903ab5ecbbad1c03307",
+        "size_in_bytes": 5913
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/introduce_parameter.py",
+        "path_type": "hardlink",
+        "sha256": "7960a63858ec48e85051d9ff6f81e057f658595dc58aeaa028184636d1c5e579",
+        "sha256_in_prefix": "7960a63858ec48e85051d9ff6f81e057f658595dc58aeaa028184636d1c5e579",
+        "size_in_bytes": 3717
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/localtofield.py",
+        "path_type": "hardlink",
+        "sha256": "7dd32c67bce48fbfae7065ead0722e75bf4cc074e704efa23fab0f1e9b67d2ea",
+        "sha256_in_prefix": "7dd32c67bce48fbfae7065ead0722e75bf4cc074e704efa23fab0f1e9b67d2ea",
+        "size_in_bytes": 2076
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/method_object.py",
+        "path_type": "hardlink",
+        "sha256": "8550615adf83f48a90681d417bafb7438057424cf3462c97093f196baf92433c",
+        "sha256_in_prefix": "8550615adf83f48a90681d417bafb7438057424cf3462c97093f196baf92433c",
+        "size_in_bytes": 3829
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/move.py",
+        "path_type": "hardlink",
+        "sha256": "34c251489af78f4e824f3dfe6dd36c1001376e7d1d85ae5240eed324e9b0c737",
+        "sha256_in_prefix": "34c251489af78f4e824f3dfe6dd36c1001376e7d1d85ae5240eed324e9b0c737",
+        "size_in_bytes": 33953
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/multiproject.py",
+        "path_type": "hardlink",
+        "sha256": "ac8e633b39c2b075b495626621dfe0dc7d4bbfc9a48172ab24b3132016d209e2",
+        "sha256_in_prefix": "ac8e633b39c2b075b495626621dfe0dc7d4bbfc9a48172ab24b3132016d209e2",
+        "size_in_bytes": 2544
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/occurrences.py",
+        "path_type": "hardlink",
+        "sha256": "7c97af0ed067aee07cf25ad2630d298ef0babaad9fe5d088b356de67d67f90ea",
+        "sha256_in_prefix": "7c97af0ed067aee07cf25ad2630d298ef0babaad9fe5d088b356de67d67f90ea",
+        "size_in_bytes": 13040
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/patchedast.py",
+        "path_type": "hardlink",
+        "sha256": "79a5b5fa2cb71fc203fe73d86a98312cad48657164a991fed7ec2fc354d5c3c7",
+        "sha256_in_prefix": "79a5b5fa2cb71fc203fe73d86a98312cad48657164a991fed7ec2fc354d5c3c7",
+        "size_in_bytes": 31196
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/rename.py",
+        "path_type": "hardlink",
+        "sha256": "24ed72a7c7ae62da8766fccaf41b4428252e930b2dd541d45e706b536b72b8e5",
+        "sha256_in_prefix": "24ed72a7c7ae62da8766fccaf41b4428252e930b2dd541d45e706b536b72b8e5",
+        "size_in_bytes": 9348
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/restructure.py",
+        "path_type": "hardlink",
+        "sha256": "05154d7b2048ff4e38e4ab3b3e074dca8dfe19f53783f1771bd53d3790294dfd",
+        "sha256_in_prefix": "05154d7b2048ff4e38e4ab3b3e074dca8dfe19f53783f1771bd53d3790294dfd",
+        "size_in_bytes": 11441
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/similarfinder.py",
+        "path_type": "hardlink",
+        "sha256": "b3582de45c99aed7b3a9cc6dc2f099d06a7206a7adece9f8b1d0c2da117bfc4f",
+        "sha256_in_prefix": "b3582de45c99aed7b3a9cc6dc2f099d06a7206a7adece9f8b1d0c2da117bfc4f",
+        "size_in_bytes": 12719
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/sourceutils.py",
+        "path_type": "hardlink",
+        "sha256": "0448d14758a13efac0fab672cc9fb8cbb1cc69187b2f5eeb00edbf739a44fa04",
+        "sha256_in_prefix": "0448d14758a13efac0fab672cc9fb8cbb1cc69187b2f5eeb00edbf739a44fa04",
+        "size_in_bytes": 3001
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/suites.py",
+        "path_type": "hardlink",
+        "sha256": "da4928943eb834b2a53c7b6dc557dd99e0e1c15bd15cdebfaacd8c3b735ab6ad",
+        "sha256_in_prefix": "da4928943eb834b2a53c7b6dc557dd99e0e1c15bd15cdebfaacd8c3b735ab6ad",
+        "size_in_bytes": 5152
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/topackage.py",
+        "path_type": "hardlink",
+        "sha256": "2687fd9b93aa03cc962e67dc2f2268bee193dd6a13db6ff99fcddb1bd12a97c1",
+        "sha256_in_prefix": "2687fd9b93aa03cc962e67dc2f2268bee193dd6a13db6ff99fcddb1bd12a97c1",
+        "size_in_bytes": 1226
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/usefunction.py",
+        "path_type": "hardlink",
+        "sha256": "0fe4680c29cafcbbc58f3a206e7398983287beb2dfe597d08ae56f90d28ad237",
+        "sha256_in_prefix": "0fe4680c29cafcbbc58f3a206e7398983287beb2dfe597d08ae56f90d28ad237",
+        "size_in_bytes": 6651
+      },
+      {
+        "_path": "lib/python3.9/site-packages/rope/refactor/wildcards.py",
+        "path_type": "hardlink",
+        "sha256": "0dba92f911b14b13053b53bbcca065aaf5e29de7ac41ff65e820e4178ff4293f",
+        "sha256_in_prefix": "0dba92f911b14b13053b53bbcca065aaf5e29de7ac41ff65e820e4178ff4293f",
+        "size_in_bytes": 5740
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "abbe2b3ddadd8c370966e071ba7249d553f55d83b9d639d27b37b865db75b30a",
+  "size": 451786,
+  "subdir": "osx-arm64",
+  "timestamp": 1676675068797,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/rope-1.7.0-py39hca03da5_0.conda",
+  "version": "1.7.0"
+}

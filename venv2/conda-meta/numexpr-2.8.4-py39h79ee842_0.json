@@ -1,0 +1,248 @@
+{
+  "build": "py39h79ee842_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=14.0.6",
+    "numpy >=1.19.5,<2.0a0",
+    "packaging",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/numexpr-2.8.4-py39h79ee842_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/AUTHORS.txt",
+    "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/LICENSE.txt",
+    "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/METADATA",
+    "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/RECORD",
+    "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/WHEEL",
+    "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/numexpr/__init__.py",
+    "lib/python3.9/site-packages/numexpr/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/numexpr/__pycache__/cpuinfo.cpython-39.pyc",
+    "lib/python3.9/site-packages/numexpr/__pycache__/expressions.cpython-39.pyc",
+    "lib/python3.9/site-packages/numexpr/__pycache__/necompiler.cpython-39.pyc",
+    "lib/python3.9/site-packages/numexpr/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/numexpr/__pycache__/version.cpython-39.pyc",
+    "lib/python3.9/site-packages/numexpr/cpuinfo.py",
+    "lib/python3.9/site-packages/numexpr/expressions.py",
+    "lib/python3.9/site-packages/numexpr/interpreter.cpython-39-darwin.so",
+    "lib/python3.9/site-packages/numexpr/necompiler.py",
+    "lib/python3.9/site-packages/numexpr/tests/__init__.py",
+    "lib/python3.9/site-packages/numexpr/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/numexpr/tests/__pycache__/test_numexpr.cpython-39.pyc",
+    "lib/python3.9/site-packages/numexpr/tests/test_numexpr.py",
+    "lib/python3.9/site-packages/numexpr/utils.py",
+    "lib/python3.9/site-packages/numexpr/version.py"
+  ],
+  "fn": "numexpr-2.8.4-py39h79ee842_0.conda",
+  "legacy_bz2_md5": "48044d932865417cc961727669f9424d",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/numexpr-2.8.4-py39h79ee842_0",
+    "type": 1
+  },
+  "md5": "04ebaa55e8a33d69046ec5a05cc12ccc",
+  "name": "numexpr",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/numexpr-2.8.4-py39h79ee842_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/AUTHORS.txt",
+        "path_type": "hardlink",
+        "sha256": "d2da98361fe7a337cf010d110f3cd3d79f81bc889eb18126eed7d8ca5ecabd1e",
+        "sha256_in_prefix": "d2da98361fe7a337cf010d110f3cd3d79f81bc889eb18126eed7d8ca5ecabd1e",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "4a725d188360ece549d776c53af67cd9ab3a87ff90639f2404229c0cb84fcf82",
+        "sha256_in_prefix": "4a725d188360ece549d776c53af67cd9ab3a87ff90639f2404229c0cb84fcf82",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a3c5e4b5604717b67cc4ceb39611ee9e7537dbaa1d21bc6bd8867e64460b5faa",
+        "sha256_in_prefix": "a3c5e4b5604717b67cc4ceb39611ee9e7537dbaa1d21bc6bd8867e64460b5faa",
+        "size_in_bytes": 7972
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4ae2914ac57a8ecbea062bbcf165a0551a973927e4bd6067ac310ce7efa5232e",
+        "sha256_in_prefix": "4ae2914ac57a8ecbea062bbcf165a0551a973927e4bd6067ac310ce7efa5232e",
+        "size_in_bytes": 1885
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a084e72fcaf82bd9618fec16487944d97500d09f162d775e82b2adbe2ff7e330",
+        "sha256_in_prefix": "a084e72fcaf82bd9618fec16487944d97500d09f162d775e82b2adbe2ff7e330",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e30713b54f396a80e47ad2046bcec5300ceffa45f19a0b9886eb514822ac9b0e",
+        "sha256_in_prefix": "e30713b54f396a80e47ad2046bcec5300ceffa45f19a0b9886eb514822ac9b0e",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr-2.8.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e51e4e02173b93ab146a3aade2fa7edfaf2559685bdb70a80ba2e5b4830da8d0",
+        "sha256_in_prefix": "e51e4e02173b93ab146a3aade2fa7edfaf2559685bdb70a80ba2e5b4830da8d0",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "72ad0baecaab594f2965805f8bc1910c29384863a14c1a7cfe30b4072319a794",
+        "sha256_in_prefix": "72ad0baecaab594f2965805f8bc1910c29384863a14c1a7cfe30b4072319a794",
+        "size_in_bytes": 2328
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "dcaa8c2a36e83df8287d93f87673b2ff2ab8d4ad6337d2eeedb07fe78273cea9",
+        "sha256_in_prefix": "dcaa8c2a36e83df8287d93f87673b2ff2ab8d4ad6337d2eeedb07fe78273cea9",
+        "size_in_bytes": 1723
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/__pycache__/cpuinfo.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d82e62b9c925a6b7b829315d30289fdbe5e3fd5a1711ec291f7cbf2fe349d4a1",
+        "sha256_in_prefix": "d82e62b9c925a6b7b829315d30289fdbe5e3fd5a1711ec291f7cbf2fe349d4a1",
+        "size_in_bytes": 35177
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/__pycache__/expressions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "466d492e8830b8128262f73e8a968bfbe9544463ea42e553bc4ebfbb20e3dd8b",
+        "sha256_in_prefix": "466d492e8830b8128262f73e8a968bfbe9544463ea42e553bc4ebfbb20e3dd8b",
+        "size_in_bytes": 14128
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/__pycache__/necompiler.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8722e55fd8c848a056dad2a12f7b6664b80cbce52b51dc6c56a1ebc21f6cc0c",
+        "sha256_in_prefix": "a8722e55fd8c848a056dad2a12f7b6664b80cbce52b51dc6c56a1ebc21f6cc0c",
+        "size_in_bytes": 24999
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/__pycache__/utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e32bd88b0e7e66a354928967d864dec3cb5d6c4cd1d529d3b77a88dca399626f",
+        "sha256_in_prefix": "e32bd88b0e7e66a354928967d864dec3cb5d6c4cd1d529d3b77a88dca399626f",
+        "size_in_bytes": 6313
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/__pycache__/version.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "55b059a1dd6697c1227e7c514453999cdc29f5ec07e308ef0beb6762eb99e688",
+        "sha256_in_prefix": "55b059a1dd6697c1227e7c514453999cdc29f5ec07e308ef0beb6762eb99e688",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/cpuinfo.py",
+        "path_type": "hardlink",
+        "sha256": "0dec38de2153eb827e2ff9646dd61c6c343ef80f6dd6ddaa184819deefd2511d",
+        "sha256_in_prefix": "0dec38de2153eb827e2ff9646dd61c6c343ef80f6dd6ddaa184819deefd2511d",
+        "size_in_bytes": 26021
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/expressions.py",
+        "path_type": "hardlink",
+        "sha256": "fab66ba5e57553dcb02a3889b7fd58e0a38078cb8f5cb89d8b6711b58efdcaba",
+        "sha256_in_prefix": "fab66ba5e57553dcb02a3889b7fd58e0a38078cb8f5cb89d8b6711b58efdcaba",
+        "size_in_bytes": 16818
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/interpreter.cpython-39-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "2e669761176c1d8e921db99ec198c207a52ddca6cb76abc5be234abe704c8fc2",
+        "sha256_in_prefix": "2e669761176c1d8e921db99ec198c207a52ddca6cb76abc5be234abe704c8fc2",
+        "size_in_bytes": 161616
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/necompiler.py",
+        "path_type": "hardlink",
+        "sha256": "681a71f240548ee42527a3d1df5863843500ff047f3b6b576ef357d5a9dd792c",
+        "sha256_in_prefix": "681a71f240548ee42527a3d1df5863843500ff047f3b6b576ef357d5a9dd792c",
+        "size_in_bytes": 28891
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f52d72ac06b8643f1969e26fe6907de18033de1418e175a79390bd51001b015f",
+        "sha256_in_prefix": "f52d72ac06b8643f1969e26fe6907de18033de1418e175a79390bd51001b015f",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "61ac6ed6ce73df705b7d067ff8b75f7791c1d8bcb7ab0f1abeb21676ad5de0e5",
+        "sha256_in_prefix": "61ac6ed6ce73df705b7d067ff8b75f7791c1d8bcb7ab0f1abeb21676ad5de0e5",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/tests/__pycache__/test_numexpr.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "83cd2548da858e9ad97f9a4296e45d5f1a9fc4c99644035cc576a24d8d268907",
+        "sha256_in_prefix": "83cd2548da858e9ad97f9a4296e45d5f1a9fc4c99644035cc576a24d8d268907",
+        "size_in_bytes": 40109
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/tests/test_numexpr.py",
+        "path_type": "hardlink",
+        "sha256": "857cf5f3812321b68b09235ac5d8bcef79cd4caf2ac3dbb05bb8e4e76dc61d36",
+        "sha256_in_prefix": "857cf5f3812321b68b09235ac5d8bcef79cd4caf2ac3dbb05bb8e4e76dc61d36",
+        "size_in_bytes": 46773
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/utils.py",
+        "path_type": "hardlink",
+        "sha256": "c6739e807f570caeefdda663ae0453fda8a00efd24a326132cda607343031ca3",
+        "sha256_in_prefix": "c6739e807f570caeefdda663ae0453fda8a00efd24a326132cda607343031ca3",
+        "size_in_bytes": 7693
+      },
+      {
+        "_path": "lib/python3.9/site-packages/numexpr/version.py",
+        "path_type": "hardlink",
+        "sha256": "eb7c592d5d2a9c66fd5b96d04d849750d085b199072ad29bb3f66691eed47ab6",
+        "sha256_in_prefix": "eb7c592d5d2a9c66fd5b96d04d849750d085b199072ad29bb3f66691eed47ab6",
+        "size_in_bytes": 115
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9775a4164773009f5fccb7fbaa43d2647d87064e8bd995aca657a13d355b464a",
+  "size": 122772,
+  "subdir": "osx-arm64",
+  "timestamp": 1668714016784,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/numexpr-2.8.4-py39h79ee842_0.conda",
+  "version": "2.8.4"
+}

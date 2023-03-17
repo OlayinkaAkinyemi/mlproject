@@ -1,0 +1,256 @@
+{
+  "build": "py39h1a28f6b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.20.2,<2.0a0",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/pyerfa-2.0.0-py39h1a28f6b_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/erfa/__init__.py",
+    "lib/python3.9/site-packages/erfa/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/erfa/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/erfa/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/erfa/__pycache__/helpers.cpython-39.pyc",
+    "lib/python3.9/site-packages/erfa/__pycache__/version.cpython-39.pyc",
+    "lib/python3.9/site-packages/erfa/_version.py",
+    "lib/python3.9/site-packages/erfa/core.py",
+    "lib/python3.9/site-packages/erfa/helpers.py",
+    "lib/python3.9/site-packages/erfa/tests/__init__.py",
+    "lib/python3.9/site-packages/erfa/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/erfa/tests/__pycache__/helper.cpython-39.pyc",
+    "lib/python3.9/site-packages/erfa/tests/__pycache__/test_erfa.cpython-39.pyc",
+    "lib/python3.9/site-packages/erfa/tests/__pycache__/test_ufunc.cpython-39.pyc",
+    "lib/python3.9/site-packages/erfa/tests/helper.py",
+    "lib/python3.9/site-packages/erfa/tests/test_erfa.py",
+    "lib/python3.9/site-packages/erfa/tests/test_ufunc.py",
+    "lib/python3.9/site-packages/erfa/ufunc.cpython-39-darwin.so",
+    "lib/python3.9/site-packages/erfa/version.py",
+    "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/LICENSE.rst",
+    "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/top_level.txt"
+  ],
+  "fn": "pyerfa-2.0.0-py39h1a28f6b_0.conda",
+  "legacy_bz2_md5": "88192522c89ea7669a32d0c2ced44c0f",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/pyerfa-2.0.0-py39h1a28f6b_0",
+    "type": 1
+  },
+  "md5": "a853f08133a404e761bc3e6cafd3d41c",
+  "name": "pyerfa",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/pyerfa-2.0.0-py39h1a28f6b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/erfa/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a48f320ed95c8dbad6d8b5fcfea1f0fa1b8164d75f2ec55a46d476fad7d68f9f",
+        "sha256_in_prefix": "a48f320ed95c8dbad6d8b5fcfea1f0fa1b8164d75f2ec55a46d476fad7d68f9f",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa36893b12d8b92e54d6214a2d2d65634481b25622a0f9b1f281ee6c082145b1",
+        "sha256_in_prefix": "aa36893b12d8b92e54d6214a2d2d65634481b25622a0f9b1f281ee6c082145b1",
+        "size_in_bytes": 441
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/__pycache__/_version.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d23db81425bd54d8e29dd49b86aa325a198a9905e95efda4ddedadf1978e8238",
+        "sha256_in_prefix": "d23db81425bd54d8e29dd49b86aa325a198a9905e95efda4ddedadf1978e8238",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/__pycache__/core.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "677de897748e85cc3155e5a3308da9fee00697ba4a3d27bba493350a97e75a2b",
+        "sha256_in_prefix": "677de897748e85cc3155e5a3308da9fee00697ba4a3d27bba493350a97e75a2b",
+        "size_in_bytes": 744422
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/__pycache__/helpers.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c73fa3efdd7b28e025957269d45c5069bc17a595aa589187a3d4fdc61c5c0aa",
+        "sha256_in_prefix": "2c73fa3efdd7b28e025957269d45c5069bc17a595aa589187a3d4fdc61c5c0aa",
+        "size_in_bytes": 11821
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/__pycache__/version.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea514c98324d67fb8f91d6aeff53f6d8a9e9e556e1ec5b894cefcb4c67d0aad4",
+        "sha256_in_prefix": "ea514c98324d67fb8f91d6aeff53f6d8a9e9e556e1ec5b894cefcb4c67d0aad4",
+        "size_in_bytes": 1206
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/_version.py",
+        "path_type": "hardlink",
+        "sha256": "6e064583e7f750a86013ecf6c3c46816bc2a441cc905990ce3f8ca162601f5e5",
+        "sha256_in_prefix": "6e064583e7f750a86013ecf6c3c46816bc2a441cc905990ce3f8ca162601f5e5",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/core.py",
+        "path_type": "hardlink",
+        "sha256": "d915bffbcd57f3aef261a466f0e784e249873a55cbb44d38f7095915f7d7e21b",
+        "sha256_in_prefix": "d915bffbcd57f3aef261a466f0e784e249873a55cbb44d38f7095915f7d7e21b",
+        "size_in_bytes": 737887
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "9aa08652b4bf71b3789c458896a0a62db9b2384d0155cae8e4db1991d5adac4b",
+        "sha256_in_prefix": "9aa08652b4bf71b3789c458896a0a62db9b2384d0155cae8e4db1991d5adac4b",
+        "size_in_bytes": 13555
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ca4a951e07b61262034cc39df7a8760f218768cfe0a69ff02b3dcad4c9596627",
+        "sha256_in_prefix": "ca4a951e07b61262034cc39df7a8760f218768cfe0a69ff02b3dcad4c9596627",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "54ffb5fdd9b1d37b1b0c73324fd2f876489da1dce62bae2d32d64bc9db333cca",
+        "sha256_in_prefix": "54ffb5fdd9b1d37b1b0c73324fd2f876489da1dce62bae2d32d64bc9db333cca",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/tests/__pycache__/helper.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "023979f9d498942d02d230d3447b537332122f91580ed08df665c1176388f8d0",
+        "sha256_in_prefix": "023979f9d498942d02d230d3447b537332122f91580ed08df665c1176388f8d0",
+        "size_in_bytes": 3068
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/tests/__pycache__/test_erfa.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e5b012dfa0f222f740910d0e09c3e82c7fa493d36c4f0159e3ed5fddf20e6af4",
+        "sha256_in_prefix": "e5b012dfa0f222f740910d0e09c3e82c7fa493d36c4f0159e3ed5fddf20e6af4",
+        "size_in_bytes": 15866
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/tests/__pycache__/test_ufunc.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b6417b03e3017bd0c4bfb4e3dd9630688f128c6259835ce6495c027237beaad6",
+        "sha256_in_prefix": "b6417b03e3017bd0c4bfb4e3dd9630688f128c6259835ce6495c027237beaad6",
+        "size_in_bytes": 126251
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/tests/helper.py",
+        "path_type": "hardlink",
+        "sha256": "4d47a4bf0a53d2d3b8362d3dabfe94afabc4f5f86c5f7787584e849c0dac3943",
+        "sha256_in_prefix": "4d47a4bf0a53d2d3b8362d3dabfe94afabc4f5f86c5f7787584e849c0dac3943",
+        "size_in_bytes": 4322
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/tests/test_erfa.py",
+        "path_type": "hardlink",
+        "sha256": "2cc27a0c6b59eac131d91696e1784992b221ca13e434bbccb48de9ecc12749fa",
+        "sha256_in_prefix": "2cc27a0c6b59eac131d91696e1784992b221ca13e434bbccb48de9ecc12749fa",
+        "size_in_bytes": 19114
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/tests/test_ufunc.py",
+        "path_type": "hardlink",
+        "sha256": "6b712427a339ac82a28491675c08bea7b993460a533b498769f5a55d29ce5638",
+        "sha256_in_prefix": "6b712427a339ac82a28491675c08bea7b993460a533b498769f5a55d29ce5638",
+        "size_in_bytes": 154772
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/ufunc.cpython-39-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/ktietz/demo/mc3/conda-bld/pyerfa_1629804518777/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "9272639f212cb8116a85844a57e43783cd2af436cd52de8caece8a62b66bd4d0",
+        "sha256_in_prefix": "af7a245208184c0ae365b58dbdf9c8a9702f5dfcc3b09ed9c4f9b55bbd859661",
+        "size_in_bytes": 572384
+      },
+      {
+        "_path": "lib/python3.9/site-packages/erfa/version.py",
+        "path_type": "hardlink",
+        "sha256": "65c02ae76f0d2092ad7057ac03a7eb9f447192661e9c8a8defa15b584814d686",
+        "sha256_in_prefix": "65c02ae76f0d2092ad7057ac03a7eb9f447192661e9c8a8defa15b584814d686",
+        "size_in_bytes": 2049
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "f0cf1935b89fb5650ecc820c5ce63cd2dd1b9aa343fd45937e716f259bc26cf9",
+        "sha256_in_prefix": "f0cf1935b89fb5650ecc820c5ce63cd2dd1b9aa343fd45937e716f259bc26cf9",
+        "size_in_bytes": 1494
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "10f3131bfe119fb3f48a8763cf74306b4f7fa8bcfd2d8e2d77d13002f10095e4",
+        "sha256_in_prefix": "10f3131bfe119fb3f48a8763cf74306b4f7fa8bcfd2d8e2d77d13002f10095e4",
+        "size_in_bytes": 5384
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "14197f4fc6ce1e99d2f1994e86a680a27660b9f8c1ada941ce52fc0b8bd14a94",
+        "sha256_in_prefix": "14197f4fc6ce1e99d2f1994e86a680a27660b9f8c1ada941ce52fc0b8bd14a94",
+        "size_in_bytes": 1851
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f39fd3a2ae1423b119d6cf35c1a611e913cdb159cdd4d9823404ae4b2dfb2271",
+        "sha256_in_prefix": "f39fd3a2ae1423b119d6cf35c1a611e913cdb159cdd4d9823404ae4b2dfb2271",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7eb9ca7bd0987b0f33a41734a60cbc979057f62f13265feb885eb1d1a149cfc0",
+        "sha256_in_prefix": "7eb9ca7bd0987b0f33a41734a60cbc979057f62f13265feb885eb1d1a149cfc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyerfa-2.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c274e2c9308ba91e3c7e9bdea8e7e204edb12bac63d58e410b56a34162f35b36",
+        "sha256_in_prefix": "c274e2c9308ba91e3c7e9bdea8e7e204edb12bac63d58e410b56a34162f35b36",
+        "size_in_bytes": 5
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cc7cb984899dfd7c93d5ddbb3a873dd7515c9bbf7a15b5c3585ecf0d69cb04aa",
+  "size": 331260,
+  "subdir": "osx-arm64",
+  "timestamp": 1629804611596,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/pyerfa-2.0.0-py39h1a28f6b_0.conda",
+  "version": "2.0.0"
+}

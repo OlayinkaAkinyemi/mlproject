@@ -1,0 +1,62 @@
+{
+  "build": "h12f7ac0_6",
+  "build_number": 6,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.0",
+    "zlib"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/libllvm11-11.1.0-h12f7ac0_6",
+  "features": "",
+  "files": [
+    "lib/libLLVM-11.dylib",
+    "lib/libLTO.11.dylib",
+    "lib/libRemarks.11.dylib"
+  ],
+  "fn": "libllvm11-11.1.0-h12f7ac0_6.conda",
+  "legacy_bz2_md5": "616a6976906afa0035a2dc2ea1c34195",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/libllvm11-11.1.0-h12f7ac0_6",
+    "type": 1
+  },
+  "md5": "b58a49077e4b40135e1c4af7dbdfffea",
+  "name": "libllvm11",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/libllvm11-11.1.0-h12f7ac0_6.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libLLVM-11.dylib",
+        "path_type": "hardlink",
+        "sha256": "74022da4f274f47d30508fc04d27e8ef5e5328c54da9e7d6385faabc79c29e20",
+        "sha256_in_prefix": "74022da4f274f47d30508fc04d27e8ef5e5328c54da9e7d6385faabc79c29e20",
+        "size_in_bytes": 77217056
+      },
+      {
+        "_path": "lib/libLTO.11.dylib",
+        "path_type": "hardlink",
+        "sha256": "c9dee3cbb4a1c0e82047dd1d0b89eb6d6fd64a617832792b5f1d7865fbcab5c4",
+        "sha256_in_prefix": "c9dee3cbb4a1c0e82047dd1d0b89eb6d6fd64a617832792b5f1d7865fbcab5c4",
+        "size_in_bytes": 118496
+      },
+      {
+        "_path": "lib/libRemarks.11.dylib",
+        "path_type": "hardlink",
+        "sha256": "047a4be849f59ee650362f0e83268cce8f81ca0dbd8077bcba629701f7562dee",
+        "sha256_in_prefix": "047a4be849f59ee650362f0e83268cce8f81ca0dbd8077bcba629701f7562dee",
+        "size_in_bytes": 36336
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a3a2073c08926b12d35b72b57bfcf16fb4a6750b90f0c1f2507e5e61e2a1234e",
+  "size": 17137335,
+  "subdir": "osx-arm64",
+  "timestamp": 1665076236980,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/libllvm11-11.1.0-h12f7ac0_6.conda",
+  "version": "11.1.0"
+}

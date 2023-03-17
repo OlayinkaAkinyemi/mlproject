@@ -1,0 +1,121 @@
+{
+  "build": "py39hc377ac9_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=12.0.0",
+    "python >=3.9,<3.10.0a0",
+    "unixodbc >=2.3.9,<2.4.0a0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/pyodbc-4.0.34-py39hc377ac9_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/LICENSE.txt",
+    "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/METADATA",
+    "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/RECORD",
+    "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/WHEEL",
+    "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/pyodbc.cpython-39-darwin.so",
+    "pyodbc.pyi"
+  ],
+  "fn": "pyodbc-4.0.34-py39hc377ac9_0.conda",
+  "legacy_bz2_md5": "ed66b840a3247aa0511b6f557bafff4d",
+  "license": "MIT-0",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/pyodbc-4.0.34-py39hc377ac9_0",
+    "type": 1
+  },
+  "md5": "e821d40118e0475d2accfcc3fa3c7653",
+  "name": "pyodbc",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/pyodbc-4.0.34-py39hc377ac9_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "9859c85770c91b7866b0f769c938e36d64d0260141b529b947b4ead96883eab4",
+        "sha256_in_prefix": "9859c85770c91b7866b0f769c938e36d64d0260141b529b947b4ead96883eab4",
+        "size_in_bytes": 868
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f4ebe68430014851ed8685ef564eb0741d884f8f1844a47bea6fd49ed11f5011",
+        "sha256_in_prefix": "f4ebe68430014851ed8685ef564eb0741d884f8f1844a47bea6fd49ed11f5011",
+        "size_in_bytes": 2719
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2ad51ef8dd1de60cf0f98d5b7b267e3463f6e2f75d32da6069062a7bdf324790",
+        "sha256_in_prefix": "2ad51ef8dd1de60cf0f98d5b7b267e3463f6e2f75d32da6069062a7bdf324790",
+        "size_in_bytes": 831
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a084e72fcaf82bd9618fec16487944d97500d09f162d775e82b2adbe2ff7e330",
+        "sha256_in_prefix": "a084e72fcaf82bd9618fec16487944d97500d09f162d775e82b2adbe2ff7e330",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ef18ee5c1dde9708c2deea61284637967c7531779c5e605222a613f22bc6ae9c",
+        "sha256_in_prefix": "ef18ee5c1dde9708c2deea61284637967c7531779c5e605222a613f22bc6ae9c",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyodbc-4.0.34.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "df48ef61c0ae97aff0036e8e4f9734ebc1801f3a902e977d59f4349924ac0d35",
+        "sha256_in_prefix": "df48ef61c0ae97aff0036e8e4f9734ebc1801f3a902e977d59f4349924ac0d35",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pyodbc.cpython-39-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_2f_o9a2x_h/croots/recipe/pyodbc_1659513806921/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "f00e8d092aee3015dfb28cdaeac2e05763e5c9d5df25adc45c8541e6a53a5ddf",
+        "sha256_in_prefix": "333548a9bbabf6b81a3b84de307422ee7f7def75d716d8de391cecfed4169192",
+        "size_in_bytes": 177376
+      },
+      {
+        "_path": "pyodbc.pyi",
+        "path_type": "hardlink",
+        "sha256": "70bb8b6a7492d15af2f5a514be7fa2d65a43c4788370c430405ca9196a83fff1",
+        "sha256_in_prefix": "70bb8b6a7492d15af2f5a514be7fa2d65a43c4788370c430405ca9196a83fff1",
+        "size_in_bytes": 13127
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a453b8e74b28f816294a7793858965598a3188dc4b0934bafde88fb01a28376e",
+  "size": 66930,
+  "subdir": "osx-arm64",
+  "timestamp": 1659513974533,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/pyodbc-4.0.34-py39hc377ac9_0.conda",
+  "version": "4.0.34"
+}

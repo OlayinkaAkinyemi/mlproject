@@ -1,0 +1,301 @@
+{
+  "build": "py39hca03da5_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/tenacity-8.0.1-py39hca03da5_1",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/AUTHORS",
+    "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/LICENSE",
+    "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/pbr.json",
+    "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/tenacity/__init__.py",
+    "lib/python3.9/site-packages/tenacity/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/tenacity/__pycache__/_asyncio.cpython-39.pyc",
+    "lib/python3.9/site-packages/tenacity/__pycache__/_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/tenacity/__pycache__/after.cpython-39.pyc",
+    "lib/python3.9/site-packages/tenacity/__pycache__/before.cpython-39.pyc",
+    "lib/python3.9/site-packages/tenacity/__pycache__/before_sleep.cpython-39.pyc",
+    "lib/python3.9/site-packages/tenacity/__pycache__/nap.cpython-39.pyc",
+    "lib/python3.9/site-packages/tenacity/__pycache__/retry.cpython-39.pyc",
+    "lib/python3.9/site-packages/tenacity/__pycache__/stop.cpython-39.pyc",
+    "lib/python3.9/site-packages/tenacity/__pycache__/tornadoweb.cpython-39.pyc",
+    "lib/python3.9/site-packages/tenacity/__pycache__/wait.cpython-39.pyc",
+    "lib/python3.9/site-packages/tenacity/_asyncio.py",
+    "lib/python3.9/site-packages/tenacity/_utils.py",
+    "lib/python3.9/site-packages/tenacity/after.py",
+    "lib/python3.9/site-packages/tenacity/before.py",
+    "lib/python3.9/site-packages/tenacity/before_sleep.py",
+    "lib/python3.9/site-packages/tenacity/nap.py",
+    "lib/python3.9/site-packages/tenacity/py.typed",
+    "lib/python3.9/site-packages/tenacity/retry.py",
+    "lib/python3.9/site-packages/tenacity/stop.py",
+    "lib/python3.9/site-packages/tenacity/tornadoweb.py",
+    "lib/python3.9/site-packages/tenacity/wait.py"
+  ],
+  "fn": "tenacity-8.0.1-py39hca03da5_1.conda",
+  "legacy_bz2_md5": "1be6f82a1dfad1d3128b7e5f8db2089b",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/tenacity-8.0.1-py39hca03da5_1",
+    "type": 1
+  },
+  "md5": "0745aa206fe93e10cd65f1f556fe081e",
+  "name": "tenacity",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/tenacity-8.0.1-py39hca03da5_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "15ede84925f8ffee99f006d64828cb560ca5248a50e8e7f960b320f226b5855d",
+        "sha256_in_prefix": "15ede84925f8ffee99f006d64828cb560ca5248a50e8e7f960b320f226b5855d",
+        "size_in_bytes": 1788
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "sha256_in_prefix": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "79b0aa741308eca363abfa65419f9e7bd6712e8c2d3feb1c2f5897224023923d",
+        "sha256_in_prefix": "79b0aa741308eca363abfa65419f9e7bd6712e8c2d3feb1c2f5897224023923d",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "607835b876cebfc5d3dcb9071bd7da5ecbfc5dde13819a5b5f0750861f51e11d",
+        "sha256_in_prefix": "607835b876cebfc5d3dcb9071bd7da5ecbfc5dde13819a5b5f0750861f51e11d",
+        "size_in_bytes": 2275
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5358fe31c4f06c26b3c9bf5d0fed5c24f0cbdb91d4487b613986ddbf889f1a74",
+        "sha256_in_prefix": "5358fe31c4f06c26b3c9bf5d0fed5c24f0cbdb91d4487b613986ddbf889f1a74",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/pbr.json",
+        "path_type": "hardlink",
+        "sha256": "c4d08f9b82a565931dedf5882bc401c5eebff14895bb97a9bbd7c3e3735f18d9",
+        "sha256_in_prefix": "c4d08f9b82a565931dedf5882bc401c5eebff14895bb97a9bbd7c3e3735f18d9",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity-8.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "65ff0039930dee1af5104714a3d5392b35ec3384ce0b5a41676d83f3dd77258b",
+        "sha256_in_prefix": "65ff0039930dee1af5104714a3d5392b35ec3384ce0b5a41676d83f3dd77258b",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "34b4d85e6def998e80bbf6024da05a3bca28966620a9715462d6b28450fdb6c0",
+        "sha256_in_prefix": "34b4d85e6def998e80bbf6024da05a3bca28966620a9715462d6b28450fdb6c0",
+        "size_in_bytes": 17985
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e490899b2aeb349ddce47dfb5ec55614a23f0487abd794c155b4daff861d12b0",
+        "sha256_in_prefix": "e490899b2aeb349ddce47dfb5ec55614a23f0487abd794c155b4daff861d12b0",
+        "size_in_bytes": 16260
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/__pycache__/_asyncio.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c28aec7d67a14a012be6c6ba03924daf69f0850d469b57f4ece9b9a5da3d6cd",
+        "sha256_in_prefix": "7c28aec7d67a14a012be6c6ba03924daf69f0850d469b57f4ece9b9a5da3d6cd",
+        "size_in_bytes": 2529
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/__pycache__/_utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc626de75de35fadf200b03f742f2e64fcfe2424cade6f9ec533bbf24590f986",
+        "sha256_in_prefix": "dc626de75de35fadf200b03f742f2e64fcfe2424cade6f9ec533bbf24590f986",
+        "size_in_bytes": 1178
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/__pycache__/after.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa14a297629eca7082fc6a5aa61b01896ece059e0584ebc5484b517f07b75ea6",
+        "sha256_in_prefix": "fa14a297629eca7082fc6a5aa61b01896ece059e0584ebc5484b517f07b75ea6",
+        "size_in_bytes": 1145
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/__pycache__/before.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4276f7882530976c4b0aeaa74a962b06a9c3c1adc3691078603533cf1785ed1e",
+        "sha256_in_prefix": "4276f7882530976c4b0aeaa74a962b06a9c3c1adc3691078603533cf1785ed1e",
+        "size_in_bytes": 1033
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/__pycache__/before_sleep.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "43d5a6d31081806e93eeb9a3f34557226278c75eb10718314d6d8e3f4836cd30",
+        "sha256_in_prefix": "43d5a6d31081806e93eeb9a3f34557226278c75eb10718314d6d8e3f4836cd30",
+        "size_in_bytes": 1325
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/__pycache__/nap.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8eee257cbd52e0cd582cc3fbe73ed4c32c4efd65a53c044feef684d2cdab0b32",
+        "sha256_in_prefix": "8eee257cbd52e0cd582cc3fbe73ed4c32c4efd65a53c044feef684d2cdab0b32",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/__pycache__/retry.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2167b9d52cbcb3c825562c7a2c9660f1a313b4a5ae419d10830f015b029e2ab1",
+        "sha256_in_prefix": "2167b9d52cbcb3c825562c7a2c9660f1a313b4a5ae419d10830f015b029e2ab1",
+        "size_in_bytes": 8715
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/__pycache__/stop.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d782f658203c69b043fb04c7b70d3f10f131a28ee5a64940014221a784f8d37",
+        "sha256_in_prefix": "5d782f658203c69b043fb04c7b70d3f10f131a28ee5a64940014221a784f8d37",
+        "size_in_bytes": 4179
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/__pycache__/tornadoweb.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2bb32f4adacf609b27275d7b6e600bf7a6c6aebb5a3bf693e9e4f36a4349fe47",
+        "sha256_in_prefix": "2bb32f4adacf609b27275d7b6e600bf7a6c6aebb5a3bf693e9e4f36a4349fe47",
+        "size_in_bytes": 1679
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/__pycache__/wait.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b83f2e3d26a8223a6285ffdfe7c6a889193d1ccace0c3efad98b17ecd1bf3bbc",
+        "sha256_in_prefix": "b83f2e3d26a8223a6285ffdfe7c6a889193d1ccace0c3efad98b17ecd1bf3bbc",
+        "size_in_bytes": 7891
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/_asyncio.py",
+        "path_type": "hardlink",
+        "sha256": "32b9fb2854f289521b264c55ee8891d8a685928cf135c73ad857c050d6e8b408",
+        "sha256_in_prefix": "32b9fb2854f289521b264c55ee8891d8a685928cf135c73ad857c050d6e8b408",
+        "size_in_bytes": 3254
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "fb2ebcb1c0dcca8aaf4c9b892741937e37520a58c46256c262f824ee733835d3",
+        "sha256_in_prefix": "fb2ebcb1c0dcca8aaf4c9b892741937e37520a58c46256c262f824ee733835d3",
+        "size_in_bytes": 1944
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/after.py",
+        "path_type": "hardlink",
+        "sha256": "53241ea9b6bc24c3acf4e19c46127404168c4cf21e5ec371091c6a7695234669",
+        "sha256_in_prefix": "53241ea9b6bc24c3acf4e19c46127404168c4cf21e5ec371091c6a7695234669",
+        "size_in_bytes": 1472
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/before.py",
+        "path_type": "hardlink",
+        "sha256": "9814680adf0990b9dd526e21c059282635a199341df31c3cce624e741ca3ae30",
+        "sha256_in_prefix": "9814680adf0990b9dd526e21c059282635a199341df31c3cce624e741ca3ae30",
+        "size_in_bytes": 1352
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/before_sleep.py",
+        "path_type": "hardlink",
+        "sha256": "f2ce460208ad660b60c8a0e3bc2851aaabb6a254446958b790d03c0f3db27c7e",
+        "sha256_in_prefix": "f2ce460208ad660b60c8a0e3bc2851aaabb6a254446958b790d03c0f3db27c7e",
+        "size_in_bytes": 1884
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/nap.py",
+        "path_type": "hardlink",
+        "sha256": "7d15af9f3d5a2336c8abd029de00240198031faa28e73c4cad4e99395072ab42",
+        "sha256_in_prefix": "7d15af9f3d5a2336c8abd029de00240198031faa28e73c4cad4e99395072ab42",
+        "size_in_bytes": 1383
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/retry.py",
+        "path_type": "hardlink",
+        "sha256": "1dbf705990443140e9e63ae7b11982bf2fd412ac3858822df6d8855e18d9e747",
+        "sha256_in_prefix": "1dbf705990443140e9e63ae7b11982bf2fd412ac3858822df6d8855e18d9e747",
+        "size_in_bytes": 6633
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/stop.py",
+        "path_type": "hardlink",
+        "sha256": "c5250099766ede0abcc2327b195b82c769d1418e5d51239d6cccd338c5c28c5d",
+        "sha256_in_prefix": "c5250099766ede0abcc2327b195b82c769d1418e5d51239d6cccd338c5c28c5d",
+        "size_in_bytes": 2778
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/tornadoweb.py",
+        "path_type": "hardlink",
+        "sha256": "57c346020c091b34505ed7da67253a171f3ecb8a1ea5be250975be23fe5b44df",
+        "sha256_in_prefix": "57c346020c091b34505ed7da67253a171f3ecb8a1ea5be250975be23fe5b44df",
+        "size_in_bytes": 2097
+      },
+      {
+        "_path": "lib/python3.9/site-packages/tenacity/wait.py",
+        "path_type": "hardlink",
+        "sha256": "11c0aeac569ba31116d28b8d20c3c1a742a1f4cb979d4f45d3865d7b5148ac1a",
+        "sha256_in_prefix": "11c0aeac569ba31116d28b8d20c3c1a742a1f4cb979d4f45d3865d7b5148ac1a",
+        "size_in_bytes": 6667
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "337da4b443097ae697b07406c3b6e2f9ac77ebe83fe193b194ff52469a1168a5",
+  "size": 35224,
+  "subdir": "osx-arm64",
+  "timestamp": 1657899366490,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/tenacity-8.0.1-py39hca03da5_1.conda",
+  "version": "8.0.1"
+}

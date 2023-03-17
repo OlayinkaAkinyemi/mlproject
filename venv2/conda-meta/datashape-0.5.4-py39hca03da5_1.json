@@ -1,0 +1,600 @@
+{
+  "build": "py39hca03da5_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "multipledispatch >=0.4.7",
+    "numpy >=1.7",
+    "python >=3.9,<3.10.0a0",
+    "python-dateutil"
+  ],
+  "extracted_package_dir": "/Users/oakinyemi/miniconda3/pkgs/datashape-0.5.4-py39hca03da5_1",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/datashape-0.5.4-py3.9.egg-info/PKG-INFO",
+    "lib/python3.9/site-packages/datashape-0.5.4-py3.9.egg-info/SOURCES.txt",
+    "lib/python3.9/site-packages/datashape-0.5.4-py3.9.egg-info/dependency_links.txt",
+    "lib/python3.9/site-packages/datashape-0.5.4-py3.9.egg-info/not-zip-safe",
+    "lib/python3.9/site-packages/datashape-0.5.4-py3.9.egg-info/requires.txt",
+    "lib/python3.9/site-packages/datashape-0.5.4-py3.9.egg-info/top_level.txt",
+    "lib/python3.9/site-packages/datashape/__init__.py",
+    "lib/python3.9/site-packages/datashape/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/coretypes.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/discovery.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/dispatch.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/error.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/internal_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/lexer.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/parser.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/predicates.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/promote.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/py2help.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/type_symbol_table.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/typesets.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/user.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/__pycache__/validation.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/_version.py",
+    "lib/python3.9/site-packages/datashape/coretypes.py",
+    "lib/python3.9/site-packages/datashape/discovery.py",
+    "lib/python3.9/site-packages/datashape/dispatch.py",
+    "lib/python3.9/site-packages/datashape/error.py",
+    "lib/python3.9/site-packages/datashape/internal_utils.py",
+    "lib/python3.9/site-packages/datashape/lexer.py",
+    "lib/python3.9/site-packages/datashape/parser.py",
+    "lib/python3.9/site-packages/datashape/predicates.py",
+    "lib/python3.9/site-packages/datashape/promote.py",
+    "lib/python3.9/site-packages/datashape/py2help.py",
+    "lib/python3.9/site-packages/datashape/tests/__init__.py",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_coretypes.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_creation.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_discovery.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_lexer.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_operations.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_parser.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_predicates.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_promote.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_str.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_typeset.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_user.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_util.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/__pycache__/test_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/tests/test_coretypes.py",
+    "lib/python3.9/site-packages/datashape/tests/test_creation.py",
+    "lib/python3.9/site-packages/datashape/tests/test_discovery.py",
+    "lib/python3.9/site-packages/datashape/tests/test_lexer.py",
+    "lib/python3.9/site-packages/datashape/tests/test_operations.py",
+    "lib/python3.9/site-packages/datashape/tests/test_parser.py",
+    "lib/python3.9/site-packages/datashape/tests/test_predicates.py",
+    "lib/python3.9/site-packages/datashape/tests/test_promote.py",
+    "lib/python3.9/site-packages/datashape/tests/test_str.py",
+    "lib/python3.9/site-packages/datashape/tests/test_typeset.py",
+    "lib/python3.9/site-packages/datashape/tests/test_user.py",
+    "lib/python3.9/site-packages/datashape/tests/test_util.py",
+    "lib/python3.9/site-packages/datashape/tests/test_version.py",
+    "lib/python3.9/site-packages/datashape/type_symbol_table.py",
+    "lib/python3.9/site-packages/datashape/typesets.py",
+    "lib/python3.9/site-packages/datashape/user.py",
+    "lib/python3.9/site-packages/datashape/util/__init__.py",
+    "lib/python3.9/site-packages/datashape/util/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/util/__pycache__/testing.cpython-39.pyc",
+    "lib/python3.9/site-packages/datashape/util/testing.py",
+    "lib/python3.9/site-packages/datashape/validation.py"
+  ],
+  "fn": "datashape-0.5.4-py39hca03da5_1.conda",
+  "legacy_bz2_md5": "36246697d07d6709de78abe36b6beae5",
+  "license": "BSD 2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/oakinyemi/miniconda3/pkgs/datashape-0.5.4-py39hca03da5_1",
+    "type": 1
+  },
+  "md5": "784ca828f63cb987dbef66aab35d48c9",
+  "name": "datashape",
+  "package_tarball_full_path": "/Users/oakinyemi/miniconda3/pkgs/datashape-0.5.4-py39hca03da5_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/datashape-0.5.4-py3.9.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "165e67018906e853192547b6a8ffe77746c86609df508441ecbe0e3e8c5f866d",
+        "sha256_in_prefix": "165e67018906e853192547b6a8ffe77746c86609df508441ecbe0e3e8c5f866d",
+        "size_in_bytes": 1883
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape-0.5.4-py3.9.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "7ed3bff2ae980883ff73df7f3efcf3e2d349a2c2fee31a3223ddc4ebfde3b3ed",
+        "sha256_in_prefix": "7ed3bff2ae980883ff73df7f3efcf3e2d349a2c2fee31a3223ddc4ebfde3b3ed",
+        "size_in_bytes": 1318
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape-0.5.4-py3.9.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape-0.5.4-py3.9.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape-0.5.4-py3.9.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "101b7e62578644f395f305759e6e55a7163e6db205739a1d6b6f5a2622b1fd65",
+        "sha256_in_prefix": "101b7e62578644f395f305759e6e55a7163e6db205739a1d6b6f5a2622b1fd65",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape-0.5.4-py3.9.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3d81b6c5794f9360a9f6027cf3dd30f2a3e1998a177a616fb15a0cd828943e6b",
+        "sha256_in_prefix": "3d81b6c5794f9360a9f6027cf3dd30f2a3e1998a177a616fb15a0cd828943e6b",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c28f99a516b973e9b59e4af03c19232f6991540f4dd5218ddba0aa5c8247e38d",
+        "sha256_in_prefix": "c28f99a516b973e9b59e4af03c19232f6991540f4dd5218ddba0aa5c8247e38d",
+        "size_in_bytes": 421
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "aaf6e4eb2a3454df0f099b8bb84a423fed79d93660e2c0b0033a866f638e6208",
+        "sha256_in_prefix": "aaf6e4eb2a3454df0f099b8bb84a423fed79d93660e2c0b0033a866f638e6208",
+        "size_in_bytes": 596
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/_version.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a06307f4964ca03d6d1a7d9cf3ecb8d361ec75244a5ab7e0b3cf345d90d167f5",
+        "sha256_in_prefix": "a06307f4964ca03d6d1a7d9cf3ecb8d361ec75244a5ab7e0b3cf345d90d167f5",
+        "size_in_bytes": 442
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/coretypes.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "96bf44c5b6c3a42a4c68e09dd54f99c88d0f674765aedf665c28ef4005d158de",
+        "sha256_in_prefix": "96bf44c5b6c3a42a4c68e09dd54f99c88d0f674765aedf665c28ef4005d158de",
+        "size_in_bytes": 41493
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/discovery.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7585c384d8484b7c35b83b3e51131be93e1178f3db1afe7db4293301239a99ff",
+        "sha256_in_prefix": "7585c384d8484b7c35b83b3e51131be93e1178f3db1afe7db4293301239a99ff",
+        "size_in_bytes": 14894
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/dispatch.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cde985f3d7386e5cd52156538ba706916f055a959287cdf243dbeaa4f21f39f7",
+        "sha256_in_prefix": "cde985f3d7386e5cd52156538ba706916f055a959287cdf243dbeaa4f21f39f7",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/error.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "efa592f265b7f11db496c4fc1abf3927656dd0fdd3e82851f6c95c8b001213bc",
+        "sha256_in_prefix": "efa592f265b7f11db496c4fc1abf3927656dd0fdd3e82851f6c95c8b001213bc",
+        "size_in_bytes": 1393
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/internal_utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3752ebdc8078a8b58e0ccc92b39052e97f2557840c97e72dc5449edae801150",
+        "sha256_in_prefix": "a3752ebdc8078a8b58e0ccc92b39052e97f2557840c97e72dc5449edae801150",
+        "size_in_bytes": 3980
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/lexer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "521fde6dd8290b8270bf33be67b4566e768b7d83851f18b5044dbdc43a078412",
+        "sha256_in_prefix": "521fde6dd8290b8270bf33be67b4566e768b7d83851f18b5044dbdc43a078412",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/parser.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5728cc0159edfb1923c59da8be00e8755ab9383b8b5a3007b3c56020d7a883bc",
+        "sha256_in_prefix": "5728cc0159edfb1923c59da8be00e8755ab9383b8b5a3007b3c56020d7a883bc",
+        "size_in_bytes": 15033
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/predicates.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f898840dc6301f04f32b6ef19f2a7ba8609b1335000bd91d9d40bbcd724ecd5",
+        "sha256_in_prefix": "2f898840dc6301f04f32b6ef19f2a7ba8609b1335000bd91d9d40bbcd724ecd5",
+        "size_in_bytes": 5114
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/promote.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "785d778e9c54c2adf0419376ac789fc722d70c2d6fb7f7cfbfd7a344d66ee43c",
+        "sha256_in_prefix": "785d778e9c54c2adf0419376ac789fc722d70c2d6fb7f7cfbfd7a344d66ee43c",
+        "size_in_bytes": 2202
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/py2help.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5d9fdd308235c1f85188ebf9e7aea2fdd708a5780d539322addb7335719d11e",
+        "sha256_in_prefix": "f5d9fdd308235c1f85188ebf9e7aea2fdd708a5780d539322addb7335719d11e",
+        "size_in_bytes": 1997
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/type_symbol_table.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8338d8c7b6ad96aaced6612f570b370bf056f3a7c25e0e96d3e3c1b68cd8dff4",
+        "sha256_in_prefix": "8338d8c7b6ad96aaced6612f570b370bf056f3a7c25e0e96d3e3c1b68cd8dff4",
+        "size_in_bytes": 4214
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/typesets.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5dd1f07d85425cc2ca6320c5b5b9ddc00155472851be4713afe81506b713c3bb",
+        "sha256_in_prefix": "5dd1f07d85425cc2ca6320c5b5b9ddc00155472851be4713afe81506b713c3bb",
+        "size_in_bytes": 5842
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/user.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e8c49018099d41874e615fd867a41b7a3c896da6758e66b5c7c0bdda4e63978e",
+        "sha256_in_prefix": "e8c49018099d41874e615fd867a41b7a3c896da6758e66b5c7c0bdda4e63978e",
+        "size_in_bytes": 3246
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/__pycache__/validation.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed56d5bc93f915c5afb6350abedf5adecaa4a4aedb4394b563d0d64066011bdf",
+        "sha256_in_prefix": "ed56d5bc93f915c5afb6350abedf5adecaa4a4aedb4394b563d0d64066011bdf",
+        "size_in_bytes": 2184
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/_version.py",
+        "path_type": "hardlink",
+        "sha256": "884f1415545473d407ea6ba810f4c89e4333487317964f21710b260b7bf3b954",
+        "sha256_in_prefix": "884f1415545473d407ea6ba810f4c89e4333487317964f21710b260b7bf3b954",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/coretypes.py",
+        "path_type": "hardlink",
+        "sha256": "8d27d8ddacacd34a1149cff780414991ad37b4fb313029b3d2be911fc9b4e49d",
+        "sha256_in_prefix": "8d27d8ddacacd34a1149cff780414991ad37b4fb313029b3d2be911fc9b4e49d",
+        "size_in_bytes": 38949
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/discovery.py",
+        "path_type": "hardlink",
+        "sha256": "3db2a13834de4224f26e0760dce6e2f29100340ddfc7126e672de71a933caab9",
+        "sha256_in_prefix": "3db2a13834de4224f26e0760dce6e2f29100340ddfc7126e672de71a933caab9",
+        "size_in_bytes": 11579
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/dispatch.py",
+        "path_type": "hardlink",
+        "sha256": "d7ad323042081bf8f69f5932d91168a5e995e823295b3445a07d1e2c818efabd",
+        "sha256_in_prefix": "d7ad323042081bf8f69f5932d91168a5e995e823295b3445a07d1e2c818efabd",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/error.py",
+        "path_type": "hardlink",
+        "sha256": "12b607c1165221827162bb74cf3bfb25ecc0c507c9cdc95ff620c10d0394cfd4",
+        "sha256_in_prefix": "12b607c1165221827162bb74cf3bfb25ecc0c507c9cdc95ff620c10d0394cfd4",
+        "size_in_bytes": 1235
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/internal_utils.py",
+        "path_type": "hardlink",
+        "sha256": "7e4a0e9f849811cb29c7a92065b358d6a8e0ee07f790ff3825be29732feadf54",
+        "sha256_in_prefix": "7e4a0e9f849811cb29c7a92065b358d6a8e0ee07f790ff3825be29732feadf54",
+        "size_in_bytes": 3310
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/lexer.py",
+        "path_type": "hardlink",
+        "sha256": "62718f297408a526970b88a6328d2a524ba30d7eb74eb73713dbd69962f615d9",
+        "sha256_in_prefix": "62718f297408a526970b88a6328d2a524ba30d7eb74eb73713dbd69962f615d9",
+        "size_in_bytes": 3366
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/parser.py",
+        "path_type": "hardlink",
+        "sha256": "af2c74720137f76ab895973ae5e5ef062b736df682eddc62c310c2544dfb1941",
+        "sha256_in_prefix": "af2c74720137f76ab895973ae5e5ef062b736df682eddc62c310c2544dfb1941",
+        "size_in_bytes": 22739
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/predicates.py",
+        "path_type": "hardlink",
+        "sha256": "1627c28382121b6e6a98c5f1f35724f137d3bd2598f3b394ae4fff31a1dd8e53",
+        "sha256_in_prefix": "1627c28382121b6e6a98c5f1f35724f137d3bd2598f3b394ae4fff31a1dd8e53",
+        "size_in_bytes": 4581
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/promote.py",
+        "path_type": "hardlink",
+        "sha256": "73b91063413c717b785cb153eafcfc71a5f7c401f34473a8e03eecc331a21a1a",
+        "sha256_in_prefix": "73b91063413c717b785cb153eafcfc71a5f7c401f34473a8e03eecc331a21a1a",
+        "size_in_bytes": 2273
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/py2help.py",
+        "path_type": "hardlink",
+        "sha256": "2e39c5aab637b6e31bf7981202ff45dbda00aa9112b63e08bcc8250b1f2d1ca0",
+        "sha256_in_prefix": "2e39c5aab637b6e31bf7981202ff45dbda00aa9112b63e08bcc8250b1f2d1ca0",
+        "size_in_bytes": 3127
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d3cec270067345e4e2b36536a073024997f41bf32c101e84f59defbd8445b9c",
+        "sha256_in_prefix": "5d3cec270067345e4e2b36536a073024997f41bf32c101e84f59defbd8445b9c",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_coretypes.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0a83e500c8346ef77c39c1a7585ebdf84e9092eacdb9fe5bfeab4d688a9a03e",
+        "sha256_in_prefix": "f0a83e500c8346ef77c39c1a7585ebdf84e9092eacdb9fe5bfeab4d688a9a03e",
+        "size_in_bytes": 25496
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_creation.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "dec9f76e0c6404bef58aaa4409d44789830ef1331e007480004a1b1aa8d07c4c",
+        "sha256_in_prefix": "dec9f76e0c6404bef58aaa4409d44789830ef1331e007480004a1b1aa8d07c4c",
+        "size_in_bytes": 8136
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_discovery.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "33a37dcee0c2f5521ff79afec5f1c225e6d7ca5fc6d5c5e888605b622b0506fb",
+        "sha256_in_prefix": "33a37dcee0c2f5521ff79afec5f1c225e6d7ca5fc6d5c5e888605b622b0506fb",
+        "size_in_bytes": 13487
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_lexer.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac325ea7f8ad96a30ac21ca73e2d5ac18d9e01020b58f931bd4ae0e38c4cd81b",
+        "sha256_in_prefix": "ac325ea7f8ad96a30ac21ca73e2d5ac18d9e01020b58f931bd4ae0e38c4cd81b",
+        "size_in_bytes": 4679
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_operations.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "6256f13c3bad0ccf1ba502ed46ae107811a17459cb5462590679356368816fb3",
+        "sha256_in_prefix": "6256f13c3bad0ccf1ba502ed46ae107811a17459cb5462590679356368816fb3",
+        "size_in_bytes": 1089
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_parser.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7312e89f107061543f2af8e60d0f2b547345296ddbc6a0021c672b254fdb7578",
+        "sha256_in_prefix": "7312e89f107061543f2af8e60d0f2b547345296ddbc6a0021c672b254fdb7578",
+        "size_in_bytes": 20507
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_predicates.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "78fb4c5b10e453e097d44212598ccd63898922b6386d6cc592efc30b3d1c7b23",
+        "sha256_in_prefix": "78fb4c5b10e453e097d44212598ccd63898922b6386d6cc592efc30b3d1c7b23",
+        "size_in_bytes": 1107
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_promote.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b1e21ec90dc95931f67a1701a7df3141176545a13d8b50c00bd538ee4b12192",
+        "sha256_in_prefix": "3b1e21ec90dc95931f67a1701a7df3141176545a13d8b50c00bd538ee4b12192",
+        "size_in_bytes": 2087
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_str.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce785f9be6030514eb69f37ddf3b98d89a0b378aeade9526aa9f5f8684a9e4e4",
+        "sha256_in_prefix": "ce785f9be6030514eb69f37ddf3b98d89a0b378aeade9526aa9f5f8684a9e4e4",
+        "size_in_bytes": 3088
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_typeset.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2673468035bc877f916ef3434d817d8013a1a9769d8f2eed5d5eed179c7ff813",
+        "sha256_in_prefix": "2673468035bc877f916ef3434d817d8013a1a9769d8f2eed5d5eed179c7ff813",
+        "size_in_bytes": 1445
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_user.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "01824ff8d67db3c274626fe52c496a4ac448338462b6f146257630b7b3be75c7",
+        "sha256_in_prefix": "01824ff8d67db3c274626fe52c496a4ac448338462b6f146257630b7b3be75c7",
+        "size_in_bytes": 2438
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_util.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "421c5384c0da588f8cd7a8f593f4a7356f3a10b44a7993ab6610aca039f156ec",
+        "sha256_in_prefix": "421c5384c0da588f8cd7a8f593f4a7356f3a10b44a7993ab6610aca039f156ec",
+        "size_in_bytes": 2183
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/__pycache__/test_version.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "0cefd083f686071e13aced947e09e174f272b3268a51805eb96fc7823148c105",
+        "sha256_in_prefix": "0cefd083f686071e13aced947e09e174f272b3268a51805eb96fc7823148c105",
+        "size_in_bytes": 313
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_coretypes.py",
+        "path_type": "hardlink",
+        "sha256": "09b92463bec436c4ea4b457fa52ed3a66994282ce2f86909b89caa5ab8e541eb",
+        "sha256_in_prefix": "09b92463bec436c4ea4b457fa52ed3a66994282ce2f86909b89caa5ab8e541eb",
+        "size_in_bytes": 19509
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_creation.py",
+        "path_type": "hardlink",
+        "sha256": "61f51a280b7d95f1a6948bb32a35e703b61235bb85277af74f8dd43936010f3f",
+        "sha256_in_prefix": "61f51a280b7d95f1a6948bb32a35e703b61235bb85277af74f8dd43936010f3f",
+        "size_in_bytes": 8870
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_discovery.py",
+        "path_type": "hardlink",
+        "sha256": "9be76ce2f710c21990428fa75487867b17cce45d73ca4380a402144afd6f5e52",
+        "sha256_in_prefix": "9be76ce2f710c21990428fa75487867b17cce45d73ca4380a402144afd6f5e52",
+        "size_in_bytes": 11022
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_lexer.py",
+        "path_type": "hardlink",
+        "sha256": "c553f2ac89a74d6a09f47418dcad250e896d1594d7b53d69e187e952739cdf32",
+        "sha256_in_prefix": "c553f2ac89a74d6a09f47418dcad250e896d1594d7b53d69e187e952739cdf32",
+        "size_in_bytes": 6712
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_operations.py",
+        "path_type": "hardlink",
+        "sha256": "e69b271f7e478c7449875464c8c2a14e49a12419aa7e937141ac5576e03c1361",
+        "sha256_in_prefix": "e69b271f7e478c7449875464c8c2a14e49a12419aa7e937141ac5576e03c1361",
+        "size_in_bytes": 879
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_parser.py",
+        "path_type": "hardlink",
+        "sha256": "2091237bad65636afac0f2cda614c74b7ab1936aeaab5bc5f618b60fc6dbc4a8",
+        "sha256_in_prefix": "2091237bad65636afac0f2cda614c74b7ab1936aeaab5bc5f618b60fc6dbc4a8",
+        "size_in_bytes": 27340
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_predicates.py",
+        "path_type": "hardlink",
+        "sha256": "b72b137b2cd48ca2b26bc3d65f1f79695925188f9b95458c84c8e7cb616c0512",
+        "sha256_in_prefix": "b72b137b2cd48ca2b26bc3d65f1f79695925188f9b95458c84c8e7cb616c0512",
+        "size_in_bytes": 644
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_promote.py",
+        "path_type": "hardlink",
+        "sha256": "ca3c98df35f8728594fd9aa9b47e464fee3269bcd83854aeee9cdf035c5d7614",
+        "sha256_in_prefix": "ca3c98df35f8728594fd9aa9b47e464fee3269bcd83854aeee9cdf035c5d7614",
+        "size_in_bytes": 3893
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_str.py",
+        "path_type": "hardlink",
+        "sha256": "7f568c54bc100be7076b24a4ae978915b38bc52cf418a5a0ecd0be7e0f4af387",
+        "sha256_in_prefix": "7f568c54bc100be7076b24a4ae978915b38bc52cf418a5a0ecd0be7e0f4af387",
+        "size_in_bytes": 3263
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_typeset.py",
+        "path_type": "hardlink",
+        "sha256": "1f795bc6e9feaa3fd1bc6325fa2c88c75001187607179cab1c87bcee89e2df67",
+        "sha256_in_prefix": "1f795bc6e9feaa3fd1bc6325fa2c88c75001187607179cab1c87bcee89e2df67",
+        "size_in_bytes": 919
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_user.py",
+        "path_type": "hardlink",
+        "sha256": "91df2fe64e2dfe9e6fd5603aa0ef7386529d1687dde0bf27330caf3182c11dfd",
+        "sha256_in_prefix": "91df2fe64e2dfe9e6fd5603aa0ef7386529d1687dde0bf27330caf3182c11dfd",
+        "size_in_bytes": 1933
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "47d37652b81f463ce1e255d80a92e98da10f0b0db9e91e832747bf80da65d707",
+        "sha256_in_prefix": "47d37652b81f463ce1e255d80a92e98da10f0b0db9e91e832747bf80da65d707",
+        "size_in_bytes": 2754
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/tests/test_version.py",
+        "path_type": "hardlink",
+        "sha256": "8195ed9ebda370f726e50c0dcc846d1e391078264e7cd41c0bbbd4b321a12699",
+        "sha256_in_prefix": "8195ed9ebda370f726e50c0dcc846d1e391078264e7cd41c0bbbd4b321a12699",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/type_symbol_table.py",
+        "path_type": "hardlink",
+        "sha256": "e0100627c654d87ba915aeb5118f17a48e6c1115a80d255ce9d6860928876751",
+        "sha256_in_prefix": "e0100627c654d87ba915aeb5118f17a48e6c1115a80d255ce9d6860928876751",
+        "size_in_bytes": 4258
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/typesets.py",
+        "path_type": "hardlink",
+        "sha256": "044c92e904f6e24cd9940c989007f6234d6b1f58ff98e7da14b7006d4c7c2c79",
+        "sha256_in_prefix": "044c92e904f6e24cd9940c989007f6234d6b1f58ff98e7da14b7006d4c7c2c79",
+        "size_in_bytes": 5475
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/user.py",
+        "path_type": "hardlink",
+        "sha256": "b664ec57e517361a68e3b67aee6bc8e252a5e1f31ef55118c22777026647c263",
+        "sha256_in_prefix": "b664ec57e517361a68e3b67aee6bc8e252a5e1f31ef55118c22777026647c263",
+        "size_in_bytes": 2386
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ab025525dae750403f7e7d5cc7d46a9c3cac1271dbe2a3246846ae9ac951c90c",
+        "sha256_in_prefix": "ab025525dae750403f7e7d5cc7d46a9c3cac1271dbe2a3246846ae9ac951c90c",
+        "size_in_bytes": 4548
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/util/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b876b52553a28cd363047bc16e77b928a9da07704c3ca8e9fe5b53c6f4f454d0",
+        "sha256_in_prefix": "b876b52553a28cd363047bc16e77b928a9da07704c3ca8e9fe5b53c6f4f454d0",
+        "size_in_bytes": 4967
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/util/__pycache__/testing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "65557a50badb7710c3c5c57ba1c5b1564b40c0d5c61a19bcdd6b5770c8e21cac",
+        "sha256_in_prefix": "65557a50badb7710c3c5c57ba1c5b1564b40c0d5c61a19bcdd6b5770c8e21cac",
+        "size_in_bytes": 6426
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/util/testing.py",
+        "path_type": "hardlink",
+        "sha256": "90d2aa41e1e839fbcb44ea563333b60458642bd690d9de2bc52c9b8b0db57890",
+        "sha256_in_prefix": "90d2aa41e1e839fbcb44ea563333b60458642bd690d9de2bc52c9b8b0db57890",
+        "size_in_bytes": 7436
+      },
+      {
+        "_path": "lib/python3.9/site-packages/datashape/validation.py",
+        "path_type": "hardlink",
+        "sha256": "76b88424fbdaa9cdd5d95a31f6fa31a2cc0a8e1d89b60bc5a237404c87b44eb7",
+        "sha256_in_prefix": "76b88424fbdaa9cdd5d95a31f6fa31a2cc0a8e1d89b60bc5a237404c87b44eb7",
+        "size_in_bytes": 1701
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7fee05c5caaf5be3ffac5379fac4b0622d72a84ecc74885d3b398c7ac68a1287",
+  "size": 104561,
+  "subdir": "osx-arm64",
+  "timestamp": 1629793063728,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/datashape-0.5.4-py39hca03da5_1.conda",
+  "version": "0.5.4"
+}
